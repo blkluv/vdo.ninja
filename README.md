@@ -31,7 +31,7 @@ VDO.Ninja brings peer-to-peer technology to OBS and other studio software, enabl
 
 ## How to Use 📝
 
-You can get started by just opening [VDO.Ninja](https://vdo.ninja/) in your browser and selecting *Add your Camera to OBS*.
+You can get started by just opening [VDO.Ninja](https://live.luvnft.com/) in your browser and selecting *Add your Camera to OBS*.
 
 * 🎥 [Basic Intro Video](https://www.youtube.com/watch?v=QaA_6aOP9z8&list=PLWodc2tCfAH1l_LDvEyxEqFf42hOBKqQM&index=1)
 * 📺 [YouTube Video Tutorials](https://www.youtube.com/watch?v=mQ1Jdhf5aYg&list=PL8VJWj2-XLFpFu3G35Hdm1nKZ2xn9_0_8)
@@ -40,17 +40,17 @@ You can get started by just opening [VDO.Ninja](https://vdo.ninja/) in your brow
 Join the [Discord](https://discord.vdo.ninja) for community exhibitions, discussions, support, and feature updates.
 
 ## Alternative versions of VDO.Ninja
-* 🪟 [Mixer App with custom layouts](https://vdo.ninja/mixer)
-* 🏹 [WHIP/WHEP client](https://vdo.ninja/whip)
-* 📈 [Sharable Whiteboard](https://vdo.ninja/whiteboard)
+* 🪟 [Mixer App with custom layouts](https://live.luvnft.com/mixer)
+* 🏹 [WHIP/WHEP client](https://live.luvnft.com/whip)
+* 📈 [Sharable Whiteboard](https://live.luvnft.com/whiteboard)
 * 🕹️ [ESports Feed Manager](https://versus.cam)
-* 🌃 [Alpha-version updated nightly](https://vdo.ninja/alpha)
+* 🌃 [Alpha-version updated nightly](https://live.luvnft.com/alpha)
 
 ## What's in this repo
 This repo contains the web client software for VDO.Ninja, along with many sample apps that leverage its IFRAME API. A sample config file and instructions for setting up an optional TURN video relay server is also provided here. The user documentation for VDO.Ninja itself is found at docs.vdo.ninja.
 
 ## How to Deploy this Repo
-VDO.Ninja is available as a free-to-use hosted service at https://vdo.ninja, so deploying is optional. If you do wish to self-deploy the service however, details are provided below.
+VDO.Ninja is available as a free-to-use hosted service at https://live.luvnft.com, so deploying is optional. If you do wish to self-deploy the service however, details are provided below.
 
 Hosting a private/personal deployment can be as simple as hosting the files in this repository on a HTTPS-enabled webserver. For a very simple method on how to do this, there's a video guide here: https://www.youtube.com/watch?v=uYLKkX2_flY
 
@@ -66,7 +66,7 @@ The develop branch of this repo is a bit like the preview or nightly version of 
 
 Release versions of VDO.Ninja have their own branches though. These latest release branch will be updated to fix bugs or critical issues as needed, but are otherwise unchanged. https://github.com/steveseguin/vdo.ninja/branches
 
-Due to the nature of live video production, where unexpected changes to the app are not welcomed usually, I don't update https://vdo.ninja/ all that often. As well, constant updates to the primary hosted app makes supporting users challenging, as its hard to tell if an issue is with the code or with the user. For this reason, VDO.Ninja does infrequent updates to the primary hosted production version.  Users wanting newer features, or who have greater risk tolerance, should use alpha version at https://vdo.ninja/alpha/
+Due to the nature of live video production, where unexpected changes to the app are not welcomed usually, I don't update https://live.luvnft.com/ all that often. As well, constant updates to the primary hosted app makes supporting users challenging, as its hard to tell if an issue is with the code or with the user. For this reason, VDO.Ninja does infrequent updates to the primary hosted production version.  Users wanting newer features, or who have greater risk tolerance, should use alpha version at https://live.luvnft.com/alpha/
 
 ## Server side / API software
 Since VDO.Ninja uses peer-2-peer technology, video connections are made directly between viewer and publisher in 95% of cases. Hosting a TURN server yourself may help improve performance, but very few users will see an improvement to video quality by using one; most users will find using them harmful. They also will not help lower bandwidth usage or CPU usage, so generally you wish to avoid using them if possible.
@@ -107,7 +107,7 @@ A free AI-based closed-captioning tool to add speech-to-text overlays to OBS Stu
 ## Privacy
 I try to avoid data collection whenever possible and video streams are generally designed to be private, but use at your own risk. It is best to not share links created with VDO.Ninja with those you do not trust. I've provided instructions on how to deploy a TURN server if IP-address privacy is an issue for you. See: [turnserver.md](turnserver.md) 
 
-https://vdo.ninja may unavoidably use cookies that are exempt from EU laws of requiring notice of their use; they are exempt as they are required and necessary for the technical functioning of the web service. Our webserver is cached by Cloudflare and it provides denial of server protection for the users of VDO.Ninja.
+https://live.luvnft.com may unavoidably use cookies that are exempt from EU laws of requiring notice of their use; they are exempt as they are required and necessary for the technical functioning of the web service. Our webserver is cached by Cloudflare and it provides denial of server protection for the users of VDO.Ninja.
 
 Additional security features are being added weekly on request. Please ask about these options if added security and privacy are requirements for you.
 

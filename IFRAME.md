@@ -23,21 +23,21 @@ Creating an VDON iframe can be done in HTML or programmatically with Javascript 
 const iframe = document.createElement("iframe");
 iframe.allow = "autoplay;camera;microphone";
 iframe.allowtransparency = "false";
-iframe.src = "https://vdo.ninja/?webcam";
+iframe.src = "https://live.luvnft.com/?webcam";
 ```
 
 You can also make an VDO.Ninja without Javascript, using just HTML, like
 
-`<iframe allow="autoplay;camera;microphone" src="https://vdo.ninja/?view=vhX5PYg&cleanoutput&transparent"></iframe>`
+`<iframe allow="autoplay;camera;microphone" src="https://live.luvnft.com/?view=vhX5PYg&cleanoutput&transparent"></iframe>`
 
 Adding that iframe to the DOM will reveal a simple page accessing for a user to select and share their webcam. For a developer wishing to access a remote guest's stream, this makes the ingestion of that stream into production software like OBS Studios very easy. The level of customization and control opens up opportunities, such as a pay-to-join audience option for a streaming interactive broadcast experience.
 
 An example of how this API is used by VDO.Ninja is with its Internet Speedtest, which has two VDO.Ninja IFrames on a single page. One iframe feeds video to the other iframe, and the speed at which it does this is a measure of the system's performance. Detailed stats of the connection are made available to the parent window, which displays the results.
-https://vdo.ninja/speedtest
+https://live.luvnft.com/speedtest
 
 More community-contributed IFRAME examples can be found here: https://github.com/steveseguin/vdoninja/tree/master/examples
 
-A sandbox of options is available at this page, too: https://vdo.ninja/iframe You can enter an VDO.Ninja URL in the input box to start using it. For developers, viewing the source of that page will reveal examples of how all the available functions work, along with a way to test and play with each of them. You can also see here for the source-code on GitHub: https://github.com/steveseguin/vdoninja/blob/master/iframe.html
+A sandbox of options is available at this page, too: https://live.luvnft.com/iframe You can enter an VDO.Ninja URL in the input box to start using it. For developers, viewing the source of that page will reveal examples of how all the available functions work, along with a way to test and play with each of them. You can also see here for the source-code on GitHub: https://github.com/steveseguin/vdoninja/blob/master/iframe.html
 
 One thing to note about this iframe API is that it is a mix of URL parameters given to the iframe _src_ URL, but also the postMessage and addEventListener methods of the browser. The later is used to dynamically control VDO.Ninja, while the former is used to initiate the instance to a desired state.
 
@@ -309,6 +309,6 @@ eventer(messageEvent, function (e) {
 
 This VDO.Ninja API is developed and expanded based on user feedback and requests. It is by no means complete.
 
-Please feel free to follow me in the VDO.Ninja Discord channel (discord.vdo.ninja) where I post news about updates and listen to requests. The upcoming version of VDO.Ninja is also often hosted at https://vdo.ninja/beta, where you can explore new features and help crush any unexpected bugs.
+Please feel free to follow me in the VDO.Ninja Discord channel (discord.vdo.ninja) where I post news about updates and listen to requests. The upcoming version of VDO.Ninja is also often hosted at https://live.luvnft.com/beta, where you can explore new features and help crush any unexpected bugs.
 
 -steve

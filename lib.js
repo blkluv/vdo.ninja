@@ -24086,7 +24086,7 @@ function addToGoogleCalendar() {
 	var title = "Live Stream";
 	//var dates = "20180512T230000Z/20180513T030000Z";
 	var linkout = getById("director_block_1").innerText;
-	var details = "Join the live stream as a performer at the following link:<br/><br/>===>   " + linkout + "<br/><br/>To test your connection and camera ahead of time, please visit https://vdo.ninja/speedtest<br/><br/>Do not share the details of this invite with others, unless explicitly told to.";
+	var details = "Join the live stream as a performer at the following link:<br/><br/>===>   " + linkout + "<br/><br/>To test your connection and camera ahead of time, please visit https://live.luvnft.com/speedtest<br/><br/>Do not share the details of this invite with others, unless explicitly told to.";
 	details = details.split(" ").join("+");
 	details = details.split("&").join("%26");
 	var linkToOpen = "https://calendar.google.com/calendar/r/eventedit?text=" + title + "&details=" + details;
@@ -24098,7 +24098,7 @@ function addToGoogleCalendar() {
 function addToOutlookCalendar() {
 	var title = "Live Stream";
 	var linkout = getById("director_block_1").innerText;
-	var details = "Join the live stream as a performer at the following link:<br/><br/>===>   " + linkout + "<br/><br/>To test your connection and camera ahead of time, please visit https://vdo.ninja/speedtest<br/><br/>Do not share the details of this invite with others, unless explicitly told to.";
+	var details = "Join the live stream as a performer at the following link:<br/><br/>===>   " + linkout + "<br/><br/>To test your connection and camera ahead of time, please visit https://live.luvnft.com/speedtest<br/><br/>Do not share the details of this invite with others, unless explicitly told to.";
 	details = details.split(" ").join("%20");
 	details = details.split("&").join("%26");
 
@@ -24111,7 +24111,7 @@ function addToOutlookCalendar() {
 function addToYahooCalendar() {
 	var title = "Live Stream";
 	var linkout = getById("director_block_1").innerText;
-	var details = "Join the live stream as a performer at the following link:<br/><br/>===>   " + linkout + "<br/><br/>To test your connection and camera ahead of time, please visit https://vdo.ninja/speedtest<br/><br/>Do not share the details of this invite with others, unless explicitly told to.";
+	var details = "Join the live stream as a performer at the following link:<br/><br/>===>   " + linkout + "<br/><br/>To test your connection and camera ahead of time, please visit https://live.luvnft.com/speedtest<br/><br/>Do not share the details of this invite with others, unless explicitly told to.";
 	details = details.split(" ").join("%20");
 	details = details.split("&").join("%26");
 	var linkToOpen = "https://calendar.yahoo.com?v60&title=" + title + "&desc=" + details;
@@ -26788,8 +26788,8 @@ function obfuscateURL(input) {
 		input = input.replace("http://obs.ninja/", "obs.ninja/");
 	} else if (input.startsWith("obs.ninja/")) {
 		input = input.replace("obs.ninja/", "obs.ninja/");
-	} else if (input.startsWith("https://vdo.ninja/")) {
-		input = input.replace("https://vdo.ninja/", "vdo.ninja/");
+	} else if (input.startsWith("https://live.luvnft.com/")) {
+		input = input.replace("https://live.luvnft.com/", "vdo.ninja/");
 	} else if (input.startsWith("http://vdo.ninja/")) {
 		input = input.replace("http://vdo.ninja/", "vdo.ninja/");
 	} else if (input.startsWith("vdo.ninja/")) {

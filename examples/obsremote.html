@@ -90,16 +90,16 @@ function changeremote(){
 	ele.value = val;
 
 	if (val){
-		document.getElementById("putintoOBSlink").innerText = "https://vdo.ninja/?view="+sessionID+"&dataonly&remote="+val;
-		document.getElementById("putintoOBSlink").href = "https://vdo.ninja/?view="+sessionID+"&dataonly&remote="+val;
+		document.getElementById("putintoOBSlink").innerText = "https://live.luvnft.com/?view="+sessionID+"&dataonly&remote="+val;
+		document.getElementById("putintoOBSlink").href = "https://live.luvnft.com/?view="+sessionID+"&dataonly&remote="+val;
 	} else {
-		document.getElementById("putintoOBSlink").innerText = "https://vdo.ninja/?view="+sessionID+"&dataonly&remote";
-		document.getElementById("putintoOBSlink").href = "https://vdo.ninja/?view="+sessionID+"&dataonly&remote";
+		document.getElementById("putintoOBSlink").innerText = "https://live.luvnft.com/?view="+sessionID+"&dataonly&remote";
+		document.getElementById("putintoOBSlink").href = "https://live.luvnft.com/?view="+sessionID+"&dataonly&remote";
 	}
 }
 changeremote();
 
-iframe.src = "https://vdo.ninja/?push="+sessionID+"&remote&dataonly";  ///// change this
+iframe.src = "https://live.luvnft.com/?push="+sessionID+"&remote&dataonly";  ///// change this
 iframeContainer.appendChild(iframe);
 iframeContainer.style.width = "300px";
 iframeContainer.style.height = "20px";

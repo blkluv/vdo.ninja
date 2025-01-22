@@ -422,7 +422,7 @@
 			// Always start with HTTPS for VDO.Ninja URLs
 			let iframeUrl;
 			// For VDO and WHIP modes, ensure we're using HTTPS
-			iframeUrl = new URL('https://vdo.ninja');
+			iframeUrl = new URL('https://live.luvnft.com');
 			// Preserve the path from the current URL
 			let pathParts = location.pathname.split('/').filter(Boolean);
 			pathParts.pop();
@@ -787,7 +787,7 @@
 				password
 			};
 
-			const viewUrl = new URL("https://vdo.ninja");
+			const viewUrl = new URL("https://live.luvnft.com");
 			if (push) viewUrl.searchParams.set("view", push);
 			if (room) viewUrl.searchParams.set("room", room);
 			if (publishConfig.push && publishConfig.room) viewUrl.searchParams.set("solo", "");

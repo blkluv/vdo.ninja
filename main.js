@@ -2874,8 +2874,8 @@ async function main() {
 			session.style = 1;
 		}
 	}
-	// https://vdo.ninja/?fakeguests=10&room=faketestroom123&scene&border=10&padding=20&rounded
-	// https://vdo.ninja/?fakeusers=10&scene&room=test12342345ff
+	// https://live.luvnft.com/?fakeguests=10&room=faketestroom123&scene&border=10&padding=20&rounded
+	// https://live.luvnft.com/?fakeusers=10&scene&room=test12342345ff
 
 	if (urlParams.has("fakeguests") || urlParams.has("fakefeeds")  || urlParams.has("fakeusers")) {
 		var total = parseInt(urlParams.get("fakeguests")) || parseInt(urlParams.get("fakefeeds")) || parseInt(urlParams.get("fakeusers")) || 4;

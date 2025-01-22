@@ -44,7 +44,7 @@
 		iframe.allow = "autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;";
 
 		
-		var iframesrc = "https://vdo.ninja/?transparent&cleanoutput&bitrate=200&manual&noaudio&view=";
+		var iframesrc = "https://live.luvnft.com/?transparent&cleanoutput&bitrate=200&manual&noaudio&view=";
 		
 		var listOfStreamIDs = [
 			"1234_pov",
@@ -74,7 +74,7 @@
 			var button = document.createElement("button");
 			button.innerHTML = "SHOW "+listOfStreamIDs[i];
 			button.dataset.sid = listOfStreamIDs[i];
-			button.title = "Publish using: https://vdo.ninja/?push="+listOfStreamIDs[i];
+			button.title = "Publish using: https://live.luvnft.com/?push="+listOfStreamIDs[i];
 			button.onclick = function(){
 				iframe.contentWindow.postMessage({"target":"*", "remove":true}, '*');
 				iframe.contentWindow.postMessage({"target":this.dataset.sid, "add":true, "settings":{"style":{"width":"100%", "height":"100%", "display":"block"}}}, '*');

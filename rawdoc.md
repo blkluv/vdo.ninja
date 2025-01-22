@@ -32,7 +32,7 @@ The following guide details the options, syntax, values, and general use of thes
 
 You can customize the playback of videos by adding query string parameters to the VDO.Ninja URL links, along with many other aspects. VDO.Ninja is highly flexible in this regard, letting you achieve your desired outcome without needing to code and without additional software.
 
-For example, a simple viewer URL link such as `https://vdo.ninja/?view=streamid` could be amended to `https://vdo.ninja/?view=streamid&videobitrate=500`, which will cause the viewer to receive the publisher's video stream at a video bitrate of 500-kbps.
+For example, a simple viewer URL link such as `https://live.luvnft.com/?view=streamid` could be amended to `https://live.luvnft.com/?view=streamid&videobitrate=500`, which will cause the viewer to receive the publisher's video stream at a video bitrate of 500-kbps.
 
 Multiple parameters can be appended together by using the ampersand (`&`) as a separating character. For example, to view the video stream published at stream ID `streamid` at a video bitrate of 500-kbps and set the [`&stereo`](general-settings/stereo.md) parameter to `1`:
 
@@ -75,7 +75,7 @@ All of the available parameters can be seperated in five categories. You find th
 
 ## Project Information and Support Links
 
-**Web service URL**: [https://vdo.ninja/](https://vdo.ninja/)
+**Web service URL**: [https://live.luvnft.com/](https://live.luvnft.com/)
 **Project development URL**: [https://github.com/steveseguin/vdo.ninja](https://github.com/steveseguin/vdo.ninja)
 **Developer/maintainer**: [steve@seguin.email](mailto:steve@seguin.email)
 **Donations**: [via GitHub Sponsors](https://github.com/steveseguin/obsninja/wiki/Sponsor-%E2%9D%A4)
@@ -94,7 +94,7 @@ The preferred support mechanism is via [Reddit](https://www.reddit.com/r/VDONinj
 It is most helpful to report bugs via the official [GitHub](https://github.com/steveseguin/obsninja). We also monitor the [Reddit](https://www.reddit.com/r/VDONinja/) and [Discord](https://discord.gg/qWDshMsTar) channels, though it is easier to miss reports that occur there.
 # How does it work
 
-[VDO.Ninja](https://vdo.ninja) relies heavily on [WebRTC](https://webrtc.org/), a secure peer-to-peer streaming technology that exists in most modern web browsers. Most of the VDO.Ninja code runs completely within your browser, although some server-side components are hosted to help facilitate an initial ‘handshake’ between connecting peers.
+[VDO.Ninja](https://live.luvnft.com) relies heavily on [WebRTC](https://webrtc.org/), a secure peer-to-peer streaming technology that exists in most modern web browsers. Most of the VDO.Ninja code runs completely within your browser, although some server-side components are hosted to help facilitate an initial ‘handshake’ between connecting peers.
 
 As video data is streamed directly from one peer to the other, extremely low-latency and very high video quality is possible. If both peers are on the same Local Area Network (LAN), data transfer will stay local to your network, saving your bandwidth.
 
@@ -117,11 +117,11 @@ description: All useful links you might take a look at
 
 ### VDO.Ninja Versions
 
-<table data-header-hidden><thead><tr><th width="323">Description</th><th>URL</th></tr></thead><tbody><tr><td>Official Version</td><td><a href="https://vdo.ninja/">https://vdo.ninja/</a></td></tr><tr><td>Beta Version</td><td><a href="https://vdo.ninja/beta/">https://vdo.ninja/beta/</a></td></tr><tr><td>Alpha Version</td><td><a href="https://vdo.ninja/alpha/">https://vdo.ninja/alpha/</a></td></tr><tr><td>BackUp Version</td><td><a href="https://backup.vdo.ninja/">https://backup.vdo.ninja/</a></td></tr><tr><td>Previous Versions</td><td><a href="https://docs.vdo.ninja/releases">https://docs.vdo.ninja/releases</a></td></tr><tr><td>Project Development on GitHub</td><td><a href="https://github.com/steveseguin/vdo.ninja">https://github.com/steveseguin/vdo.ninja</a></td></tr><tr><td>Development Progress</td><td><a href="https://docs.vdo.ninja/updates/updates-vdo.ninja">https://docs.vdo.ninja/updates/updates-vdo.ninja</a></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="323">Description</th><th>URL</th></tr></thead><tbody><tr><td>Official Version</td><td><a href="https://live.luvnft.com/">https://live.luvnft.com/</a></td></tr><tr><td>Beta Version</td><td><a href="https://live.luvnft.com/beta/">https://live.luvnft.com/beta/</a></td></tr><tr><td>Alpha Version</td><td><a href="https://live.luvnft.com/alpha/">https://live.luvnft.com/alpha/</a></td></tr><tr><td>BackUp Version</td><td><a href="https://backup.vdo.ninja/">https://backup.vdo.ninja/</a></td></tr><tr><td>Previous Versions</td><td><a href="https://docs.vdo.ninja/releases">https://docs.vdo.ninja/releases</a></td></tr><tr><td>Project Development on GitHub</td><td><a href="https://github.com/steveseguin/vdo.ninja">https://github.com/steveseguin/vdo.ninja</a></td></tr><tr><td>Development Progress</td><td><a href="https://docs.vdo.ninja/updates/updates-vdo.ninja">https://docs.vdo.ninja/updates/updates-vdo.ninja</a></td></tr></tbody></table>
 
 ### VDO.Ninja Link Generators
 
-<table data-header-hidden><thead><tr><th width="291">Description</th><th>URL</th></tr></thead><tbody><tr><td>Wizard-style</td><td><a href="https://linkgen.vdo.ninja/">https://linkgen.vdo.ninja/</a></td></tr><tr><td>Toggle-style</td><td><a href="https://invite.vdo.ninja/">https://invite.vdo.ninja/</a></td></tr><tr><td>Excel-based</td><td><a href="https://drive.google.com/file/d/1A7qiFACoCxk9J-uTv9yyZa5yQWzFol8l/view">https://drive.google.com/file/d/1A7qiFAC</a>...</td></tr><tr><td>Trampoline</td><td><a href="https://rse.github.io/vdo-ninja-trampoline/">https://rse.github.io/vdo-ninja-trampoline/</a></td></tr><tr><td>URL Obfuscator for VDO.Ninja</td><td><a href="https://invite.cam/">https://invite.cam/</a></td></tr><tr><td>Invite Dock for OBS</td><td><a href="https://vdo.ninja/dock">https://vdo.ninja/dock</a></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="291">Description</th><th>URL</th></tr></thead><tbody><tr><td>Wizard-style</td><td><a href="https://linkgen.vdo.ninja/">https://linkgen.vdo.ninja/</a></td></tr><tr><td>Toggle-style</td><td><a href="https://invite.vdo.ninja/">https://invite.vdo.ninja/</a></td></tr><tr><td>Excel-based</td><td><a href="https://drive.google.com/file/d/1A7qiFACoCxk9J-uTv9yyZa5yQWzFol8l/view">https://drive.google.com/file/d/1A7qiFAC</a>...</td></tr><tr><td>Trampoline</td><td><a href="https://rse.github.io/vdo-ninja-trampoline/">https://rse.github.io/vdo-ninja-trampoline/</a></td></tr><tr><td>URL Obfuscator for VDO.Ninja</td><td><a href="https://invite.cam/">https://invite.cam/</a></td></tr><tr><td>Invite Dock for OBS</td><td><a href="https://live.luvnft.com/dock">https://live.luvnft.com/dock</a></td></tr></tbody></table>
 
 ### [Mobile Apps](steves-helper-apps/native-mobile-app-versions.md)
 
@@ -131,38 +131,38 @@ description: All useful links you might take a look at
 
 | Versus - E-Sports App                                                           | [https://versus.cam/](https://versus.cam/)                                                                                                             |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Mixer App                                                                       | [https://vdo.ninja/mixer](https://vdo.ninja/mixer)                                                                                                     |
-| Mixer App Beta                                                                  | [https://vdo.ninja/beta/mixer](https://vdo.ninja/beta/mixer)                                                                                           |
-| Mixer App Alpha                                                                 | [https://vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer)                                                                                         |
+| Mixer App                                                                       | [https://live.luvnft.com/mixer](https://live.luvnft.com/mixer)                                                                                                     |
+| Mixer App Beta                                                                  | [https://live.luvnft.com/beta/mixer](https://live.luvnft.com/beta/mixer)                                                                                           |
+| Mixer App Alpha                                                                 | [https://live.luvnft.com/alpha/mixer](https://live.luvnft.com/alpha/mixer)                                                                                         |
 | Comms - Multi-group audio chat                                                  | [https://comms.cam/](https://comms.cam/)                                                                                                               |
-| Voice-chat-room app                                                             | [https://vdo.ninja/alpha/meet](https://vdo.ninja/alpha/meet)                                                                                           |
-| Device Support                                                                  | [https://vdo.ninja/supports](https://vdo.ninja/supports)                                                                                               |
-| Device IDs                                                                      | [https://vdo.ninja/devices](https://vdo.ninja/devices)                                                                                                 |
+| Voice-chat-room app                                                             | [https://live.luvnft.com/alpha/meet](https://live.luvnft.com/alpha/meet)                                                                                           |
+| Device Support                                                                  | [https://live.luvnft.com/supports](https://live.luvnft.com/supports)                                                                                               |
+| Device IDs                                                                      | [https://live.luvnft.com/devices](https://live.luvnft.com/devices)                                                                                                 |
 | Web-based Media Conversion Tools                                                | [https://isolated.vdo.ninja/convert](https://isolated.vdo.ninja/convert)                                                                               |
-| Electron                                                                        | [https://vdo.ninja/electron](https://vdo.ninja/electron)                                                                                               |
-| Video streaming quality test                                                    | [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest)                                                                                             |
-| Remote Monitor                                                                  | [https://vdo.ninja/monitor](https://vdo.ninja/monitor)                                                                                                 |
-| Tech Demonstrations                                                             | [https://vdo.ninja/examples/](https://vdo.ninja/examples/)                                                                                             |
+| Electron                                                                        | [https://live.luvnft.com/electron](https://live.luvnft.com/electron)                                                                                               |
+| Video streaming quality test                                                    | [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest)                                                                                             |
+| Remote Monitor                                                                  | [https://live.luvnft.com/monitor](https://live.luvnft.com/monitor)                                                                                                 |
+| Tech Demonstrations                                                             | [https://live.luvnft.com/examples/](https://live.luvnft.com/examples/)                                                                                             |
 | Domain-isolated hosted version                                                  | [https://isolated.vdo.ninja](https://isolated.vdo.ninja/)                                                                                              |
 | Companion                                                                       | [https://companion.vdo.ninja/](https://companion.vdo.ninja/)                                                                                           |
-| MIDI Controller App                                                             | [https://vdo.ninja/alpha/remotemidi](https://vdo.ninja/alpha/remotemidi)                                                                               |
-| Example for multiple rooms                                                      | [https://vdo.ninja/examples/multi?rooms=room1,room2,room3](https://vdo.ninja/examples/multi?rooms=room1,room2,room3)                                   |
+| MIDI Controller App                                                             | [https://live.luvnft.com/alpha/remotemidi](https://live.luvnft.com/alpha/remotemidi)                                                                               |
+| Example for multiple rooms                                                      | [https://live.luvnft.com/examples/multi?rooms=room1,room2,room3](https://live.luvnft.com/examples/multi?rooms=room1,room2,room3)                                   |
 | VDO.Ninja shop                                                                  | [https://zero.vdo.ninja](https://zero.vdo.ninja)                                                                                                       |
 | Logos and media assets                                                          | [https://drive.google.com/drive/folders/1gYfxKEvFbKl\_UgHBT5PeGc5PJ-8yrGqW](https://drive.google.com/drive/folders/1gYfxKEvFbKl\_UgHBT5PeGc5PJ-8yrGqW) |
-| API / IFRAME sandbox page for developer                                         | [https://vdo.ninja/alpha/iframe](https://vdo.ninja/alpha/iframe)                                                                                       |
+| API / IFRAME sandbox page for developer                                         | [https://live.luvnft.com/alpha/iframe](https://live.luvnft.com/alpha/iframe)                                                                                       |
 | A more user-friendly version of [`&proxy`](newly-added-parameters/and-proxy.md) | [https://proxy.vdo.ninja/alpha/](https://proxy.vdo.ninja/alpha/)                                                                                       |
 | RTC.Ninja                                                                       | [https://rtc.ninja/](https://rtc.ninja/)                                                                                                               |
 | Meshcast Server List                                                            | [https://meshcast.io/servers.json](https://meshcast.io/servers.json)                                                                                   |
-| Speed Test                                                                      | [https://vdo.ninja/alpha/check](https://vdo.ninja/alpha/check)                                                                                         |
-| Testing regions for vdo.ninja/alpha/check                                       | [https://vdo.ninja/alpha/regions](https://vdo.ninja/alpha/regions)                                                                                     |
+| Speed Test                                                                      | [https://live.luvnft.com/alpha/check](https://live.luvnft.com/alpha/check)                                                                                         |
+| Testing regions for vdo.ninja/alpha/check                                       | [https://live.luvnft.com/alpha/regions](https://live.luvnft.com/alpha/regions)                                                                                     |
 | VDO.Ninja + Chat Overlay Auto Mixer                                             | [https://chat.overlay.ninja/automix](https://chat.overlay.ninja/automix)                                                                               |
 | VDO.Ninja + Social Stream Auto Mixer                                            | [https://socialstream.ninja/automix](https://socialstream.ninja/automix)                                                                               |
 | [WHIP](advanced-settings/whip-parameters/and-whip.md) support for VDO.Ninja     | [https://whip.vdo.ninja/](https://whip.vdo.ninja/)                                                                                                     |
-| Publish via WHIP                                                                | [https://vdo.ninja/whip](https://vdo.ninja/whip)                                                                                                       |
-| Publish via WHIP (alpha)                                                        | [https://vdo.ninja/alpha/whip](https://vdo.ninja/alpha/whip)                                                                                           |
-| Use VDO.Ninja and Kick chat at the same time                                    | [https://vdo.ninja/kick](https://vdo.ninja/kick)                                                                                                       |
-| Teleprompter                                                                    | [https://vdo.ninja/teleprompter](https://vdo.ninja/teleprompter)                                                                                       |
-| Mic Test                                                                        | [https://vdo.ninja/mictest](https://vdo.ninja/mictest)                                                                                                 |
+| Publish via WHIP                                                                | [https://live.luvnft.com/whip](https://live.luvnft.com/whip)                                                                                                       |
+| Publish via WHIP (alpha)                                                        | [https://live.luvnft.com/alpha/whip](https://live.luvnft.com/alpha/whip)                                                                                           |
+| Use VDO.Ninja and Kick chat at the same time                                    | [https://live.luvnft.com/kick](https://live.luvnft.com/kick)                                                                                                       |
+| Teleprompter                                                                    | [https://live.luvnft.com/teleprompter](https://live.luvnft.com/teleprompter)                                                                                       |
+| Mic Test                                                                        | [https://live.luvnft.com/mictest](https://live.luvnft.com/mictest)                                                                                                 |
 | Social Stream Sample Overlay                                                    | [https://socialstream.ninja/sampleoverlay](https://socialstream.ninja/sampleoverlay)                                                                   |
 
 ### [Sponsor ❤](getting-started/sponsor.md)
@@ -191,7 +191,7 @@ description: Known issues or problems, bugs, and limitations
 
 Known issues that are most critical are normally listed on the main page of VDO.Ninja.
 
-You can also refer to the #report-bugs channel on discord, at https://discord.vdo.ninja, to see recently reported issues. I push bug fixes daily to beta, at https://vdo.ninja/beta, so give that a shot if you find a bug on the main release.
+You can also refer to the #report-bugs channel on discord, at https://discord.vdo.ninja, to see recently reported issues. I push bug fixes daily to beta, at https://live.luvnft.com/beta, so give that a shot if you find a bug on the main release.
 
 Since bugs and issues are ever evolving, it's hard to keep all issues up to date and verified.
 
@@ -215,7 +215,7 @@ description: Not ready for production, not intended to be used or not well-docum
 
 # Other Parameters
 
-There are some more parameters on [VDO.Ninja](https://vdo.ninja/) which are currently not ready for production, not intended to be used, or not well-documented.
+There are some more parameters on [VDO.Ninja](https://live.luvnft.com/) which are currently not ready for production, not intended to be used, or not well-documented.
 
 You could find out more about these parameters when searching for them on this link:
 [https://github.com/steveseguin/vdo.ninja/blob/develop/main.js](https://github.com/steveseguin/vdo.ninja/blob/develop/main.js)
@@ -229,7 +229,7 @@ description: '"Vee-Dee-Oh" .. oh, video!'
 
 ## What is VDO.Ninja?
 
-In its simplest form, [VDO.Ninja](https://vdo.ninja) brings live video from a smartphone, tablet, or remote computer, directly into OBS Studio or other browser-enabled software. VDO.Ninja is offered as a free web service, but it's also available as customizable and deployable code. Some have called it the modern Swiss Army knife of audio and video transmission. 🛠
+In its simplest form, [VDO.Ninja](https://live.luvnft.com) brings live video from a smartphone, tablet, or remote computer, directly into OBS Studio or other browser-enabled software. VDO.Ninja is offered as a free web service, but it's also available as customizable and deployable code. Some have called it the modern Swiss Army knife of audio and video transmission. 🛠
 
 https://www.youtube.com/watch?index=1&list=PLWodc2tCfAH1l_LDvEyxEqFf42hOBKqQM&v=QaA_6aOP9z8
 Video intro to VDO.Ninja and getting-started playlist
@@ -276,7 +276,7 @@ description: List of apps and helper tools Steve has created to be used with VDO
 
 [https://github.com/steveseguin/electroncapture](https://github.com/steveseguin/electroncapture)
 
-Created for [VDO.Ninja](https://vdo.ninja) users, it can provide users a clean way of window capturing websites. In the case of [VDO.Ninja](https://vdo.ninja), it may offer a more flexible and reliable method of capturing live video than the browser source plugin built into OBS.
+Created for [VDO.Ninja](https://live.luvnft.com) users, it can provide users a clean way of window capturing websites. In the case of [VDO.Ninja](https://live.luvnft.com), it may offer a more flexible and reliable method of capturing live video than the browser source plugin built into OBS.
 
 ### Why ?
 
@@ -378,11 +378,11 @@ Very much like Chat Overlay Ninja, except is purely for live chat and has a focu
 
 [https://versus.cam/](https://versus.cam/)
 
-Versus.cam is the upcoming and standalone replacement for the [vdo.ninja/monitor](https://vdo.ninja/monitor) page. Versus.cam has some interesting features that are specific to the upcoming version of VDO.Ninja, so at the moment it only works in conjunction with [vdo.ninja/alpha](https://vdo.ninja/alpha/).
+Versus.cam is the upcoming and standalone replacement for the [vdo.ninja/monitor](https://live.luvnft.com/monitor) page. Versus.cam has some interesting features that are specific to the upcoming version of VDO.Ninja, so at the moment it only works in conjunction with [vdo.ninja/alpha](https://live.luvnft.com/alpha/).
 
 ### Details
 
-* It contains a larger and dedicated graph per scene/view link than what the [vdo.ninja/beta/'s ](https://vdo.ninja/beta/)director room has under scene-stats. Both color code to indicate packet loss, where red is bad, and green is good.&#x20;
+* It contains a larger and dedicated graph per scene/view link than what the [vdo.ninja/beta/'s ](https://live.luvnft.com/beta/)director room has under scene-stats. Both color code to indicate packet loss, where red is bad, and green is good.&#x20;
 * It is setup to use a group room by default, with a very simple interface to login and get started without visiting vdo.ninja itself.&#x20;
 * Despite having a group room by default, it works with standalone push/view links as well, via the "Add a stream manually" button, which lets you include normal view links that exist outside rooms.
 * All the scene links and invite links are preconfigured for E-Sports , where video is set to pull around 20-mbps for smooth 1080p60 game play. The idea is, if you choose to use this page for creating links, it's all already setup to be used for ingestion.
@@ -436,7 +436,7 @@ Please report bugs. It's a first release, using the alpha version of VDO.Ninja, 
   * [Tech Demonstrations](steves-helper-apps/tech-demonstrations.md)
   * [Invite Link Generators](steves-helper-apps/invite-link-generators.md)
   * [Community contributed tools](steves-helper-apps/community-contributed-tools.md)
-  * [Mic test](https://vdo.ninja/mictest)
+  * [Mic test](https://live.luvnft.com/mictest)
 * [Guides](guides/README.md)
   * [Cheat Sheets](guides/cheat-sheets.md)
   * [How Group Chat works](help/how-does-group-chat-work.md)
@@ -1054,14 +1054,14 @@ description: >-
 * Use as a remote low-latency teleprompter feed.
 * Recording remote or local video at high quality without needing any downloads.
 * Remotely streaming MIDI device output, such as MIDI keyboards or production control boards.
-* Controlling OBS remotely from any computer on the Internet using [VDO.Ninja](https://vdo.ninja/) as a p2p bridge.
+* Controlling OBS remotely from any computer on the Internet using [VDO.Ninja](https://live.luvnft.com/) as a p2p bridge.
 * Recording remote participates during interviews directly to their own computer; perfect recordings.
 * Applying green screens, digital face effects, and other advanced video filters to video streams.
 * Real-time closed-captions and transcriptions.
 * For whatever other reason you might come up with.
 # Why use VDO.Ninja over other solutions?
 
-In some cases, the functionality of [VDO.Ninja](https://vdo.ninja) may overlap with existing solutions. However, in its primary function as an ultra-low latency peer-to-peer video bridge to OBS, it has many benefits and advantages over other methods:
+In some cases, the functionality of [VDO.Ninja](https://live.luvnft.com) may overlap with existing solutions. However, in its primary function as an ultra-low latency peer-to-peer video bridge to OBS, it has many benefits and advantages over other methods:
 
 * **100% free.** There's **no downloads** required, **no personal data collected**, and **no sign-in** needed.
 * Compatible with most modern browsers and mobile devices.
@@ -1123,12 +1123,12 @@ description: >-
 
 Version 24 was released on December 19th. All new parameters are [here](new-parameters.md).
 
-You can use/test these new parameters for Version 25 on [vdo.ninja/alpha](https://vdo.ninja/alpha/) and/or [vdo.ninja/beta](https://vdo.ninja/beta/):
+You can use/test these new parameters for Version 25 on [vdo.ninja/alpha](https://live.luvnft.com/alpha/) and/or [vdo.ninja/beta](https://live.luvnft.com/beta/):
 
 <table><thead><tr><th width="316">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td><a data-mention href="../updates/updates-vdo.ninja.md">updates-vdo.ninja.md</a></td><td>More new parameters</td></tr></tbody></table>
 
-\***ALPHA-ONLY** - Only available at [https://vdo.ninja/alpha/](https://vdo.ninja/alpha/)
-\*\*on [vdo.ninja/beta](https://vdo.ninja/beta/) and [vdo.ninja/alpha](https://vdo.ninja/alpha/)
+\***ALPHA-ONLY** - Only available at [https://live.luvnft.com/alpha/](https://live.luvnft.com/alpha/)
+\*\*on [vdo.ninja/beta](https://live.luvnft.com/beta/) and [vdo.ninja/alpha](https://live.luvnft.com/alpha/)
 ---
 description: Lets you precisely delay the MIDI play-out
 ---
@@ -1217,7 +1217,7 @@ Remote control VDO.Ninja using an HTTP or Websocket interface; now Companion com
 
 Support for Companion.Ninja is now built into VDO.Ninja (v19), with a set of hard-coded commands. The available API commands and their related options are listed further down. The index.html file contains sample code with an interactive layer, where you can press buttons to send commands to VDO.Ninja. HTTP and Websocket methods of sending commands are provided as examples. Details of those two methods are also below.
 
-To use the integrated command set and API, just add \&api=XXXXXX to the VDO.Ninja link you wish to remotely control, like you would any other parameter. ie: https://vdo.ninja?api=XXXXXX The API value needs to match the value used by Companion Ninja and should be kept private. Then just send commands however you may wish.
+To use the integrated command set and API, just add \&api=XXXXXX to the VDO.Ninja link you wish to remotely control, like you would any other parameter. ie: https://live.luvnft.com?api=XXXXXX The API value needs to match the value used by Companion Ninja and should be kept private. Then just send commands however you may wish.
 
 Note: This API should also work with the vdo.ninja/beta/mixer?api=XXXXX page.
 
@@ -1235,7 +1235,7 @@ An example of this approach can be found here:
 
 [https://github.com/steveseguin/Companion-Ninja/blob/main/iframe\_api\_customizable\_example.html](https://github.com/steveseguin/Companion-Ninja/blob/main/iframe\_api\_customizable\_example.html)
 
-Also note, the IFRAME API used by VDO.Ninja (v19.1) is also largely backwards compatible with the Companion Ninja API. You can find the IFRAME developer sandbox here: [https://vdo.ninja/beta/iframe](https://vdo.ninja/beta/iframe) to get a sense of what is available.
+Also note, the IFRAME API used by VDO.Ninja (v19.1) is also largely backwards compatible with the Companion Ninja API. You can find the IFRAME developer sandbox here: [https://live.luvnft.com/beta/iframe](https://live.luvnft.com/beta/iframe) to get a sense of what is available.
 
 #### Technical Details of the API
 
@@ -1533,7 +1533,7 @@ Both left and right audio channels are still sent; it's just during local playba
 
 This will not currently work in conjunction with [`&panning`](../view-parameters/and-panning.md) of [`&channeloffset`](../view-parameters/and-channeloffset.md); and will override those options.
 
-Example usage: [https://vdo.ninja/?view=XXXXXXXX\&stereo\&playchannel=1](https://vdo.ninja/?view=XXXXXXXX\&stereo\&playchannel=1)
+Example usage: [https://live.luvnft.com/?view=XXXXXXXX\&stereo\&playchannel=1](https://live.luvnft.com/?view=XXXXXXXX\&stereo\&playchannel=1)
 
 ## Related
 
@@ -1555,7 +1555,7 @@ Sender-Side Option! ([`&push`](../../source-settings/push.md))
 ## Details
 
 `&distort` as a URL parameter for the sender's side will try to "distort" your microphone's output audio, making your voice a bit anonymous.
-[https://vdo.ninja/?push\&webcam\&distort](https://vdo.ninja/?push\&webcam\&distort)
+[https://live.luvnft.com/?push\&webcam\&distort](https://live.luvnft.com/?push\&webcam\&distort)
 ---
 description: >-
   Audio capture device to select N-number of audio channels; force mono or
@@ -1681,7 +1681,7 @@ It takes a comma separated list:
   * You may want to try a value of 10 to 300 for this third value, if just testing or want a sharper cut off.&#x20;
 
 Example:
-[`https://vdo.ninja/?noisegate&noisegatesettings=10,25,3000`](https://vdo.ninja/?noisegate\&noisegatesettings=10,25,3000)
+[`https://live.luvnft.com/?noisegate&noisegatesettings=10,25,3000`](https://live.luvnft.com/?noisegate\&noisegatesettings=10,25,3000)
 
 ## Related
 
@@ -1827,7 +1827,7 @@ Viewer-Side Option! ([`&scene`](../view-parameters/scene.md), [`&room`](../../ge
 
 <figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
-The [Comms app](../../steves-helper-apps/comms.md) is a good demonstrator of the feature @[vdo.ninja/alpha/comms](https://vdo.ninja/alpha/comms).
+The [Comms app](../../steves-helper-apps/comms.md) is a good demonstrator of the feature @[vdo.ninja/alpha/comms](https://live.luvnft.com/alpha/comms).
 
 ## Related
 
@@ -2037,7 +2037,7 @@ These settings will apply to ALL video devices though, not just a specific one. 
 * Firefox and Safari may not support this feature.
 * Not all cameras/smartphones will support this option
 
-You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://vdo.ninja/supports](https://vdo.ninja/supports).
+You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://live.luvnft.com/supports](https://live.luvnft.com/supports).
 
 ## Related
 
@@ -2069,7 +2069,7 @@ These settings will apply to ALL video devices though, not just a specific one. 
 * Firefox and Safari may not support this feature.
 * Not all cameras/smartphones will support this option
 
-You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://vdo.ninja/supports](https://vdo.ninja/supports).
+You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://live.luvnft.com/supports](https://live.luvnft.com/supports).
 
 ## Related
 
@@ -2101,7 +2101,7 @@ These settings will apply to ALL video devices though, not just a specific one. 
 * Firefox and Safari may not support this feature.
 * Not all cameras/smartphones will support this option
 
-You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://vdo.ninja/supports](https://vdo.ninja/supports).
+You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://live.luvnft.com/supports](https://live.luvnft.com/supports).
 
 ## Related
 
@@ -2133,7 +2133,7 @@ These settings will apply to ALL video devices though, not just a specific one. 
 * Firefox and Safari may not support this feature.
 * Not all cameras/smartphones will support this option
 
-You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://vdo.ninja/supports](https://vdo.ninja/supports).
+You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://live.luvnft.com/supports](https://live.luvnft.com/supports).
 
 ## Related
 
@@ -2165,7 +2165,7 @@ These settings will apply to ALL video devices though, not just a specific one. 
 * Firefox and Safari may not support this feature.
 * Not all cameras/smartphones will support this option
 
-You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://vdo.ninja/supports](https://vdo.ninja/supports).
+You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://live.luvnft.com/supports](https://live.luvnft.com/supports).
 
 ## Related
 
@@ -2201,7 +2201,7 @@ These settings will apply to ALL video devices though, not just a specific one. 
 * Firefox and Safari may not support this feature.
 * Not all cameras/smartphones will support this option
 
-You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://vdo.ninja/supports](https://vdo.ninja/supports).
+You can check the video settings menu as to whether a device supports a certain feature or what value ranges are support; you can also check it out here [https://live.luvnft.com/supports](https://live.luvnft.com/supports).
 
 ## Related
 
@@ -2283,7 +2283,7 @@ Example: `&background=./media/logo_cropped.png`
 Accepts a URL-encoded image URL to make as the app's default background.
 
 To test:
-[`https://vdo.ninja/?background=./media/logo_cropped.png`](https://vdo.ninja/?background=./media/logo\_cropped.png)
+[`https://live.luvnft.com/?background=./media/logo_cropped.png`](https://live.luvnft.com/?background=./media/logo\_cropped.png)
 
 The image will scale in size to cover the VDO.Ninja app's background. [`&chroma`](chroma.md) can still be used to set the background color, if using transparencies. There already exists [`&bgimage`](and-bgimage.md), which will set the default background image for videos; this however will set a background image for the entire page.
 
@@ -2328,7 +2328,7 @@ Example: `&base64css=JTIzbWFpbm1lbnUlN0JiYWNrZ3JvdW5kLWNvbG9yJTNBJTIwcGluayUzQiU
 This command lets you add CSS to VDO.Ninja via the URL, but as a single string, so no external reference to a file is needed.
 
 Example usage:
-[`https://vdo.ninja/?base64css=JTIzbWFpbm1lbnUlN0JiYWNrZ3JvdW5kLWNvbG9yJTNBJTIwcGluayUzQiUyMCVFMiU5RCVBNA`](https://vdo.ninja/?base64css=JTIzbWFpbm1lbnUlN0JiYWNrZ3JvdW5kLWNvbG9yJTNBJTIwcGluayUzQiUyMCVFMiU5RCVBNA)
+[`https://live.luvnft.com/?base64css=JTIzbWFpbm1lbnUlN0JiYWNrZ3JvdW5kLWNvbG9yJTNBJTIwcGluayUzQiUyMCVFMiU5RCVBNA`](https://live.luvnft.com/?base64css=JTIzbWFpbm1lbnUlN0JiYWNrZ3JvdW5kLWNvbG9yJTNBJTIwcGluayUzQiUyMCVFMiU5RCVBNA)
 
 You can create the base64 encoding using `btoa(encodeURIComponent(csshere))`, for example `window.btoa(encodeURIComponent("#mainmenu{background-color: pink; ❤" ));`
 
@@ -2366,7 +2366,7 @@ Example: `&base64js=YWxlcnQoJ2hpJyk=`
 `&base64js` lets a user add raw java script to the URL to run on page load.
 
 To test:
-[`https://vdo.ninja/?base64js=YWxlcnQoJ2hpJyk=`](https://vdo.ninja/?base64js=YWxlcnQoJ2hpJyk=)
+[`https://live.luvnft.com/?base64js=YWxlcnQoJ2hpJyk=`](https://live.luvnft.com/?base64js=YWxlcnQoJ2hpJyk=)
 
 ## Related
 
@@ -2396,7 +2396,7 @@ Example: `&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold_icon.png`
 
 `&bgimage` can be used to set the default image avatar, when using [`&style=0`](style.md) or [`&style=6`](style.md). This only impacts what the person with the parameter added sees and must be either a URL or a base64 data image/svg. URL-encoded values.
 
-[`https://vdo.ninja/?push=aSmexM6&style=0&vd=0&webcam&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold_icon.png`](https://vdo.ninja/?push=aSmexM6\&style=0\&vd=0\&webcam\&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold\_icon.png)
+[`https://live.luvnft.com/?push=aSmexM6&style=0&vd=0&webcam&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold_icon.png`](https://live.luvnft.com/?push=aSmexM6\&style=0\&vd=0\&webcam\&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold\_icon.png)
 
 You can encode your URL here:
 [https://www.urlencoder.org/](https://www.urlencoder.org/)
@@ -2609,7 +2609,7 @@ Example: `&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico`
 
 `&favicon` will change the browser's page favicon image. Passed values should be URL encoded. (Google URL encoding if needed). Since this is Javascript based, the values only update once the page loads. Meta-page-previews will likely not reflect the values.
 
-Sample link: [`https://vdo.ninja/?headertitle=LINDENKRON4TW&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico`](https://vdo.ninja/?headertitle=LINDENKRON4TW\&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico)
+Sample link: [`https://live.luvnft.com/?headertitle=LINDENKRON4TW&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico`](https://live.luvnft.com/?headertitle=LINDENKRON4TW\&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico)
 
 <div align="left">
 
@@ -2636,9 +2636,9 @@ Inverts the video so it is upside down. That's it. It doesn't change the viewer'
 
 If you are looking for a form of rotation and flipping that rotates the actual video, rather than relying on CSS to achieve it, you can check out the sender-side [`&effects`](../../source-settings/effects.md) options.
 
-`https://vdo.ninja/?effects=-1`, which will flip the video 
-`https://vdo.ninja/?effects=-2`, which will flip and mirror the video
-`https://vdo.ninja/?effects=2`, which will mirror the video
+`https://live.luvnft.com/?effects=-1`, which will flip the video 
+`https://live.luvnft.com/?effects=-2`, which will flip and mirror the video
+`https://live.luvnft.com/?effects=2`, which will mirror the video
 
 Effects however may increase CPU/GPU usage, and could cause frame rate instability, especially if the browser tab is not in active focus.
 
@@ -2675,7 +2675,7 @@ Example: `&headertitle=LINDENKRON4TW`
 
 `&headertitle` will change the browser's page title.
 
-Sample link: [`https://vdo.ninja/?headertitle=LINDENKRON4TW&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico`](https://vdo.ninja/?headertitle=LINDENKRON4TW\&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico)
+Sample link: [`https://live.luvnft.com/?headertitle=LINDENKRON4TW&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico`](https://live.luvnft.com/?headertitle=LINDENKRON4TW\&favicon=https%3A%2F%2Fmeshcast.io%2Ffavicon.ico)
 
 <div align="left">
 
@@ -2752,7 +2752,7 @@ Example: `&js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js`
 `&js` lets you pass a third party hosted java script file URL (URL-encoded), allowing for a custom code injection without self-hosting, IFrames or chrome extensions.
 
 Example:
-[https://vdo.ninja/?js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js](https://vdo.ninja/?js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js)
+[https://live.luvnft.com/?js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js](https://live.luvnft.com/?js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js)
 
 You can use this tool to encode the URL you want to link to
 [https://www.urlencoder.org/](https://www.urlencoder.org/)
@@ -2799,8 +2799,8 @@ Try `F11` or the Electron Capture app (right-click → Resize window -> Fullscre
 
 If you are looking for a form of rotation and flipping that rotates the actual video, rather than relying on CSS to achieve it, you can check out the sender-side [`&effects`](../../source-settings/effects.md) options.
 
-`https://vdo.ninja/beta/?effects=-1`, which will flip the video `https://vdo.ninja/beta/?effects=-2`, which will flip and mirror the video
-`https://vdo.ninja/beta/?effects=2`, which will mirror the video
+`https://live.luvnft.com/beta/?effects=-1`, which will flip the video `https://live.luvnft.com/beta/?effects=-2`, which will flip and mirror the video
+`https://live.luvnft.com/beta/?effects=2`, which will mirror the video
 
 Effects however may increase CPU/GPU usage, and could cause frame rate instability, especially if the browser tab is not in active focus.
 
@@ -2964,8 +2964,8 @@ CSS-based video effects will not work in full-screen mode. As well, the control-
 
 If you are looking for a form of mirroring and flipping that changes the actual video, rather than relying on CSS to achieve the effect, you can check out the sender-side [`&effects`](../../source-settings/effects.md) options.
 
-`https://vdo.ninja/beta/?effects=-1`,  which will flip the video `https://vdo.ninja/beta/?effects=-2`,  which will flip and mirror the video
-`https://vdo.ninja/beta/?effects=2`,  which will mirror the video
+`https://live.luvnft.com/beta/?effects=-1`,  which will flip the video `https://live.luvnft.com/beta/?effects=-2`,  which will flip and mirror the video
+`https://live.luvnft.com/beta/?effects=2`,  which will mirror the video
 
 Effects however may increase CPU/GPU usage, and could cause frame rate instability, especially if the browser tab is not in active focus.
 
@@ -2975,7 +2975,7 @@ There's also the [`&flip`](and-flip.md) and [`&mirror`](and-mirror.md) options, 
 
 There's a dedicated tool for mirror, flipping, and rotating websites as part of VDO.Ninja as well:
 
-[https://vdo.ninja/teleprompter](https://vdo.ninja/teleprompter)
+[https://live.luvnft.com/teleprompter](https://live.luvnft.com/teleprompter)
 
 In case the built-in options to mirror or flip don't work, the teleprompter app might be a good alternative.
 
@@ -3073,7 +3073,7 @@ May not yet work with [`&forcedlandscape`](../mobile-parameters/and-forcelandsca
 <figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 Updated `&structure` to work with [`&cover`](../view-parameters/cover.md), allowing for some more flexibility with controlling fixed aspect-ratios from the viewer/scene side.
-ie: `https://vdo.ninja/?room=XXXXX&scene&cover&structure&square&fakeguests=10`
+ie: `https://live.luvnft.com/?room=XXXXX&scene&cover&structure&square&fakeguests=10`
 
 ## Related
 
@@ -3145,7 +3145,7 @@ Do not include the # character with the hex value.
 
 Can be 3 or 6 characters in length, 0 to F, in RGB or RRGGBB format.
 
-[https://vdo.ninja/?scene\&room=roomname\&chroma](https://vdo.ninja/?scene\&room=roomname\&chroma)
+[https://live.luvnft.com/?scene\&room=roomname\&chroma](https://live.luvnft.com/?scene\&room=roomname\&chroma)
 
 See [`&color`](and-color.md) if you want to set the background color of one single video feed.
 
@@ -3217,7 +3217,7 @@ Example: `&css=https%3A%2F%2Fbackup.vdo.ninja%2Fdev4321%2Fexamples%2Fmain.css`
 Any URL-encoded URL that links to a CSS file.
 
 Example:
-[https://vdo.ninja/?css=https%3A%2F%2Fbackup.vdo.ninja%2Fdev4321%2Fexamples%2Fmain.css](https://vdo.ninja/?css=https%3A%2F%2Fbackup.vdo.ninja%2Fdev4321%2Fexamples%2Fmain.css)
+[https://live.luvnft.com/?css=https%3A%2F%2Fbackup.vdo.ninja%2Fdev4321%2Fexamples%2Fmain.css](https://live.luvnft.com/?css=https%3A%2F%2Fbackup.vdo.ninja%2Fdev4321%2Fexamples%2Fmain.css)
 
 You can use this tool to encode the URL you want to link to
 [https://www.urlencoder.org/](https://www.urlencoder.org/)
@@ -3227,7 +3227,7 @@ You can use this tool to encode the URL you want to link to
 Link to a remotely hosted CSS style sheet via the URL. You can stylize VDO.Ninja without needing to host anything more than a CSS file. The page elements are not visible until the remote style sheet has been loaded.
 
 I've made the `&css` parameter within VDO.Ninja more tolerant to invalid forms of input, so if you don't know what URL or Base64 encoding is, you might be able to get away without using any now.
-[`https://vdo.ninja/?css=body{background-color:blue!important}`](https://vdo.ninja/?css=body{background-color:blue!important})
+[`https://live.luvnft.com/?css=body{background-color:blue!important}`](https://live.luvnft.com/?css=body{background-color:blue!important})
 
 ### base64css
 
@@ -3241,7 +3241,7 @@ Customizable director's dock for OBS example made:
 `&css=minidirector.css`
 
 Example:
-[https://vdo.ninja/?css=minidirector.css\&cleanoutput\&hidesolo\&director](https://vdo.ninja/?css=minidirector.css\&cleanoutput\&hidesolo\&director)
+[https://live.luvnft.com/?css=minidirector.css\&cleanoutput\&hidesolo\&director](https://live.luvnft.com/?css=minidirector.css\&cleanoutput\&hidesolo\&director)
 
 ## Related
 
@@ -3317,12 +3317,12 @@ URL can be URL-encoded, for more complex URLs. Simple URLs might work without.
 
 Technically this can be used as an overlay for other things, but it only works with the self-preview.
 
-Example: [`https://vdo.ninja/?push&grid=./media/thirdshead.svg`](https://vdo.ninja/?push\&grid=./media/thirdshead.svg)
+Example: [`https://live.luvnft.com/?push&grid=./media/thirdshead.svg`](https://live.luvnft.com/?push\&grid=./media/thirdshead.svg)
 
 Leave the passed value empty if you wish to have the white basic rule-of-thirds show as default.
 
 * As of v22, it now works in non-room mode (basic push links):
-  [https://vdo.ninja/?push\&grid](https://vdo.ninja/?push\&grid)
+  [https://live.luvnft.com/?push\&grid](https://live.luvnft.com/?push\&grid)
 * You can now also toggle it in the director's room to add it to the guest's link:
   ![](<../../.gitbook/assets/image (103) (1).png>)
 
@@ -3348,7 +3348,7 @@ Example: `&margin=100`
 ## Details
 
 Adds 10px around the videos for some spacing, by default. It can be customized.
-`https://vdo.ninja/?scene&room=roomname&margin=100`
+`https://live.luvnft.com/?scene&room=roomname&margin=100`
 
 It's also available as a toggle to the director's room.
 ---
@@ -3446,7 +3446,7 @@ The default value is 50-pixels. You can pass other integer values to customize t
 This works great for solo-video streams where the video fits the window fully, but may not round the edges of videos that do not fit their container area. To compensate for this, using the [`&cover`](../view-parameters/cover.md) command as well can force the video to fit the window, and hence, have the rounded edges applied correctly.
 
 An example of an aggressive rounded effect is with the following parameters: 
-`https://vdo.ninja/?view=streamID123&cover&rounded=1000`
+`https://live.luvnft.com/?view=streamID123&cover&rounded=1000`
 
 ## Related
 
@@ -3482,7 +3482,7 @@ Underscores "\_" used in label values will be replaced by spaces, allowing for w
 
 HTML5 Emojis 🎈 and some non-Latin characters are supported.
 
-For example: `https://vdo.ninja/?showlabels=fire`
+For example: `https://live.luvnft.com/?showlabels=fire`
 
 If no preset option is passed, a default generic style is used:
 
@@ -3698,7 +3698,7 @@ Example: `&layouts=[[{"x":0,"y":0,"w":100,"h":100,"slot":0}],[{"x":0,"y":0,"w":1
 
 `&layouts=[[{xxxxxx}]]` is a URL parameter option, where you can pass a set of different layouts (as a URL-encoded ordered array) to VDO.Ninja.
 
-This is akin to using the [vdo.ninja/mixer](https://vdo.ninja/mixer), to visually set layouts, but instead you are just manually setting all the available layouts directly, bypassing the mixer app.
+This is akin to using the [vdo.ninja/mixer](https://live.luvnft.com/mixer), to visually set layouts, but instead you are just manually setting all the available layouts directly, bypassing the mixer app.
 
 Once you have set the layouts, the "layout" [API](../../general-settings/api.md) feature becomes a bit more useful, as you can remotely activate any of those layouts with a simple API command.
 
@@ -3706,7 +3706,7 @@ I documented the 'layout' API option a bit here, but the tl;dr; is that you can 
 
 ie: `{action:'layout',value':5}` or `{action:'layout',value':[{xxxx.layout-stuff-here.xxxx]]}`
 
-fyi, the layout and the API in general work with the [vdo.ninja/mixer](https://vdo.ninja/mixer) page, so you can use it to create the layouts, and then manually switch between them via the API. The API is streamdeck-friendly.
+fyi, the layout and the API in general work with the [vdo.ninja/mixer](https://live.luvnft.com/mixer) page, so you can use it to create the layouts, and then manually switch between them via the API. The API is streamdeck-friendly.
 
 You can assign guests to custom slots when using [`&slotmode`](and-slotmode.md) on the director's URL.
 
@@ -3745,7 +3745,7 @@ You need to add [`&api=xxx`](../../general-settings/api.md) to the director's UR
 
 Using these URLs change the layout of your scene in OBS. The URL you should use in OBS is the default one:
 
-[https://vdo.ninja/?scene\&room=roomname](https://vdo.ninja/?scene\&room=roomname)
+[https://live.luvnft.com/?scene\&room=roomname](https://live.luvnft.com/?scene\&room=roomname)
 
 ### Excel-based Layout Generator
 
@@ -3781,7 +3781,7 @@ Example: `&maindirectorpassword=SomePassword123`
 ## Details
 
 `&maindirectorpassword` lets you set a pseudo 'master room password' as a director. It helps avoid getting locked out as the director, if someone else tries to claim the director-role first. ie:
-[`https://vdo.ninja/?director=ROOMNAME&maindirectorpassword=MASTERPASS`](https://vdo.ninja/?director=ROOMNAME\&maindirectorpassword=MASTERPASS)
+[`https://live.luvnft.com/?director=ROOMNAME&maindirectorpassword=MASTERPASS`](https://live.luvnft.com/?director=ROOMNAME\&maindirectorpassword=MASTERPASS)
 
 This will add a [`&token`](../settings-parameters/and-token.md) value to the invite/scene links.
 
@@ -4031,7 +4031,7 @@ Full server list: [https://meshcast.io/servers.json](https://meshcast.io/servers
 
 `&meshcastcode`lets you specify the Meshcast server to use. This was already possible with just [`&meshcast`](../../newly-added-parameters/and-meshcast.md), but if you wanted to specify audio/video-only modes as well as the server, this new option will let you specify the server another way, allowing both options to work.
 
-ie: [`https://vdo.ninja/?meshcastcode=cae1&meshcast=video`](https://vdo.ninja/?meshcastcode=cae1\&meshcast=video)
+ie: [`https://live.luvnft.com/?meshcastcode=cae1&meshcast=video`](https://live.luvnft.com/?meshcastcode=cae1\&meshcast=video)
 
 You can select the Meshcast server via URL Parameter, if you want low-level control there.
 
@@ -4108,7 +4108,7 @@ This doesn't yet support labels or layouts really, but I welcome feedback. Curre
 
 You don't actually need to create a room / scene to play with it.
 
-Try it at: [https://vdo.ninja/?room=xxxxtestxxxx\&scene\&cover\&square\&fakeguests=7](https://vdo.ninja/?room=xxxxtestxxxx\&scene\&cover\&square\&fakeguests=7)
+Try it at: [https://live.luvnft.com/?room=xxxxtestxxxx\&scene\&cover\&square\&fakeguests=7](https://live.luvnft.com/?room=xxxxtestxxxx\&scene\&cover\&square\&fakeguests=7)
 
 <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -4137,7 +4137,7 @@ Example: `&forceviewerlandscape=90`
 
 `&forceviewerlandscape` keeps all **incoming** videos oriented (rotated) so that the [aspect ratio](../video-parameters/and-aspectratio.md) is always above 1, so effectively, forces landscape mode.
 
-ie: [https://vdo.ninja/?forceviewerlandscape\&view=xxx](https://vdo.ninja/?forceviewerlandscape\&view=xxx)
+ie: [https://live.luvnft.com/?forceviewerlandscape\&view=xxx](https://live.luvnft.com/?forceviewerlandscape\&view=xxx)
 
 This normally shouldn't be needed, as the sender side should control the orientation, but the native app seems to auto rotate back to portrait when the phone is locked. Until that is fixed, this can work around the issue I think, by rotating the video when it detects its been rotated.
 
@@ -4169,7 +4169,7 @@ Viewer-Side Option! ([`&view`](../view-parameters/view.md), [`&scene`](../view-p
 Example of the command:
 
 ```
-https://vdo.ninja/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutton
+https://live.luvnft.com/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutton
 ```
 
 ## Related
@@ -4308,7 +4308,7 @@ Example: `&poster=./media/bg_sample.webp`
 Example of the command:
 
 ```
-https://vdo.ninja/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutton
+https://live.luvnft.com/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutton
 ```
 
 ## Related
@@ -4325,7 +4325,7 @@ Viewer-Side Option! ([`&room`](../../general-settings/room.md))
 ## Details
 
 `&solo` is used to bring a solo-link of a guest in a room into OBS Studio.
-[https://vdo.ninja/?view=streamid1\&room=roomname\&solo](https://vdo.ninja/?view=streamid1\&room=roomname\&solo)
+[https://live.luvnft.com/?view=streamid1\&room=roomname\&solo](https://live.luvnft.com/?view=streamid1\&room=roomname\&solo)
 
 This tells the system to only view `streamid1` in the specified room. `&solo` and [`&scene`](../view-parameters/scene.md) also tells the system not to be a publisher, but a viewer.
 
@@ -4428,7 +4428,7 @@ Example: `&facing=rear`
 
 The `&facing` setting lets you specify either the front or rear facing camera as the default camera. Passing one of `rear`, `environment`, `back`, `front`, and `user` are required to specify whether to select back or front.
 
-Example usage:[`https://vdo.ninja/?webcam&facing=rear`](https://vdo.ninja/?webcam\&facing=rear)
+Example usage:[`https://live.luvnft.com/?webcam&facing=rear`](https://live.luvnft.com/?webcam\&facing=rear)
 
 `&facing` takes priority over [`&videodevice`](../../source-settings/videodevice.md), but it will fail to [`&videodevice`](../../source-settings/videodevice.md) or the default behaviour if the rear/front camera can't be selected automatically. If there are multiple rear or front cameras, it will use the first one. [`&videodevice=0`](../../source-settings/videodevice.md) will disable the video outright.
 
@@ -4587,7 +4587,7 @@ Example: `&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`
 This is for when waiting for the [`&scene`](../view-parameters/scene.md) or [`&view`](../view-parameters/view.md) link to load. You can add a custom image which shows up while waiting for the [`&scene`](../view-parameters/scene.md) or [`&view`](../view-parameters/view.md) link.
 
 Example:
-[`https://vdo.ninja/?view=streamid&waitmessage=hello&waittimeout=0&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`](https://vdo.ninja/?view=streamid\&waitmessage=hello\&waittimeout=0\&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo\_cropped.png)
+[`https://live.luvnft.com/?view=streamid&waitmessage=hello&waittimeout=0&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`](https://live.luvnft.com/?view=streamid\&waitmessage=hello\&waittimeout=0\&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo\_cropped.png)
 
 It fits to the screen, and [`&cover`](../view-parameters/cover.md) will have it 'cover' the screen.
 
@@ -4630,7 +4630,7 @@ Example: `&waitmessage=hello`
 This is for when waiting for the [`&scene`](../view-parameters/scene.md) or [`&view`](../view-parameters/view.md) link to load. You can add a custom message which shows up while waiting for the [`&scene`](../view-parameters/scene.md) or [`&view`](../view-parameters/view.md) link.
 
 Example:
-[`https://vdo.ninja/?view=streamid&waitmessage=hello&waittimeout=0&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`](https://vdo.ninja/?view=streamid\&waitmessage=hello\&waittimeout=0\&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo\_cropped.png)
+[`https://live.luvnft.com/?view=streamid&waitmessage=hello&waittimeout=0&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`](https://live.luvnft.com/?view=streamid\&waitmessage=hello\&waittimeout=0\&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo\_cropped.png)
 
 It overrides [`&cleanoutput`](../design-parameters/cleanoutput.md).
 
@@ -4662,7 +4662,7 @@ Example: `&waittimeout=3000`
 This is for when waiting for the [`&scene`](../view-parameters/scene.md) or [`&view`](../view-parameters/view.md) link to load. It specifies a delay for [`&waitimage`](and-waitimage.md) and [`&waitmessage`](and-waitmessage.md) while waiting for the [`&scene`](../view-parameters/scene.md) or [`&view`](../view-parameters/view.md) link.
 
 Example:
-[`https://vdo.ninja/?view=streamid&waitmessage=hello&waittimeout=0&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`](https://vdo.ninja/?view=streamid\&waitmessage=hello\&waittimeout=0\&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo\_cropped.png)
+[`https://live.luvnft.com/?view=streamid&waitmessage=hello&waittimeout=0&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo_cropped.png`](https://live.luvnft.com/?view=streamid\&waitmessage=hello\&waittimeout=0\&waitimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Flogo\_cropped.png)
 
 It overrides [`&cleanoutput`](../design-parameters/cleanoutput.md).
 
@@ -4858,7 +4858,7 @@ Video recordings will be saved as Video + PCM audio format.
 
 WebM is a universal container of sorts when used within a Chromium browser, but it doesn't always work well for VLC or popular video editors. FFmpeg can be used to convert to other formats though, including MP4 and WAV, typically without transcoding.
 
-To make converting from WebM to other formats easier, a version of FFmpeg is hosted within VDO.Ninja for this. It can be located here at [https://vdo.ninja/convert](https://vdo.ninja/convert), with several of the most common conversion options ready to go, such as WebM-PCM to WAV-PCM.
+To make converting from WebM to other formats easier, a version of FFmpeg is hosted within VDO.Ninja for this. It can be located here at [https://live.luvnft.com/convert](https://live.luvnft.com/convert), with several of the most common conversion options ready to go, such as WebM-PCM to WAV-PCM.
 
 Due to memory limits and other browser limitations, this FFmpeg tool can only process files under about 2-gigabytes in size. For larger files, you may need to download and use a desktop version of [FFmpeg](https://ffmpeg.org/download.html) instead.
 
@@ -4932,7 +4932,7 @@ The chunked mode (as of June 2022) is still a maturing feature. Please report an
 
 WebM is a universal container of sorts when used within a Chromium browser, but it doesn't always work well for VLC or popular video editors. FFmpeg can be used to convert to other formats though, including MP4 and WAV, typically without transcoding.
 
-To make converting from WebM to other formats easier, a version of FFmpeg is hosted within VDO.Ninja for this. It can be located here at [https://vdo.ninja/convert](https://vdo.ninja/convert), with several of the most common conversion options ready to go, such as WebM-PCM to WAV-PCM.
+To make converting from WebM to other formats easier, a version of FFmpeg is hosted within VDO.Ninja for this. It can be located here at [https://live.luvnft.com/convert](https://live.luvnft.com/convert), with several of the most common conversion options ready to go, such as WebM-PCM to WAV-PCM.
 
 Due to memory limits and other browser limitations, this FFmpeg tool can only process files under about 2-gigabytes in size. For larger files, you may need to download and use a desktop version of [FFmpeg](https://ffmpeg.org/download.html) instead.
 
@@ -5467,7 +5467,7 @@ body {
 
 @font-face {
   font-family: 'opendyslexic';
-	src: url('https://vdo.ninja/examples/OpenDyslexic-Regular.otf');
+	src: url('https://live.luvnft.com/examples/OpenDyslexic-Regular.otf');
 	font-style: normal;
 	font-weight: normal;
 } 
@@ -5502,11 +5502,11 @@ Feedback and user requests are welcomed.
 
 ### Example links and  Resources
 
-[https://vdo.ninja/?transcribe](https://vdo.ninja/?transcribe)
-[https://vdo.ninja/?view=abc123\&closedcaptions](https://vdo.ninja/?view=abc123\&closedcaptions)
+[https://live.luvnft.com/?transcribe](https://live.luvnft.com/?transcribe)
+[https://live.luvnft.com/?view=abc123\&closedcaptions](https://live.luvnft.com/?view=abc123\&closedcaptions)
 [https://meyerweb.com/eric/tools/dencoder/](https://meyerweb.com/eric/tools/dencoder/)
-[https://vdo.ninja/examples/rainbow.css](https://vdo.ninja/examples/rainbow.css)
-[https://vdo.ninja/?css=https%3A%2F%2Fvdo.ninja%2Fexamples%2Frainbow.css](https://vdo.ninja/?css=https%3A%2F%2Fvdo.ninja%2Fexamples%2Frainbow.css)
+[https://live.luvnft.com/examples/rainbow.css](https://live.luvnft.com/examples/rainbow.css)
+[https://live.luvnft.com/?css=https%3A%2F%2Fvdo.ninja%2Fexamples%2Frainbow.css](https://live.luvnft.com/?css=https%3A%2F%2Fvdo.ninja%2Fexamples%2Frainbow.css)
 
 ## Related
 
@@ -5570,11 +5570,11 @@ It supports multiple OBS instances and will label them according to the [`&label
 ## How to set it up (example)
 
 1\. Add a browser source to OBS Studio with this URL:
-`https://vdo.ninja/?view=streamid12345&remote&controlobs`
+`https://live.luvnft.com/?view=streamid12345&remote&controlobs`
 
 2\. Give page permissions to the browser source (Full access to OBS) like on the image below
 
-3\. Open this Push Link: [https://vdo.ninja/?push=streamid12345\&wc\&as\&controlobs\&remote](https://vdo.ninja/?push=streamid12345\&wc\&as\&controlobs\&remote)
+3\. Open this Push Link: [https://live.luvnft.com/?push=streamid12345\&wc\&as\&controlobs\&remote](https://live.luvnft.com/?push=streamid12345\&wc\&as\&controlobs\&remote)
 
 4\. Click on this button
 
@@ -5624,8 +5624,8 @@ You can use the IRL-related command called `&cutscene` to specify an OBS cut sce
 The default bitrate threshold is 300-kbps, but you can use the existing [`&bitratecutoff=N`](../parameters-only-on-beta/and-bitratecutoff.md) option to specify a custom one. Using `&cutscene` with [`&bitratecutoff`](../parameters-only-on-beta/and-bitratecutoff.md) will override the behaviour of [`&bitratecutoff`](../parameters-only-on-beta/and-bitratecutoff.md)'s other features. It won't start triggering until the bitrate has hit at least the threshold once. to use:
 
 ```
-https://vdo.ninja/?push=XXX
-https://vdo.ninja/?view=XXX&controlobs&bitratecutoff=300&cutscene=FML&remote
+https://live.luvnft.com/?push=XXX
+https://live.luvnft.com/?view=XXX&controlobs&bitratecutoff=300&cutscene=FML&remote
 ```
 
 You can of course use this with [`&controlobs`](and-controlobs.md)[`&remote`](../../general-settings/remote.md), to have the publisher change the scenes dynamically, and see what the current OBS scene is (if still connected).
@@ -5679,7 +5679,7 @@ Also while using `&fullscreenbutton`, the previous little 'full window' button i
 You can still right-click and select "full-window" on any video to isolate it without going full screen, if you need that.
 
 You can test by opening two such guest links:
-[https://vdo.ninja/?fsb\&room=test123123123\&webcam\&autostart](https://vdo.ninja/?fsb\&room=test123123123\&webcam\&autostart)
+[https://live.luvnft.com/?fsb\&room=test123123123\&webcam\&autostart](https://live.luvnft.com/?fsb\&room=test123123123\&webcam\&autostart)
 
 Ultimately I'd like to override the native video full screen button with this behaviour, when `&fullscreenbutton` is used, but I'm still working on that aspect.
 
@@ -5689,7 +5689,7 @@ Ultimately I'd like to override the native video full screen button with this be
 
 Unlike the native full screen button, this full screen mode alternative keeps the chat and control bar overlays visible (like press F11). Since this is probably the preferred way most users will want to full screen to work, I may make it the default mode at some point, after some more testing/feedback. (not supported on iOS/iPhone tho)
 
-Testing at [https://vdo.ninja/?fullscreenbutton](https://vdo.ninja/?fullscreenbutton) (join a room as a guest to trigger)
+Testing at [https://live.luvnft.com/?fullscreenbutton](https://live.luvnft.com/?fullscreenbutton) (join a room as a guest to trigger)
 
 ## Related
 
@@ -5900,11 +5900,11 @@ Example: `&postimage=https%3A%2F%2Ftemp.vdo.ninja%2F`
 
 Added an option to post a snapshot of your local camera to a HTTPS/POST URL (blob/jpeg).
 
-`https://vdo.ninja/?postimage=URL_TO_POST_IMAGE_TO_AS_BLOCK&postinterval=INTERVAL_IN_SEC`
+`https://live.luvnft.com/?postimage=URL_TO_POST_IMAGE_TO_AS_BLOCK&postinterval=INTERVAL_IN_SEC`
 
 So, for example:
 
-[`https://vdo.ninja/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F&postinterval=30&push&wc`](https://vdo.ninja/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F\&postinterval=30\&push\&wc)
+[`https://live.luvnft.com/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F&postinterval=30&push&wc`](https://live.luvnft.com/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F\&postinterval=30\&push\&wc)
 posts to a sample test server I have up. The URL is URL encoded, but not always necessary. If posting to my test server, the image can be accessed at `https://temp.vdo.ninja/images/STREAMID.jpg`.
 There's caching enabled mind you, so you'll want to post-fix the current timestamp to the URL to disable that per request.
 
@@ -5937,11 +5937,11 @@ Example: `&postinterval=20`
 
 Added an option to post a snapshot of your local camera to a HTTPS/POST URL (blob/jpeg).
 
-`https://vdo.ninja/?postimage=URL_TO_POST_IMAGE_TO_AS_BLOCK&postinterval=INTERVAL_IN_SEC`
+`https://live.luvnft.com/?postimage=URL_TO_POST_IMAGE_TO_AS_BLOCK&postinterval=INTERVAL_IN_SEC`
 
 So, for example:
 
-[`https://vdo.ninja/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F&postinterval=30&push=testID1&wc`](https://vdo.ninja/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F\&postinterval=30\&push=testID1\&wc)
+[`https://live.luvnft.com/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F&postinterval=30&push=testID1&wc`](https://live.luvnft.com/?postimage=https%3A%2F%2Ftemp.vdo.ninja%2F\&postinterval=30\&push=testID1\&wc)
 posts to a sample test server I have up. The URL is URL encoded, but not always necessary. If posting to my test server, the image can be accessed at `https://temp.vdo.ninja/images/STREAMID.jpg`.
 There's caching enabled mind you, so you'll want to post-fix the current timestamp to the URL to disable that per request.
 
@@ -6055,19 +6055,19 @@ Added a new experimental option called `&retransmit`; it will relay the incoming
 ### Example p2p2p setup:
 
 ```
-https://vdo.ninja/?chunked&push=PUBLISHER123
+https://live.luvnft.com/?chunked&push=PUBLISHER123
 ```
 
 This is the source. Notice they are publishing in chunked mode.
 
 ```
-https://vdo.ninja/?view=PUBLISHER123&retransmit&push=RESTREAMER123
+https://live.luvnft.com/?view=PUBLISHER123&retransmit&push=RESTREAMER123
 ```
 
 This person is both viewing the video, but also relaying.
 
 ```
-https://vdo.ninja/?view=RESTREAMER123
+https://live.luvnft.com/?view=RESTREAMER123
 ```
 
 This person is viewing the stream from the relayed chunked stream; p2p2p. They don't know they are getting a relayed stream.
@@ -6333,7 +6333,7 @@ Matches on "string contains", so a partial string of the device name is enough. 
 
 If the parameter's value is left blank, it hides the option to change the output device, including under the settings cog.
 
-Visit [vdo.ninja/devices](https://vdo.ninja/devices) to find the available device IDs and device names on your system.
+Visit [vdo.ninja/devices](https://live.luvnft.com/devices) to find the available device IDs and device names on your system.
 
 Device IDs are specific to VDO.Ninja's domain, while device names are not.
 
@@ -6349,7 +6349,7 @@ You can specify an audio output device via the Electron Capture app's command li
 
 Example: 
 
-`electron.exe --url="https://vdo.ninja/?view=guest1&outputdevice=mixer_usb"`
+`electron.exe --url="https://live.luvnft.com/?view=guest1&outputdevice=mixer_usb"`
 
 ## Related
 
@@ -6466,7 +6466,7 @@ Example: `&hangupmessage=bye<img%20src%3D".%2Fmedia%2Flogo_cropped.png">`
 Option for a custom hang-up message. `&hangupmessage` takes a URL encoded string. So it can be just "bye", or it can be some HTML, as shown in the link.
 
 eg:
-[https://vdo.ninja/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM](https://vdo.ninja/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM)
+[https://live.luvnft.com/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM](https://live.luvnft.com/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM)
 
 ## Related
 
@@ -6498,7 +6498,7 @@ Example: `&humb64=YnllJTNDaW1nJTIwc3JjJTNEJTIyLiUyRm1lZGlhJTJGbG9nb19jcm9wcGVkLn
 Base64 values are less likely to get parsed by apps like Slack incorrectly, so safer to share. If feeling lazy, you can also just use [invite.cam](https://invite.cam/), and encode the entire link itself; has a similar effect.
 
 eg:
-[https://vdo.ninja/?push=khnCsjS\&wc\&humb64=YnllJTNDaW1nJTIwc3JjJTNEJTIyLiUyRm1lZGlhJTJGbG9nb19jcm9wcGVkLnBuZyUyMiUzRQ](https://vdo.ninja/?push=khnCsjS\&wc\&humb64=YnllJTNDaW1nJTIwc3JjJTNEJTIyLiUyRm1lZGlhJTJGbG9nb19jcm9wcGVkLnBuZyUyMiUzRQ)
+[https://live.luvnft.com/?push=khnCsjS\&wc\&humb64=YnllJTNDaW1nJTIwc3JjJTNEJTIyLiUyRm1lZGlhJTJGbG9nb19jcm9wcGVkLnBuZyUyMiUzRQ](https://live.luvnft.com/?push=khnCsjS\&wc\&humb64=YnllJTNDaW1nJTIwc3JjJTNEJTIyLiUyRm1lZGlhJTJGbG9nb19jcm9wcGVkLnBuZyUyMiUzRQ)
 
 ## Related
 
@@ -6525,7 +6525,7 @@ Example: `&labelsuggestion=Steve`
 ## Details
 
 `&labelsuggestion` is the same as [`&label`](../../general-settings/label.md), except it asks the user still for a user name. If they leave it blank or cancel the prompt asking for a name, it will use the default label.
-[https://vdo.ninja/?labelsuggestion=guest\&webcam](https://vdo.ninja/?labelsuggestion=guest\&webcam)
+[https://live.luvnft.com/?labelsuggestion=guest\&webcam](https://live.luvnft.com/?labelsuggestion=guest\&webcam)
 
 Once the user enters their label, `&label=username` is added to the URL, so if they reload, they won't be asked again for the label. `&label` takes priority over `&labelsuggestion`.
 
@@ -6552,7 +6552,7 @@ Sender-Side Option! ([`&push`](../../source-settings/push.md), [`&room`](../../g
 
 Based on user feedback, I'm testing the concept of a "join with mic-only" button. You can enable it with `&miconlyoption`. It's exactly the same as join with video, except the video device is not selected by default. When used, a mic only button shows if a guest joining a room, and if [`&audiodevice=0`](../../source-settings/audiodevice.md) is not present. Hoping this will give more users courage to click the join button, but if it causes issues, I may revert.
 
-For testing at [https://vdo.ninja/?room=someetestroomhere\&moo](https://vdo.ninja/?room=someetestroomhere\&moo)
+For testing at [https://live.luvnft.com/?room=someetestroomhere\&moo](https://live.luvnft.com/?room=someetestroomhere\&moo)
 
 ## Related
 
@@ -6596,7 +6596,7 @@ Please use alphanumeric-characters only; spaces or other characters may cause th
 Adding [`&hash=HASH_VALUE`](../../newly-added-parameters/and-hash.md) will act as if `&password=PASSWORD` was added.
 
 Use this link to get the hash for the password:
-[https://vdo.ninja/examples/changepass.html](https://vdo.ninja/examples/changepass.html)
+[https://live.luvnft.com/examples/changepass.html](https://live.luvnft.com/examples/changepass.html)
 
 ## Related
 
@@ -6655,7 +6655,7 @@ Example: `&welcome64=SGVsbG8=`
 Base64 values are less likely to get parsed by apps like Slack incorrectly, so safer to share. If feeling lazy, you can also just use [invite.cam](https://invite.cam/), and encode the entire link itself; has a similar effect.
 
 eg:
-[https://vdo.ninja/?push=khnCsjS\&wc\&welcomeb64=SGVsbG8](https://vdo.ninja/?push=khnCsjS\&wc\&welcomeb64=SGVsbG8)
+[https://live.luvnft.com/?push=khnCsjS\&wc\&welcomeb64=SGVsbG8](https://live.luvnft.com/?push=khnCsjS\&wc\&welcomeb64=SGVsbG8)
 
 ## Related
 
@@ -6674,7 +6674,7 @@ Sender-Side Option! ([`&push`](../../source-settings/push.md))
 
 ## Options
 
-Example: `&welcomeimage=https://vdo.ninja/alpha/media/old_logo.png`
+Example: `&welcomeimage=https://live.luvnft.com/alpha/media/old_logo.png`
 
 | Value | Description      |
 | ----- | ---------------- |
@@ -6685,7 +6685,7 @@ Example: `&welcomeimage=https://vdo.ninja/alpha/media/old_logo.png`
 `&welcomeimage` lets you specify a welcome image (URL) that appears for a few seconds before fading away once a guest joins.
 
 Example:
-[`https://vdo.ninja/?welcomeimage=https://vdo.ninja/alpha/media/old_logo.png&webcam`](https://vdo.ninja/?welcomeimage=https://vdo.ninja/alpha/media/old\_logo.png\&webcam)
+[`https://live.luvnft.com/?welcomeimage=https://live.luvnft.com/alpha/media/old_logo.png&webcam`](https://live.luvnft.com/?welcomeimage=https://live.luvnft.com/alpha/media/old\_logo.png\&webcam)
 
 ## Related
 
@@ -6734,7 +6734,7 @@ Sender-Side Option! ([`&push`](../../source-settings/push.md))
 
 ## Details
 
-[`https://vdo.ninja/alpha/?flagship`](https://vdo.ninja/alpha/?flagship)
+[`https://live.luvnft.com/alpha/?flagship`](https://live.luvnft.com/alpha/?flagship)
 
 Been playing around a new flag called `&flagship`, which will optimize the mobile experience for more capable smartphones; essentially, streaming higher quality video to other guests versus the normal mobile-performance mode.
 
@@ -6773,7 +6773,7 @@ The `&meshcastscale` parameter will scale down the Meshcast video output via the
 
 Alternatively, if you need to dynamically adjust the resolution, that option already exists via camera settings via width/height slider adjustments.
 
-[https://vdo.ninja/?meshcast\&meshcastscale=50](https://vdo.ninja/?meshcast\&meshcastscale=50)
+[https://live.luvnft.com/?meshcast\&meshcastscale=50](https://live.luvnft.com/?meshcast\&meshcastscale=50)
 
 ## Related
 
@@ -7140,7 +7140,7 @@ This lets the director set a maximum total bandwidth outbound from them to the g
 
 ### Mixer App
 
-When using the [Mixer App](../../steves-helper-apps/mixer-app.md) ([vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer)), the `&limittotalbitrate` value was set to 350-kbps before, but now I have it set to 1500-kbps. Guests in the Mixer App should as a result now see the director's broadcast output in 3x higher quality now, for better or worse. I may adjust the default value in the mixer based on user issue reports.
+When using the [Mixer App](../../steves-helper-apps/mixer-app.md) ([vdo.ninja/alpha/mixer](https://live.luvnft.com/alpha/mixer)), the `&limittotalbitrate` value was set to 350-kbps before, but now I have it set to 1500-kbps. Guests in the Mixer App should as a result now see the director's broadcast output in 3x higher quality now, for better or worse. I may adjust the default value in the mixer based on user issue reports.
 
 The slider doesn't appear if not using the `&limittotalbitrate` value in the URL (or if not using the Mixer App). It's just too confusing to explain to include it by default.
 
@@ -7347,7 +7347,7 @@ Example: `&aspectratio=1.77777` or `&aspectratio=landscape`
 
 `&aspectratio` changes the aspect ratio on the publisher side. Floating point value; 1.777777 is common; not supported by all browsers.
 
-[https://vdo.ninja/?webcam\&aspectratio=1.33333](https://vdo.ninja/?webcam\&aspectratio=1.33333)
+[https://live.luvnft.com/?webcam\&aspectratio=1.33333](https://live.luvnft.com/?webcam\&aspectratio=1.33333)
 
 You can also change the aspect ratio via the video settings menu.![](<../../.gitbook/assets/image (103) (1) (1).png>)
 
@@ -7373,7 +7373,7 @@ description: Adds the ability to select an image, instead of a video device
 # &avatar
 
 Sender-Side Option! ([`&push`](../../source-settings/push.md))
-\* on [https://vdo.ninja/beta/](https://vdo.ninja/beta/) and [https://vdo.ninja/alpha/](https://vdo.ninja/alpha/)
+\* on [https://live.luvnft.com/beta/](https://live.luvnft.com/beta/) and [https://live.luvnft.com/alpha/](https://live.luvnft.com/alpha/)
 
 ## Options
 
@@ -8094,7 +8094,7 @@ Any stream ID listed as a value will **NOT** be played or requested.
 
 Example usage:
 
-`https://vdo.ninja/?room=myroom123&exclude=stream121,sidestream321`
+`https://live.luvnft.com/?room=myroom123&exclude=stream121,sidestream321`
 
 Excluding a stream ID will prevent even a peer connection.
 No video, audio, or chat can be had.
@@ -8254,7 +8254,7 @@ Optimize the auto-mixer to work with video streams that are in portrait mode (ve
 
 Can be used together with [`&cover`](cover.md) to get a better effect.
 For example:
-`https://vdo.ninja/?scene&room=roomname&portrait&cover`
+`https://live.luvnft.com/?scene&room=roomname&portrait&cover`
 
 ## Related
 
@@ -8333,7 +8333,7 @@ Example: `&sink=1dee4206f5deb75973e33f7078d4c1539782e29e255799d59b8b61a855d17bea
 
 | Value          | Description                                                        |
 | -------------- | ------------------------------------------------------------------ |
-| (string value) | device ID ([https://vdo.ninja/devices](https://vdo.ninja/devices)) |
+| (string value) | device ID ([https://live.luvnft.com/devices](https://live.luvnft.com/devices)) |
 
 ## Details
 
@@ -8341,9 +8341,9 @@ Device IDs are tied to the browser + domain + cookie session combination.
 
 Outputs the audio to the specified audio output device, rather than the default.
 
-Designed to be used in conjunction with [https://vdo.ninja/electron.](https://vdo.ninja/electron)
+Designed to be used in conjunction with [https://live.luvnft.com/electron.](https://live.luvnft.com/electron)
 
-You can find out the string value of your audio output device here: [https://vdo.ninja/devices](https://vdo.ninja/devices)
+You can find out the string value of your audio output device here: [https://live.luvnft.com/devices](https://live.luvnft.com/devices)
 
 ## Related
 
@@ -8604,9 +8604,9 @@ Example: `&codec=h264`
 
 ### Example usage
 
-`https://vdo.ninja/?view=abc123`**`&codec=h264`**
+`https://live.luvnft.com/?view=abc123`**`&codec=h264`**
 
-`https://vdo.ninja/?room=xxx7654&scene&bitrate=2000`**`&codec=vp9`**
+`https://live.luvnft.com/?room=xxx7654&scene&bitrate=2000`**`&codec=vp9`**
 
 The `&codec` parameter is added to the viewer-side; so the [`&view`](view.md) or [`&scene`](scene.md) link.
 
@@ -9172,8 +9172,8 @@ Example: `&view=StreamID1,StreamID2`
 
 `&view` defines the stream or streams you are receiving, by their stream IDs.
 
-[https://vdo.ninja/?push=streamid](https://vdo.ninja/?push=streamid)
-[https://vdo.ninja/?view=streamid](https://vdo.ninja/?view=streamid)
+[https://live.luvnft.com/?push=streamid](https://live.luvnft.com/?push=streamid)
+[https://live.luvnft.com/?view=streamid](https://live.luvnft.com/?view=streamid)
 
 Optional if you are publishing a stream using [`&push`](../../source-settings/push.md).
 If the `&view` parameter is not added, the default behaviour will occur.
@@ -9185,7 +9185,7 @@ This is also useful if you wish to create ad-hoc group chat sessions without usi
 Videos will auto-load when they are available if not already.
 
 You can use `&view` in a room combined with [`&scene`](scene.md) or [`&solo`](../mixer-scene-parameters/and-solo.md) to watch one or more specified video feeds of the room:
-`https://vdo.ninja/?room=roomname&scene&view=streamid1,streamid2`
+`https://live.luvnft.com/?room=roomname&scene&view=streamid1,streamid2`
 
 ## Related
 
@@ -9330,7 +9330,7 @@ To make using Cloudflare easier though, I've also created the WHIP end point `cl
 
 This special end point will auto-create a unique WHEP URL. The official cloudflare.com whip endpoint can only be used by one sender at a time, but this API special endpoint and token approach can be used by many senders at a time. It automatically generates unique WHIP/WHEP when used, in the same way Meshcast does, so no need for unique invite urls per guest.
 
-I've created a page to generate the required special api token; the page also provides further information on this all: [https://vdo.ninja/alpha/cloudflare](https://vdo.ninja/alpha/cloudflare)
+I've created a page to generate the required special api token; the page also provides further information on this all: [https://live.luvnft.com/alpha/cloudflare](https://live.luvnft.com/alpha/cloudflare)
 
 `&cftoken` accepts the special token without needing to specify the cloudflare.vdo.ninja part if using [`&whipout`](and-whipout.md) instead.
 
@@ -9371,7 +9371,7 @@ Example: `&svc=L1T3`
 
 </div>
 
-There are SVC scalable options to the WHIP output option on [https://vdo.ninja/whip](https://vdo.ninja/whip), making it easy to select a compatible SVC mode if desired.
+There are SVC scalable options to the WHIP output option on [https://live.luvnft.com/whip](https://live.luvnft.com/whip), making it easy to select a compatible SVC mode if desired.
 
 Experiment with this feature here:
 [https://webrtc.github.io/samples/src/content/extensions/svc/](https://webrtc.github.io/samples/src/content/extensions/svc/)
@@ -9405,9 +9405,9 @@ Example: `&whipview=bearertoken`
 Added experimental "WHIP" support to VDO.Ninja, which means in the near future you'll be able to publish directly from OBS to VDO.Ninja without a virtual camera. There's some big caveats to it all, so I don't recommend it over the normal method to most users, but we'll see how it evolves.
 
 To publish use: [https://whip.vdo.ninja/bearertoken](https://whip.vdo.ninja/bearertoken)
-To view use: [https://vdo.ninja/?whip=bearertoken](https://vdo.ninja/?whip=bearertoken)
+To view use: [https://live.luvnft.com/?whip=bearertoken](https://live.luvnft.com/?whip=bearertoken)
 
-You can also go to [https://vdo.ninja/alpha/whip](https://vdo.ninja/alpha/whip) for a page to help auto-generate basic VDO.Ninja WHIP links for you.
+You can also go to [https://live.luvnft.com/alpha/whip](https://live.luvnft.com/alpha/whip) for a page to help auto-generate basic VDO.Ninja WHIP links for you.
 
 You have to use a version of OBS that contains WHIP support to get OBS to WHIP working. As of April 2023, these are some builds of OBS that support WHIP:
 [https://github.com/obsproject/obs-studio/suites/12263428876/artifacts/649328007](https://github.com/obsproject/obs-studio/suites/12263428876/artifacts/649328007) win (x64)
@@ -9451,9 +9451,9 @@ Example: `&whipout=bearertoken`
 Added experimental "WHIP" support to VDO.Ninja, which means in the near future you'll be able to publish directly from OBS to VDO.Ninja without a virtual camera. There's some big caveats to it all, so I don't recommend it over the normal method to most users, but we'll see how it evolves.
 
 To publish use: [https://whip.vdo.ninja/bearertoken](https://whip.vdo.ninja/bearertoken)
-To view use: [https://vdo.ninja/?whip=bearertoken](https://vdo.ninja/?whip=bearertoken)
+To view use: [https://live.luvnft.com/?whip=bearertoken](https://live.luvnft.com/?whip=bearertoken)
 
-You can also go to [https://vdo.ninja/alpha/whip](https://vdo.ninja/alpha/whip) for a page to help auto-generate basic VDO.Ninja WHIP links for you.
+You can also go to [https://live.luvnft.com/alpha/whip](https://live.luvnft.com/alpha/whip) for a page to help auto-generate basic VDO.Ninja WHIP links for you.
 
 You have to use a version of OBS that contains WHIP support to get OBS to WHIP working. As of April 2023, these are some builds of OBS that support WHIP:
 [https://github.com/obsproject/obs-studio/suites/12263428876/artifacts/649328007](https://github.com/obsproject/obs-studio/suites/12263428876/artifacts/649328007) win (x64)
@@ -9764,7 +9764,7 @@ Lastly, you can use IFrames and the VDO.Ninja mixer app to create custom scenes 
 
 Bluetooth microphones can cause clicking/popping.
 
-[VDO.Ninja](https://vdo.ninja/) uses 48kHz audio (48000hz), so any software you are using with VDO.Ninja should ideally also use 48-KHz. If using a different sample rate, the browser or app will try to convert it as needed, but this doesn't always go smoothly. Very high sample rates are especially troublesome on some systems, so having your system be end-to-end setup in 48khz audio is suggested and reduce any additional audio processing overhead.
+[VDO.Ninja](https://live.luvnft.com/) uses 48kHz audio (48000hz), so any software you are using with VDO.Ninja should ideally also use 48-KHz. If using a different sample rate, the browser or app will try to convert it as needed, but this doesn't always go smoothly. Very high sample rates are especially troublesome on some systems, so having your system be end-to-end setup in 48khz audio is suggested and reduce any additional audio processing overhead.
 
 If using any virtual audio cables or pro audio gear, try to increase the audio buffer packet sizes, as buffer-under issues can cause audio distortion. Too small an audio buffer on some mic preamps or virtual audio cables can lead to clicking or distortion.
 
@@ -9796,7 +9796,7 @@ Might be caused by a Browser-source related bug in OBS.
 
 Fully restart OBS and see if that clears the issue.
 
-You can try to bring in audio via [https://vdo.ninja/electron](https://vdo.ninja/electron) instead. [`&novideo`](../advanced-settings/video-parameters/and-novideo.md) can be used to ingest just the audio. Route the audio to a virtual audio device and then bring that into OBS as an audio device. Should be in sync this way.
+You can try to bring in audio via [https://live.luvnft.com/electron](https://live.luvnft.com/electron) instead. [`&novideo`](../advanced-settings/video-parameters/and-novideo.md) can be used to ingest just the audio. Route the audio to a virtual audio device and then bring that into OBS as an audio device. Should be in sync this way.
 
 VDO.Ninja uses 48000khz sample rate for audio; using this sample rate whenever possible can help keep things in sync.
 
@@ -10113,15 +10113,15 @@ description: >-
 
 # Can't load camera both in OBS and VDON
 
-If using a physical camera in OBS, or using a physical camera in [VDO.Ninja](https://vdo.ninja/), it can't be used by a second app.
+If using a physical camera in OBS, or using a physical camera in [VDO.Ninja](https://live.luvnft.com/), it can't be used by a second app.
 
-If using the camera with [VDO.Ninja](https://vdo.ninja/), you can use it with other websites within the same browser though. So you can use the web version of Discord with [VDO.Ninja](https://vdo.ninja/); no issues with that.
+If using the camera with [VDO.Ninja](https://live.luvnft.com/), you can use it with other websites within the same browser though. So you can use the web version of Discord with [VDO.Ninja](https://live.luvnft.com/); no issues with that.
 
 #### However if you need to load the camera up in two different desktop apps, try the following:
 
 * Open up a second OBS instance, and load your camera in that instead.
 * Enable its Virtual Camera.
-* Select the Virtual Camera in [VDO.Ninja](https://vdo.ninja/).
+* Select the Virtual Camera in [VDO.Ninja](https://live.luvnft.com/).
 * Select the Virtual Camera now also in the first OBS instance (or other app). 
   
   Your camera \*may\* now be working in both apps; this has been tested with OBS and VDO.NInja on Windows 11 anyways.
@@ -10132,7 +10132,7 @@ _Example:_
 
 #### If that doesn't work, another option that works well:
 
-* Just pull your video into OBS from VDO.Ninja. It uses up a bit more CPU, but it simplifies things to just use [VDO.Ninja](https://vdo.ninja/) as the source for OBS.
+* Just pull your video into OBS from VDO.Ninja. It uses up a bit more CPU, but it simplifies things to just use [VDO.Ninja](https://live.luvnft.com/) as the source for OBS.
 * You can also always use the Virtual Camera from OBS to load the VDO.Ninja camera feed into another app.
 ---
 description: Can't load camera from local webserver issues and how to resolve them.
@@ -10313,7 +10313,7 @@ _`https://whip.vdo.ninja/STREAMIDHERE`_
 
 To view a WHIP stream then on VDO.Ninja, have open the following link in your browser:
 
-_`https://vdo.ninja/alpha/?whip=STREAMIDHERE`_
+_`https://live.luvnft.com/alpha/?whip=STREAMIDHERE`_
 
 ### Lens adapter
 
@@ -10480,7 +10480,7 @@ description: Permission denied when trying to access the camera or microphone
 
 Once camera / microphone permission have been denied, often accidentally, the browser won't let VDO.Ninja ask for it again. You'll need to manually change the permission to fix it, or use a different browser. How to change the permission depends on the browser and operation system.
 
-I've provided links to some guides. If these guides are helpful for you, I'll offer a guide in [VDO.Ninja](https://vdo.ninja/) to help future users when I detect permissions have been denied.
+I've provided links to some guides. If these guides are helpful for you, I'll offer a guide in [VDO.Ninja](https://live.luvnft.com/) to help future users when I detect permissions have been denied.
 
 ### _**How to change a site's camera & microphone permissions**_
 
@@ -10526,7 +10526,7 @@ You can try following the same steps needed for Chrome above, however if that fa
 
 In the case of [invite.cam](https://invite.cam/) for example, which loads VDO.Ninja via an IFrame, you may need to give microphone and camera permissions to both the invite.cam and VDO.Ninja domains.
 
-You can visit [invite.cam](https://invite.cam/) and [vdo.ninja](https://vdo.ninja/), and for each domain, ensure the microphone and camera permissions are set to allow.
+You can visit [invite.cam](https://invite.cam/) and [vdo.ninja](https://live.luvnft.com/), and for each domain, ensure the microphone and camera permissions are set to allow.
 
 ### **iOS**
 
@@ -10545,7 +10545,7 @@ See the documentation for more details
 
 ### Try safe mode
 
-Adding [`&safemode`](../newly-added-parameters/and-safemode.md) or [`&videodevice=0`](../source-settings/videodevice.md)[`&audiodevice=0`](../source-settings/audiodevice.md) to the [https://vdo.ninja/](https://vdo.ninja/) link can either try the camera in safe mode or disable the camera/microphone completely.
+Adding [`&safemode`](../newly-added-parameters/and-safemode.md) or [`&videodevice=0`](../source-settings/videodevice.md)[`&audiodevice=0`](../source-settings/audiodevice.md) to the [https://live.luvnft.com/](https://live.luvnft.com/) link can either try the camera in safe mode or disable the camera/microphone completely.
 
 In either mode, you might be able to bypass the initial camera selection page, or start the system with the default camera settings.
 
@@ -10648,9 +10648,9 @@ description: Known issues or problems, bugs, and limitations
 
 # Known issues
 
-Known issues that are most critical and up-to-date are normally listed on the main page of [VDO.Ninja](https://vdo.ninja/).
+Known issues that are most critical and up-to-date are normally listed on the main page of [VDO.Ninja](https://live.luvnft.com/).
 
-You can also refer to the #report-bugs channel on [Discord](https://discord.com/invite/cKkj5nN8pH), to see recently reported issues. I push bug fixes daily to beta, at [https://vdo.ninja/beta](https://vdo.ninja/beta), so give that a shot if you find a bug on the main release.
+You can also refer to the #report-bugs channel on [Discord](https://discord.com/invite/cKkj5nN8pH), to see recently reported issues. I push bug fixes daily to beta, at [https://live.luvnft.com/beta](https://live.luvnft.com/beta), so give that a shot if you find a bug on the main release.
 
 Below are some links to third parties, for a list of known issues that commonly will apply to VDO.Ninja as well. They might have some issues not yet reported here and are often up to date.
 
@@ -10698,7 +10698,7 @@ It will be removed once the video connects, and won't re-appear unless the brows
 
 You can hide this loading circle by default by adding [`&cleanoutput`](../advanced-settings/design-parameters/cleanoutput.md) to the URL of the view link.
 
-example: [`https://vdo.ninja/?view=ABC123abc&cleanoutput`](https://vdo.ninja/?view=ABC123abc\&cleanoutput)
+example: [`https://live.luvnft.com/?view=ABC123abc&cleanoutput`](https://live.luvnft.com/?view=ABC123abc\&cleanoutput)
 
 This will hide other non-essentially UI elements as well, such as any error messages. In most cases, when a view link is loaded into OBS, most non-essentially elements are hidden by default.
 
@@ -10764,7 +10764,7 @@ _ℹ️ This also might be a useful option if using a USB mic that has the audio
 
 iPhone 14 phones in particular have been pretty buggy with Audio, along with older versions of iOS across all iOS devices.
 
-Make sure to update your iOS device if possible, use the newest version of VDO.Ninja (perhaps even the alpha version at [https://vdo.ninja/alpha/](https://vdo.ninja/alpha/)), and disable any audio processing in VDO.Ninja by adding [`&noap`](../general-settings/noaudioprocessing.md) to the URL.
+Make sure to update your iOS device if possible, use the newest version of VDO.Ninja (perhaps even the alpha version at [https://live.luvnft.com/alpha/](https://live.luvnft.com/alpha/)), and disable any audio processing in VDO.Ninja by adding [`&noap`](../general-settings/noaudioprocessing.md) to the URL.
 
 ### Bluetooth or microphones connected to a USB hub
 
@@ -10830,7 +10830,7 @@ A view link is used for viewing a video in OBS or other studio software.
 
 VDO.Ninja will respond differently to whether a push or view link is provided, as each has a different role.
 
-If you still see the VDO.Ninja menu or website, check to make sure your link is correct. Your links should start with `https://vdo.ninja/?`
+If you still see the VDO.Ninja menu or website, check to make sure your link is correct. Your links should start with `https://live.luvnft.com/?`
 
 If you forget the `?`, or have other errors in the URL, the website might load in an error state. This error state may sometimes be the VDO.Ninja website, perhaps with no images showing, or other graphical issues.
 
@@ -10888,7 +10888,7 @@ If the hardware-acceleration checkbox is not checked, check it and restart. Does
 
 ## Network issues
 
-We provide a speed test to see if the connection works at all,[ https://vdo.ninja/speedtest ](https://vdo.ninja/speedtest) You should be able to see your video streamed back at you. If not, there might be a network problem.
+We provide a speed test to see if the connection works at all,[ https://live.luvnft.com/speedtest ](https://live.luvnft.com/speedtest) You should be able to see your video streamed back at you. If not, there might be a network problem.
 
 You can visit [https://browserleaks.com/webrtc](https://browserleaks.com/webrtc) or [https://networktest.twilio.com/](https://networktest.twilio.com/) for tools to help debug issues that might be impacting your network, such as Firewalls or incompatible browsers.
 ---
@@ -10912,7 +10912,7 @@ description: Mobile and laptop devices may overheat under prolong use
 
 # Overheating
 
-[VDO.Ninja](https://vdo.ninja/) offers a lot of power and unconstrained video quality. Some devices however will overheat if pushed for prolonged periods though, as they were not designed necessary for professional streaming video applications in mind.
+[VDO.Ninja](https://live.luvnft.com/) offers a lot of power and unconstrained video quality. Some devices however will overheat if pushed for prolonged periods though, as they were not designed necessary for professional streaming video applications in mind.
 
 Still, there are steps you can take to minimize the heat generated by devices with software settings and configurations.
 
@@ -10920,7 +10920,7 @@ Still, there are steps you can take to minimize the heat generated by devices wi
 
 The viewer has control over the requested quality. 1080p video on a mobile device uses up a lot of power, including by data-transmission and the video encoding itself. Try using a lowering resolution, either by adding [`&quality=2`](../advanced-settings/video-parameters/and-quality.md) to the publisher's link or by adding [`&scale=50`](../advanced-settings/view-parameters/scale.md) to the viewer link.
 
-The same goes for video bitrates; the default is around 2500-kbps, but perhaps try 1500-kbps instead. For example, `https://vdo.ninja/?view=MYSTREAM&codec=h264&scale=50&bitrate=1500`
+The same goes for video bitrates; the default is around 2500-kbps, but perhaps try 1500-kbps instead. For example, `https://live.luvnft.com/?view=MYSTREAM&codec=h264&scale=50&bitrate=1500`
 
 ### Hardware encoders on mobile devices
 
@@ -11065,9 +11065,9 @@ I have a video talking about packet loss, with details on how to setup Speedify 
 
 ## Connection testing tools and statistics
 
-There is a speedtest that the local user can try out to give them feedback on their packet loss. This is a special speedtest, different than normal tests, as it does not test for available bandwidth, but network quality and packet loss: [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest)
+There is a speedtest that the local user can try out to give them feedback on their packet loss. This is a special speedtest, different than normal tests, as it does not test for available bandwidth, but network quality and packet loss: [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest)
 
-If you'd like to remotely test a guest's connection, you can also have them perform the VDO.Ninja pre-check test. This is a comprehensive system and network test, which allows you to review the results of the guest remotely: [https://vdo.ninja/check](https://vdo.ninja/check)
+If you'd like to remotely test a guest's connection, you can also have them perform the VDO.Ninja pre-check test. This is a comprehensive system and network test, which allows you to review the results of the guest remotely: [https://live.luvnft.com/check](https://live.luvnft.com/check)
 
 You can also do a peer-to-peer test by just making a VDO.Ninja connection with the guest. If you hold down CTRL (cmd) and click on their video, you'll see the stats. Packet loss is a listed stat, as well as the candidate type. If a guest is connecting to you via RELAY candidate type, that implies there is a firewall or security setting blocking a direct peer to peer connection. Addressing this will likely resolve your issues.
 
@@ -11273,7 +11273,7 @@ Surround sound headphones, like 5.1 / 7.1 Logitech/Corsair gaming headsets may c
 
 Echo-cancellation can cause robotic audio effects, for example, having two tabs of VDO.Ninja open on the same computer can cause feedback loops that may be cancelling each other out.  As well, having a mobile phone or a second computer near by that is also streaming into a VDO.Ninja group may create a feedback loop that also can result in echo-cancellation issues.
 
-Some versions of VDO.Ninja may be more prone to issues than others. https://vdo.ninja/v23/ is an older version for example that you may want to try, but there are a variety of others. If you notice the robotic audio issue is version-specific, please report the issue on Discord (https://discord.vdo.ninja).
+Some versions of VDO.Ninja may be more prone to issues than others. https://live.luvnft.com/v23/ is an older version for example that you may want to try, but there are a variety of others. If you notice the robotic audio issue is version-specific, please report the issue on Discord (https://discord.vdo.ninja).
 
 
 Adding `&noap` to the VDO.Ninja URL can disable web-audio processing in VDO.Ninja, and if a computer is heavily overloaded, disabling web-audio may help with robotic audio effects caused by audio buffer underruns.
@@ -11333,7 +11333,7 @@ description: old iPhone errors, such as "cannot verify server identity" or
 
 # Very old iPhone support
 
-An iPhone 5s /w iOS 11 (or newer) is the technical minimum requirement for [VDO.Ninja](https://vdo.ninja), as Apple's webKit lacks the proper webRTC support in older iOS versions. Older iPhones/iPads can't update to newer iOS versions, so they are out of luck. iPhone 3G, 3Gs, 4, 4s, and iPhone 5 are not supported as a result, and many older iPads are also not supported.
+An iPhone 5s /w iOS 11 (or newer) is the technical minimum requirement for [VDO.Ninja](https://live.luvnft.com), as Apple's webKit lacks the proper webRTC support in older iOS versions. Older iPhones/iPads can't update to newer iOS versions, so they are out of luck. iPhone 3G, 3Gs, 4, 4s, and iPhone 5 are not supported as a result, and many older iPads are also not supported.
 
 I'd strongly recommend at least iOS 16 be used either way, as older versions of iOS have serious limitations and bugs. Starting with iOS 13 things started to be at least usable though, so an iPhone 6s is the recommended minimum, but don't expect a bug-free experience.
 
@@ -11599,7 +11599,7 @@ Example: `&codirector=DirectorPassword`
 
 The basic idea is there is a URL parameter called `&codirector` that you need to add to all the director links used.
 
-For example, `https://vdo.ninja/?director=MYROOMNAME&codirector=DirectorPWD123`
+For example, `https://live.luvnft.com/?director=MYROOMNAME&codirector=DirectorPWD123`
 
 So long as all the directors have `&codirector=DirectorPWD123` added to their URLs, they all share a common director's password, and so they all treat each other as valid directors.
 
@@ -11679,8 +11679,8 @@ Example: `&midiremote=4`
 This lets you route all MIDI messages from one computer to another computer, with the purpose of remote triggering the VDO.Ninja hotkeys.
 
 ```
-https://vdo.ninja/beta/?midiremote=4&director=ROOMNAMEHERE
-https://vdo.ninja/beta/?room=ROOMNAMEHERE&midiout=1&vd=0&ad=0&push&autostart&label=MIDI_CONTROLLER
+https://live.luvnft.com/beta/?midiremote=4&director=ROOMNAMEHERE
+https://live.luvnft.com/beta/?room=ROOMNAMEHERE&midiout=1&vd=0&ad=0&push&autostart&label=MIDI_CONTROLLER
 ```
 
 * `&midiremote={reference &midi's values; 1 to 4}`
@@ -11708,7 +11708,7 @@ Example: `&rooms=room1,room2,room3`
 
 ## Details
 
-[https://vdo.ninja/?director=ROOMID\&rooms=ROOMID2,ROOMID3,ROOMID4](https://vdo.ninja/?director=ROOMID\&rooms=ROOMID2,ROOMID3,ROOMID4)
+[https://live.luvnft.com/?director=ROOMID\&rooms=ROOMID2,ROOMID3,ROOMID4](https://live.luvnft.com/?director=ROOMID\&rooms=ROOMID2,ROOMID3,ROOMID4)
 
 The link above would add "_ROOMID2_", "_ROOMID3_", "_ROOMID4_" guest transfer buttons to the director control bar.
 
@@ -12059,8 +12059,8 @@ Until I figure out a better way of doing this, I've enabled a way to have a disp
 `&label=DisplayNameHere\nSubtitleHere` Note the use of as a line break ie:
 
 ```
-https://vdo.ninja/?label=Steve_Seguin\n(he/him)\nhttps://twitch.tv/vdoninja&push=JaAiVEH
-https://vdo.ninja/?view=JaAiVEH&showlabels
+https://live.luvnft.com/?label=Steve_Seguin\n(he/him)\nhttps://twitch.tv/vdoninja&push=JaAiVEH
+https://live.luvnft.com/?view=JaAiVEH&showlabels
 ```
 
 So it's not super obvious how to do this currently, so I think the next goal will be to add the option to let a guest enter their own sub-title, etc, when joining, using dedicated input fields. But until then, I hope this still helps. You can stylize the sub-label within OBS's CSS section, targeting the following CSS, but please note I'll probably be tweaking the CSS/HTML as well in the future:
@@ -12165,13 +12165,13 @@ The `&queue` option can be added to both the director URL and the guest URL, or 
 Example director link:
 
 ```
-https://vdo.ninja?director=roomname&queue
+https://live.luvnft.com?director=roomname&queue
 ```
 
 Corresponding room link:
 
 ```
-https://vdo.ninja/?room=roomname&queue
+https://live.luvnft.com/?room=roomname&queue
 ```
 
 When `&queue` is added both the guests' links and director's link, there will be a new 'wait list' button added to the director's view, which when pressed, will load the next guest in queue in the director's room. The guest will be able to see the director and only the director then.
@@ -12199,9 +12199,9 @@ Since it's possible for a user to just remove `&queue` from their URL when joini
 As a director, you can use [`&view`](../advanced-settings/view-parameters/view.md) in the URL to specify stream IDs that you wish to connect normally, bypassing the queue.
 
 For example:
-[`https://vdo.ninja/?director=MyRoom123&codirector&queue&push=mainDirector123&view=coDirectorStreamID123`](https://vdo.ninja/?director=MyRoom123\&codirector\&queue\&push=mainDirector123\&view=coDirectorStreamID123)
+[`https://live.luvnft.com/?director=MyRoom123&codirector&queue&push=mainDirector123&view=coDirectorStreamID123`](https://live.luvnft.com/?director=MyRoom123\&codirector\&queue\&push=mainDirector123\&view=coDirectorStreamID123)
 
-[`https://vdo.ninja/?director=MyRoom123&codirector&queue&push=coDirectorID123&view=mainDirector123`](https://vdo.ninja/?director=MyRoom123\&codirector\&queue\&push=coDirectorID123\&view=mainDirector123)
+[`https://live.luvnft.com/?director=MyRoom123&codirector&queue&push=coDirectorID123&view=mainDirector123`](https://live.luvnft.com/?director=MyRoom123\&codirector\&queue\&push=coDirectorID123\&view=mainDirector123)
 
 The above links allows a co-director join the room, despite the main director and co-director being in queuing-mode. By specifying each other's stream ID as a listed view value, they can both bypass each other's queue together.
 
@@ -12268,7 +12268,7 @@ Use the mouse wheel over the video you wish to zoom in or out of as a viewer. Th
 
 Remote focus may also work as well by holding `CTRL` (or Command) while using the mouse wheel.  The sender needs to support focus for this to work, which often is limited to some webcams and Android devices. It's sometime listed as "focus distance" in the senders video settings menu.
 
-To check if a device supports zoom or focus, go to [https://vdo.ninja/supports](https://vdo.ninja/supports). It will show whether your browser and the selected camera supports focus/zoom.
+To check if a device supports zoom or focus, go to [https://live.luvnft.com/supports](https://live.luvnft.com/supports). It will show whether your browser and the selected camera supports focus/zoom.
 
 If you are the one publishing with an Android device, you can hold the screen down and move your finger up or down to zoom in and out as well; you don't need a remote user or the settings menu to do this.
 
@@ -12276,17 +12276,17 @@ If you are the one publishing with an Android device, you can hold the screen do
 
 A bit less accessible, but using `&remote` also gives the viewer permission to request statistic information. The monitoring tool, also used by the VDO.Ninja speed-test, makes use of the `&remote` flag to remote access stats.
 
-[https://vdo.ninja/monitor](https://vdo.ninja/monitor)
+[https://live.luvnft.com/monitor](https://live.luvnft.com/monitor)
 
 Example usage:
 
-Monitoring Link: `https://vdo.ninja/monitor?sid=BaGpHmu,stevetest123`
+Monitoring Link: `https://live.luvnft.com/monitor?sid=BaGpHmu,stevetest123`
 
 It will pull statistics data from the sender of a video stream and visualize it, allowing for remote monitoring of stream quality. For this command to work though, the publisher needs to add `&remote` to their URL to allow for remote access.
 
 This reason for needing `&remote` is privacy related, as the statistical information being shared with the monitor page could include information like browser or system data of remote viewers unconnected to the monitoring user. While likely unneeded, adding `&remote=somePassword` to both the monitoring and push links will further increase security with a password check.
 
-The VDO.Ninja speed test ([https://vdo.ninja/speedtest](https://vdo.ninja/speedtest)) has a link at the bottom of the page, which is all already configured to provide remote monitoring of speed test results without needing to play with any parameters or settings.
+The VDO.Ninja speed test ([https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest)) has a link at the bottom of the page, which is all already configured to provide remote monitoring of speed test results without needing to play with any parameters or settings.
 
 In regards to `&sid`, you can pass multiple stream IDs, and so long as each remote sender of that stream ID has `&remote` added to their URL, the monitoring page will be able to monitor all those outbound streams.
 
@@ -12331,7 +12331,7 @@ Rooms have no forced limit on the number of guests allowed, but practically 10 i
 Adding [`&showonly=xxx`](../advanced-settings/video-parameters/and-novideo.md) and [`&roombitrate=0`](../advanced-settings/video-bitrate-parameters/roombitrate.md) to the guest's URL can be used to help increase the capacity of rooms to 30 or more.
 
 An alternative to a `&room` is a [_faux-room_](../getting-started/multi-person-chat.md), which can be done with:
-`https://vdo.ninja/?push=aaa&view=bbb,ccc,ddd`
+`https://live.luvnft.com/?push=aaa&view=bbb,ccc,ddd`
 
 ## Additional info
 
@@ -12496,7 +12496,7 @@ If your STUN server requires a password, you can pass the STUN server address wi
 
 Basic sample usage of `&stun`:
 
-[`https://vdo.ninja/?push&stun=stun:stun4.l.google.com:19302`](https://vdo.ninja/?push\&stun=stun:stun4.l.google.com:19302)
+[`https://live.luvnft.com/?push&stun=stun:stun4.l.google.com:19302`](https://live.luvnft.com/?push\&stun=stun:stun4.l.google.com:19302)
 
 ### About STUN servers
 
@@ -12568,7 +12568,7 @@ Several TURN servers are provided by Steve for free, for now, and these are auto
 
 ### **Example Usage**
 
-`https://vdo.ninja/?turn=steve;setupYourOwnPlease;turn:turn.vdo.ninja:443&relay`
+`https://live.luvnft.com/?turn=steve;setupYourOwnPlease;turn:turn.vdo.ninja:443&relay`
 
 Note the use of `turn:`, and in the case of TLS/SSL, `turns:`
 
@@ -12582,7 +12582,7 @@ TURN servers are NOT something you can use to share one video stream with multip
 
 Using a TURN server can also hide your IP address from other peers. You will need to use [`&relay`](and-relay.md) to FORCE the TURN server to be enabled, as otherwise the system will still try to use a direct p2p connection, instead of the TURN server. You may want to add turn and relay flags to both the viewer and the sender side, to ensure things are correctly set.
 
-[https://vdo.ninja/speedtest](https://vdo.ninja/speedtest) performs a connection test using the TURN server. It will select the closest public TURN server to you. At peak hours, these TURN servers might have lower performance compared to at off-peak hours, so consider hosting your own TURN server if absolute maximum performance is needed.
+[https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest) performs a connection test using the TURN server. It will select the closest public TURN server to you. At peak hours, these TURN servers might have lower performance compared to at off-peak hours, so consider hosting your own TURN server if absolute maximum performance is needed.
 
 You can check to see if you are using the TURN server by checking the connection stats window (`Left-Click` + `CTRL` while viewing a video. In this stats display, "Relay" implies connected to a TURN server. HOST implies connected via a LAN. SRFLX/PRFLX implies connected directly via [STUN](stun.md).
 
@@ -12627,7 +12627,7 @@ While I could make a selectable option for 4K in the user interface, another pro
 
 That all said, you can give “4K” a go by adding `&width=3840&height=2160` to the invite link.
 
-For example then, `https://vdo.ninja/?push=inviteGuest123&width=3840&height=2160`
+For example then, `https://live.luvnft.com/?push=inviteGuest123&width=3840&height=2160`
 
 If the guest does not support 4K, this will give an error to the guest, stating that the video device is over-constrained.
 
@@ -12648,11 +12648,11 @@ Lastly, macOS users may find that 4K is simply not possible or very difficult. I
 
 You can customize the playback of videos by added parameters to the VDO.Ninja URL links, along with many other aspects. The default video bitrate of most modern browsers is around 2500-kbps, which is okay, but we can achieve higher video quality if we manually set this to something even higher.
 
-`https://vdo.ninja/?view=streamid&videobitrate=6000`
+`https://live.luvnft.com/?view=streamid&videobitrate=6000`
 
 You’ll notice that we added [`&videobitrate=6000`](../advanced-settings/view-parameters/bitrate.md) to the viewer’s side and not the publishing side. The viewer gets to control the bitrate; every viewer can set their own custom video bitrate in fact.
 
-On the publishing side, the default target resolution is already a high 1280x720 @ 60-fps, but we can set this higher by adding [`&quality=0`](../source-settings/quality.md) to the push link. This will have the publisher’s side try to make available a 1920x1080 video stream, if their camera or video device supports it. If not, it will fall back to 720p. `https://vdo.ninja/?push=streamid&quality=0`
+On the publishing side, the default target resolution is already a high 1280x720 @ 60-fps, but we can set this higher by adding [`&quality=0`](../source-settings/quality.md) to the push link. This will have the publisher’s side try to make available a 1920x1080 video stream, if their camera or video device supports it. If not, it will fall back to 720p. `https://live.luvnft.com/?push=streamid&quality=0`
 
 For 1080p60 gaming, you’ll want to set the video bitrate to 12000-kbps or higher, as lower bitrates might cause the frame rate to be quite low otherwise. Otherwise, for talking head-type videos, the default video bitrate is often going to be adequate.
 
@@ -12662,7 +12662,7 @@ Using Ethernet instead of Wi-Fi will also help to ensure the frame loss at these
 
 4K30 video is achievable with VDO.Ninja, with a fast enough computer and with very high video bitrates; often in the realm of 30 to 40-mbps.
 
-As VDO.Ninja dynamically adjusts video resolution and bitrate to match the available Internet connection bandwidth availability, sometimes 1280x720 video resolutions won’t be maintainable. You can run the [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest) to see if you are able to hit at least 2000-kbps, which is about what is needed for smooth 720p video.
+As VDO.Ninja dynamically adjusts video resolution and bitrate to match the available Internet connection bandwidth availability, sometimes 1280x720 video resolutions won’t be maintainable. You can run the [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest) to see if you are able to hit at least 2000-kbps, which is about what is needed for smooth 720p video.
 ---
 description: Some basic options to achieve higher quality video
 ---
@@ -12675,7 +12675,7 @@ You can customize the capture resolution and playback quality of videos by addin
 
 The default video bitrate of most modern browsers is around 2500-kbps, which is okay, but we can achieve higher video quality if we manually set this to something even higher.
 
-[`https://vdo.ninja/?view=streamid&videobitrate=6000`](https://vdo.ninja/?view=streamid\&videobitrate=6000)
+[`https://live.luvnft.com/?view=streamid&videobitrate=6000`](https://live.luvnft.com/?view=streamid\&videobitrate=6000)
 
 You’ll notice that we added [`&videobitrate=6000`](../advanced-settings/video-bitrate-parameters/bitrate.md) to the viewer’s side and not the publishing side. The viewer gets to control the bitrate; every viewer can set their own custom video bitrate in fact. (For some games, a bitrate of 20000-kbps may be needed, but normally that's overkill though, and can actually increase frame loss if it is higher than your connection can handle.)
 
@@ -12688,7 +12688,7 @@ Sometimes adding some sharpness to the video as a digital video effect in OBS ca
 
 ### Sender side options
 
-On the publishing side, the _default_ target resolution is already 1280x720 @ 60-fps, but we can set this higher by adding [`&quality=0`](../advanced-settings/video-parameters/and-quality.md) to the push link. This will have the publisher’s side try to make available a 1920x1080 video stream, if their camera or video device supports it. If not, it will fall back to 1280x720p. [`https://vdo.ninja/?push=streamid&quality=0`](https://vdo.ninja/?push=streamid\&quality=0)
+On the publishing side, the _default_ target resolution is already 1280x720 @ 60-fps, but we can set this higher by adding [`&quality=0`](../advanced-settings/video-parameters/and-quality.md) to the push link. This will have the publisher’s side try to make available a 1920x1080 video stream, if their camera or video device supports it. If not, it will fall back to 1280x720p. [`https://live.luvnft.com/?push=streamid&quality=0`](https://live.luvnft.com/?push=streamid\&quality=0)
 
 For 1080p60 gaming, you’ll want to set the video bitrate to 12000-kbps or higher, as lower bitrates might cause the frame rate to be quite low otherwise. Otherwise, for talking head-type videos, the default video bitrate is often going to be adequate.
 
@@ -12698,7 +12698,7 @@ Up to 4K or beyond is possible as well, but you'll need to manually specify the 
 
 ### Connection Quality
 
-As VDO.Ninja dynamically also adjusts video resolution and bitrate to match the available Internet connection bandwidth availability, sometimes 1280x720 video resolutions won’t be maintainable. You can run the [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest) to see if you are able to hit at least 2000-kbps, which is about what is needed for smooth 720p video.
+As VDO.Ninja dynamically also adjusts video resolution and bitrate to match the available Internet connection bandwidth availability, sometimes 1280x720 video resolutions won’t be maintainable. You can run the [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest) to see if you are able to hit at least 2000-kbps, which is about what is needed for smooth 720p video.
 
 Using Ethernet instead of Wi-Fi will also help to ensure the quality and frame loss at these higher resolutions is obtainable. At higher resolutions, frame rates are more likely to be unstable and the resolution might be throttled to something lower. Packet loss will impact the quality of a video stream quite a bit, and in rare cases, you may need to use [`&relay`](../general-settings/and-relay.md) or [`&meshcast`](../newly-added-parameters/and-meshcast.md) mode to assist in overcoming network throttling or routing issues.
 
@@ -12715,7 +12715,7 @@ This set of instructions will work for Windows, Mac1 and Linux2.
 
 ## Simple Steps
 
-1. Go to [https://vdo.ninja/?push](https://vdo.ninja/?push) with your mobile phone and start sharing your camera.
+1. Go to [https://live.luvnft.com/?push](https://live.luvnft.com/?push) with your mobile phone and start sharing your camera.
 2. Add your VDO.Ninja ‘view’ link as a Browser Source in OBS in a Scene.
    1. Select the "Control audio via OBS" option to bring audio in.
    2. Resize the source as you see fit.
@@ -12738,29 +12738,29 @@ Sometimes you may need to stop/restart the OBS VirtualCam if it starts crashing 
 
 While you can achieve a multi-person chat with a [group room](rooms/), you can also do it without it.
 
-For example, `https://vdo.ninja/?view=id2&push=id1`
+For example, `https://live.luvnft.com/?view=id2&push=id1`
 
 You’ll notice that here we have the link both a PUSH and VIEW parameter. This allows us to view a remote video and publish our own video to others within a single browser tab. This has the advantage over using two browser tabs as echo-cancellation will work with this approach. It is also compatible with mobile devices where two browser tabs isn’t likely feasible.
 
 The downside of this approach is that you’ll need to create a custom link for every person. In this case,
 
-`https://vdo.ninja/?view=id2&push=id1` and `https://vdo.ninja/?view=id1&push=id2`
+`https://live.luvnft.com/?view=id2&push=id1` and `https://live.luvnft.com/?view=id1&push=id2`
 
 If you go with a simple group room instead, you won’t need to personalize links in this way, but rather just have a single link for multiple guests.
 
-For example, `https://vdo.ninja/?room=yourroomname`
+For example, `https://live.luvnft.com/?room=yourroomname`
 
-or for something even cleaner, `https://vdo.ninja/yourroomname`
+or for something even cleaner, `https://live.luvnft.com/yourroomname`
 
 ## Three-Person Chat
 
 To create a 3-person setup, you can list multiple streams IDs as VIEW values alongside the PUSH value into three different personalized links.
 
-`https://vdo.ninja/?view=id1,id2&push=id3`
+`https://live.luvnft.com/?view=id1,id2&push=id3`
 
-`https://vdo.ninja/?view=id1,id3&push=id2`
+`https://live.luvnft.com/?view=id1,id3&push=id2`
 
-`https://vdo.ninja/?view=id2,id3&push=id1`
+`https://live.luvnft.com/?view=id2,id3&push=id1`
 # Getting started
 
 Bring remote video and audio streams into your video production software for free. Low-latency and high-quality, VDO.Ninja is flexible tool ideal for the COVID era of remote participation. As a beginner to VDO.Ninja you should take a look at these pages:
@@ -12779,7 +12779,7 @@ description: Details and links if interested in making a gift to the developer o
 
 # Sponsor ❤
 
-[VDO.Ninja](https://vdo.ninja/) is a passion project and is free to use.
+[VDO.Ninja](https://live.luvnft.com/) is a passion project and is free to use.
 
 If you'd like to donate as a way of saying thank you, please visit Steve Seguin's [GitHub Sponsors](https://github.com/sponsors/steveseguin) page. Donations are appreciated.
 
@@ -12794,7 +12794,7 @@ If you'd like to grab a VDO.Ninja branded sticker or mug, there is a merch store
 
 Stream IDs are not magical in any way and can be manually or automatically created and reused.
 
-Use [`https://vdo.ninja/?push=STREAMID`](https://vdo.ninja/?\&push=STREAMID) to publish a video and [`https://vdo.ninja/?view=STREAMID`](https://vdo.ninja/?\&view=STREAMID) to remotely view it. If you don't manually specify a stream ID, VDO.Ninja will sometimes generate one for you. You can reuse the generated stream ID if you wish.
+Use [`https://live.luvnft.com/?push=STREAMID`](https://live.luvnft.com/?\&push=STREAMID) to publish a video and [`https://live.luvnft.com/?view=STREAMID`](https://live.luvnft.com/?\&view=STREAMID) to remotely view it. If you don't manually specify a stream ID, VDO.Ninja will sometimes generate one for you. You can reuse the generated stream ID if you wish.
 
 Stream IDs only exist when they are actively used; once you stop using a stream ID, it no longer exists until it is used again.
 
@@ -12808,18 +12808,18 @@ Stream IDs only exist when they are actively used; once you stop using a stream 
 * When a guest shares their screen, while also sharing their webcam, the screen share stream will get its own stream ID. Adding [`&ssid`](../source-settings/screenshareid.md) to the guest link can have the stream ID for that screen share be predictable, appending `_ss` as a value. Otherwise, the screen share stream may have a random stream ID.
 # The power of the URL parameter
 
-You can customize the playback of videos by adding query string parameters to the [VDO.Ninja](https://vdo.ninja/) URL links, along with many other aspects. VDO.Ninja is highly flexible in this regard, letting you achieve your desired outcome without needing to code and without additional software.
+You can customize the playback of videos by adding query string parameters to the [VDO.Ninja](https://live.luvnft.com/) URL links, along with many other aspects. VDO.Ninja is highly flexible in this regard, letting you achieve your desired outcome without needing to code and without additional software.
 
 For example, a simple viewer URL link such as
 
 ```
-https://vdo.ninja/?view=streamid
+https://live.luvnft.com/?view=streamid
 ```
 
 could be amended to
 
 ```
-https://vdo.ninja/?view=streamid&videobitrate=500
+https://live.luvnft.com/?view=streamid&videobitrate=500
 ```
 
 which will cause the viewer to receive the publisher's video stream at a video bitrate of 500-kbps.
@@ -12848,7 +12848,7 @@ VDO.Ninja needs two things to work:
 * Someone pushing a video feed out from their device
 * Someone viewing that video feed
 
-1. Visit [https://vdo.ninja/](https://vdo.ninja/) with your web browser (Chrome, Edge, Safari).
+1. Visit [https://live.luvnft.com/](https://live.luvnft.com/) with your web browser (Chrome, Edge, Safari).
 2. Select `Add your camera to OBS`.
 3. Select your camera and audio device from the list of devices.![](<../.gitbook/assets/camera picker>)
    You will see the video feed of the device on screen.
@@ -12933,7 +12933,7 @@ Appended to the bottom of the video control box for each guest video is a SOLO L
 
 The controls in the VDO.Ninja’s director room only will let you adjust the volume (and mute) that solo video. The ‘add to scene’ links do not apply to solo-links.
 
-You can create a solo link by hand by doing [https://vdo.ninja/?room=RID\&view=SID\&solo](https://vdo.ninja/?room=RID\&view=SID\&solo)
+You can create a solo link by hand by doing [https://live.luvnft.com/?room=RID\&view=SID\&solo](https://live.luvnft.com/?room=RID\&view=SID\&solo)
 
 [`&solo`](../../advanced-settings/mixer-scene-parameters/and-solo.md) is left blank, while the [`&view`](../../advanced-settings/view-parameters/view.md) value is specified.
 
@@ -12984,8 +12984,8 @@ description: A guide on how to use Audio Filters & Bitrate in VDO.Ninja
 
 There are several Audio Filters in VDO.Ninja. Some of them are turned on by default, some are not. To activate these Audio Filters you have to add them to the source side.
 So for example:
-[https://vdo.ninja/?push](https://vdo.ninja/?push) (for a basic push link)
-[https://vdo.ninja/?room=SOMEROOMNAME](https://vdo.ninja/?room=SOMEROOMNAME) (for a guest in a room)
+[https://live.luvnft.com/?push](https://live.luvnft.com/?push) (for a basic push link)
+[https://live.luvnft.com/?room=SOMEROOMNAME](https://live.luvnft.com/?room=SOMEROOMNAME) (for a guest in a room)
 
 <table><thead><tr><th width="158.25465046709974">Name</th><th width="223.45075172713555">Parameter</th><th width="150">By default</th><th>Change the default setting</th></tr></thead><tbody><tr><td>Outbound Audio Bitrate</td><td><a href="../source-settings/and-outboundaudiobitrate.md"><code>&#x26;oab</code></a></td><td>32-kbps</td><td><code>&#x26;oab=XX</code> (0-510 kbps)</td></tr><tr><td>Pro Audio</td><td><a href="../advanced-settings/audio-parameters/and-proaudio.md"><code>&#x26;proaudio</code></a></td><td>off</td><td><code>&#x26;proaudio</code></td></tr><tr><td>Master Gain</td><td><a href="../advanced-settings/audio-parameters/and-audiogain.md"><code>&#x26;audiogain</code></a></td><td>100%</td><td><code>&#x26;audiogain=XX</code> (0-200 %)</td></tr><tr><td>Auto Gain Control</td><td><a href="../source-settings/autogain.md"><code>&#x26;autogain</code></a></td><td>on</td><td><code>&#x26;autogain=0</code></td></tr><tr><td>Echo Cancellation</td><td><a href="../source-settings/aec.md"><code>&#x26;echocancellation</code></a></td><td>on</td><td><code>&#x26;echocancellation=0</code></td></tr><tr><td>Noise Suppression</td><td><a href="../source-settings/and-denoise.md"><code>&#x26;denoise</code></a></td><td>on</td><td><code>&#x26;denoise=0</code></td></tr><tr><td>Noise Gating</td><td><a href="../source-settings/noisegate.md"><code>&#x26;noisegate</code></a></td><td>off</td><td><code>&#x26;noisegate</code></td></tr><tr><td>Compressor</td><td><a href="../source-settings/and-compressor.md"><code>&#x26;compressor</code></a></td><td>off</td><td><code>&#x26;compressor</code></td></tr><tr><td>Limiter</td><td><a href="../source-settings/and-limiter.md"><code>&#x26;limiter</code></a></td><td>off</td><td><code>&#x26;limiter</code></td></tr><tr><td>Equalizer</td><td><a href="../source-settings/and-equalizer.md"><code>&#x26;equalizer</code></a></td><td>off</td><td><code>&#x26;equalizer</code></td></tr><tr><td>Lowcut</td><td><a href="../source-settings/lowcut.md"><code>&#x26;lowcut</code></a></td><td>off</td><td><code>&#x26;lowcut=XX</code> (in hz)</td></tr><tr><td>Microphone Delay</td><td><a href="../source-settings/and-micdelay.md"><code>&#x26;micdelay</code></a></td><td>0-ms</td><td><code>&#x26;micdelay=XX</code> (in ms)</td></tr></tbody></table>
 
@@ -13015,23 +13015,23 @@ This also works for [`&room`](../general-settings/room.md) on the source side an
 Some examples:
 
 1\)
-[https://vdo.ninja/?push=SOMESTREAMID](https://vdo.ninja/?push=SOMESTREAMID)
-[https://vdo.ninja/?view=SOMESTREAMID\&proaudio](https://vdo.ninja/?view=SOMESTREAMID\&proaudio)
+[https://live.luvnft.com/?push=SOMESTREAMID](https://live.luvnft.com/?push=SOMESTREAMID)
+[https://live.luvnft.com/?view=SOMESTREAMID\&proaudio](https://live.luvnft.com/?view=SOMESTREAMID\&proaudio)
 \-> 256-kbps
 
 2\)
-[https://vdo.ninja/?push=SOMESTREAMID\&oab=100](https://vdo.ninja/?push=SOMESTREAMID\&oab=100)
-[https://vdo.ninja/?view=SOMESTREAMID\&audiobitrate=200](https://vdo.ninja/?view=SOMESTREAMID\&audiobitrate=200)
+[https://live.luvnft.com/?push=SOMESTREAMID\&oab=100](https://live.luvnft.com/?push=SOMESTREAMID\&oab=100)
+[https://live.luvnft.com/?view=SOMESTREAMID\&audiobitrate=200](https://live.luvnft.com/?view=SOMESTREAMID\&audiobitrate=200)
 \-> 200-kbps
 
 3\)
-[https://vdo.ninja/?push=SOMESTREAMID\&proaudio](https://vdo.ninja/?push=SOMESTREAMID\&proaudio)
-[https://vdo.ninja/?view=SOMESTREAMID](https://vdo.ninja/?view=SOMESTREAMID)
+[https://live.luvnft.com/?push=SOMESTREAMID\&proaudio](https://live.luvnft.com/?push=SOMESTREAMID\&proaudio)
+[https://live.luvnft.com/?view=SOMESTREAMID](https://live.luvnft.com/?view=SOMESTREAMID)
 \-> 32-kbps
 
 4\)
-[https://vdo.ninja/?push=SOMESTREAMID\&proaudio](https://vdo.ninja/?push=SOMESTREAMID\&proaudio)
-[https://vdo.ninja/?view=SOMESTREAMID\&audiobitrate=96](https://vdo.ninja/?view=SOMESTREAMID\&audiobitrate=96)
+[https://live.luvnft.com/?push=SOMESTREAMID\&proaudio](https://live.luvnft.com/?push=SOMESTREAMID\&proaudio)
+[https://live.luvnft.com/?view=SOMESTREAMID\&audiobitrate=96](https://live.luvnft.com/?view=SOMESTREAMID\&audiobitrate=96)
 \-> 96-kbps
 
 To see the audio bitrate
@@ -13048,7 +13048,7 @@ description: >-
 
 This page contains the standard guide for capturing application-specific audio in Windows. Less complex methods are being developed, with some current [alternative options listed here](audio.md#other-options).
 
-#### Guide: Routing Windows application’s audio to [VDO.Ninja](https://vdo.ninja/)
+#### Guide: Routing Windows application’s audio to [VDO.Ninja](https://live.luvnft.com/)
 
 (For MacOS users, you can use [Loopback by Roguemedia](https://www.google.com/url?q=https://rogueamoeba.com/loopback/\&sa=D\&source=editors\&ust=1622130763272000\&usg=AOvVaw09b4uk6dZqBTznSzHMJcul) instead, or check out this list of free options: [https://docs.vdo.ninja/platform-specific-issues/macos#capturing-audio](https://docs.vdo.ninja/platform-specific-issues/macos#capturing-audio))
 
@@ -13067,11 +13067,11 @@ Tip: If you want to configure the VB Audio driver with custom settings, the reco
 
 ![](https://lh4.googleusercontent.com/8v-kZNpbgx\_AFbccMaznCzsiB0hJUgFjmtgzp-TR-QY6YEvUP67mo969OgeR6Ae9cgKZ\_Z\_sC8RE7Ws9DVs32fK1ql7vQLTdsGYx1CvhSREHLRUHE-tf8grWIaH4FkMCNUPhufK3)
 
-* 4\) We can now head over to [https://vdo.ninja](https://vdo.ninja), but we will want to add the advanced URL parameter [`&proaudio`](../advanced-settings/audio-parameters/and-proaudio.md) to the web URL, which disables echo cancellation and other digital effects. It will make the audio sound better and echo cancellation is likely not needed if capturing from a Game or Application window.
+* 4\) We can now head over to [https://live.luvnft.com](https://live.luvnft.com), but we will want to add the advanced URL parameter [`&proaudio`](../advanced-settings/audio-parameters/and-proaudio.md) to the web URL, which disables echo cancellation and other digital effects. It will make the audio sound better and echo cancellation is likely not needed if capturing from a Game or Application window.
   
-  For example, [`https://vdo.ninja/?push=myStreamID&proaudio`](https://vdo.ninja/?push=myStreamID\&proaudio)
+  For example, [`https://live.luvnft.com/?push=myStreamID&proaudio`](https://live.luvnft.com/?push=myStreamID\&proaudio)
   
-  You can also add this to the view link, which increases the audio quality even more. For example, [`https://vdo.ninja/?view=myStreamID&proaudio`](https://vdo.ninja/?view=myStreamID\&proaudio)
+  You can also add this to the view link, which increases the audio quality even more. For example, [`https://live.luvnft.com/?view=myStreamID&proaudio`](https://live.luvnft.com/?view=myStreamID\&proaudio)
 
 * 5\) In VDO.Ninja, select the Cable Output device.
   
@@ -13130,7 +13130,7 @@ Audio can be exported directly via VDO.Ninja into a virtual audio device, either
 
 There's also WHEP/WHIP output from VDO.Ninja, which is relatively a new technology/feature, and so not quite a replacement for browser sources. That said, OBS Studio is starting to support this ingestion approach, along with GStreamer, many WebRTC CDN servers and services, and perhaps over the coming years something like vMix will adopt this new technology as well. Please provide feedback and requests if using WHIP/WHEP, so i can continue to improve it.
 
-[https://vdo.ninja/whip](https://vdo.ninja/whip)
+[https://live.luvnft.com/whip](https://live.luvnft.com/whip)
 
 ### Raspberry.Ninja
 
@@ -13168,7 +13168,7 @@ Author:
 [Chris Marquardt](https://chrismarquardt.com/)
 # How to connect a GoPro to VDO.Ninja
 
-A GoPro itself doesn't support streaming directly to [VDO.Ninja](https://vdo.ninja/) on its own, but there are some indirect ways to do it currently.
+A GoPro itself doesn't support streaming directly to [VDO.Ninja](https://live.luvnft.com/) on its own, but there are some indirect ways to do it currently.
 
 #### Using a GoPro Hero 8 Black or newer as a USB webcam
 
@@ -13219,7 +13219,7 @@ If building your own, you might find that it can be built so small that you migh
 
 #### RTMP to WHEP
 
-Open-source projects that can be self hosted can convert RTMP into WHEP, which is compatible with VDO.Ninja. https://vdo.ninja/whep contains a WHEP player, and more and more companies are beginning to offer WHEP natively.
+Open-source projects that can be self hosted can convert RTMP into WHEP, which is compatible with VDO.Ninja. https://live.luvnft.com/whep contains a WHEP player, and more and more companies are beginning to offer WHEP natively.
 
 In the future, GoPro may support WHIP output, which would be an alternative to RTMP, and would be compatible with VDO.Ninja directly.
 
@@ -13274,7 +13274,7 @@ description: >-
 
 You can use services like [https://short.io](https://short.io) to create aliases of your invite links, leveraging those service platforms to also keep track of invites you have sent out, how many times they have been opened, and also change the VDO.Ninja settings contained in the invite after sending it.
 
-[VDO.Ninja](https://vdo.ninja) lets you move guests between room and change the URL of a guest after they have connected, but it doesn't offer services itself that let you change the URL before the user has connected.
+[VDO.Ninja](https://live.luvnft.com) lets you move guests between room and change the URL of a guest after they have connected, but it doesn't offer services itself that let you change the URL before the user has connected.
 
 ![An example of the short.io link-management dashboard](<../.gitbook/assets/image (94) (1) (1) (1).png>)
 
@@ -13332,7 +13332,7 @@ I have no relation to Short.io; it's just what service I happen to use. There ar
 * [How to stream to a Raspberry Pi and use as a remote monitor](https://awesomeopensource.com/project/futurice/chilipie-kiosk)
 * [How to obfuscate (hide) the URL parameters for guest links](http://invite.cam/)
 * [How to do VDO.Ninja to NDI output](https://docs.google.com/document/d/e/2PACX-1vR9p03eK7dXMo0izaXwh4YGkBHtLgXmzOpSYMQlB-VT2s2FjlxY\_vpUzCkRZqXdqhnQLQPSoH6NZlG2/pub)
-* [How to view Twitch chat while using VDO.Ninja on mobile devices](https://vdo.ninja/twitch)
+* [How to view Twitch chat while using VDO.Ninja on mobile devices](https://live.luvnft.com/twitch)
 * [3rd-party written How-To Guide for VDO.Ninja](https://photography.tutsplus.com/articles/how-to-easily-add-a-remote-source-to-streaming-video-with-obs-and-obsninja--cms-35885)
 * [A tool to create editable URL invite links](https://short.io/)
 ---
@@ -13446,11 +13446,11 @@ You can speak to the guest via the director's control center, which will provide
 
 In this mode, there is no group room, and all guest stream IDs need to be manually specified. You can typically get excellent 1080p recording quality though with the following parameters:
 
-**Guest link:** [`https://vdo.ninja/?push=GUEST_ID&quality=0&proaudio&view=HOST_ID&vb=200&ab=16`](https://vdo.ninja/?push=GUEST\_ID\&quality=0\&proaudio\&view=HOST\_ID\&vb=200\&ab=16)
+**Guest link:** [`https://live.luvnft.com/?push=GUEST_ID&quality=0&proaudio&view=HOST_ID&vb=200&ab=16`](https://live.luvnft.com/?push=GUEST\_ID\&quality=0\&proaudio\&view=HOST\_ID\&vb=200\&ab=16)
 
-**Host link:** [`https://vdo.ninja/?push=HOST_ID&view=GUEST_ID&vb=50&ab=16`](https://vdo.ninja/?push=HOST\_ID\&view=GUEST\_ID\&vb=50\&ab=16)
+**Host link:** [`https://live.luvnft.com/?push=HOST_ID&view=GUEST_ID&vb=50&ab=16`](https://live.luvnft.com/?push=HOST\_ID\&view=GUEST\_ID\&vb=50\&ab=16)
 
-**OBS link\*:** [`https://vdo.ninja/?view=GUEST_ID&vb=12000&ab=128&scale=100`](https://vdo.ninja/?view=GUEST\_ID\&vb=12000\&ab=128\&scale=100) 
+**OBS link\*:** [`https://live.luvnft.com/?view=GUEST_ID&vb=12000&ab=128&scale=100`](https://live.luvnft.com/?view=GUEST\_ID\&vb=12000\&ab=128\&scale=100) 
 
 _\* Note the OBS Browser source should be set to a width of 1920 and a height of 1080._
 
@@ -13507,7 +13507,7 @@ Also refer to [`&audiobitrate`](../advanced-settings/view-parameters/audiobitrat
 
 The bitrate controls are accessible via a URL parameter that can be added to the VIEW link.
 
-Something like [https://vdo.ninja/?view=yyyyy\&bitrate=10000 ](https://vdo.ninja/?view=yyyyy\&bitrate=10000)will let the viewer request set a 10-mbps bitrate; up to around 20000-kbps is reasonable, but higher is possible in situations. The value is in kilobits per second and the default bitrate is 2500-kbps.
+Something like [https://live.luvnft.com/?view=yyyyy\&bitrate=10000 ](https://live.luvnft.com/?view=yyyyy\&bitrate=10000)will let the viewer request set a 10-mbps bitrate; up to around 20000-kbps is reasonable, but higher is possible in situations. The value is in kilobits per second and the default bitrate is 2500-kbps.
 
 The viewer sets the bitrate generally, although you can set maximum allowed bitrates as the publisher of a stream. See the advanced settings in the wiki for more help here; there are many options available.
 
@@ -13571,7 +13571,7 @@ Support for remote PowerPoint slide control. (previous/next slide):
 * I've only tested with Windows + PowerPoint so far, but it can be tweaked to work with more than PPT without much trouble
 * Uses AutoHotKey + VDO.Ninja + MIDI to achieve the result; quite a few different ways implement it, with samples provided
 * Built-in basic controller added, via [`&powerpoint`](../advanced-settings/settings-parameters/and-powerpoint.md) (aliases: `&slides`, `&ppt`, `&pptcontrols`)
-* IFrame sample app provided with larger buttons and sample code to add more custom buttons/actions if needed. (start/stop/etc): [https://vdo.ninja/examples/powerpoint](https://vdo.ninja/examples/powerpoint)
+* IFrame sample app provided with larger buttons and sample code to add more custom buttons/actions if needed. (start/stop/etc): [https://live.luvnft.com/examples/powerpoint](https://live.luvnft.com/examples/powerpoint)
 * HTTP / WSS remote control also added; `https://api.vdo.ninja/YOURAPIKEY/nextSlide` and `prevSlide`
 * Local Streamdeck support also working, via MIDI
 
@@ -13620,11 +13620,11 @@ You can force 1080p on many iPhones, but you then need to use [`&codec=vp8`](../
 
 for example:
 
-[`https://vdo.ninja/?push=streamid&width=1920&height=1080`](https://vdo.ninja/?push=streamid\&width=1920\&height=1080)
+[`https://live.luvnft.com/?push=streamid&width=1920&height=1080`](https://live.luvnft.com/?push=streamid\&width=1920\&height=1080)
 
 and:
 
-[`https://vdo.ninja/?view=streamid&codec=vp8&videobitrate=6000`](https://vdo.ninja/?view=streamid\&codec=vp8\&videobitrate=6000)
+[`https://live.luvnft.com/?view=streamid&codec=vp8&videobitrate=6000`](https://live.luvnft.com/?view=streamid\&codec=vp8\&videobitrate=6000)
 
 Older iOS versions do not support h264 at resolutions higher than 720p30.
 
@@ -13663,7 +13663,7 @@ You can also use [`&permaid`](../advanced-settings/setup-parameters/and-permaid.
 
 Another option is to not use stream IDs at all to specify a video to load into OBS, etc. Instead, you can use custom [scenes](../advanced-settings/view-parameters/scene.md). Scene 1, S2, S3, etc. When a guest joins a room, you can simply assign the guest to a specific scene, and that scene link in OBS would be unchanging. Guests would not automatically be assigned to a scene, so you'd need to manually do that, but you don't need to update any URL in OBS with this approach.
 
-Like the above, you can also use the VDO.Ninja [Mixer App](../steves-helper-apps/mixer-app.md) ([https://vdo.ninja/mixer](https://vdo.ninja/mixer)) to have custom layouts, with "slots", and you can assign guests as they join to certain slots. You can have the system auto-assign guests to the first available slot also, or manually do so.
+Like the above, you can also use the VDO.Ninja [Mixer App](../steves-helper-apps/mixer-app.md) ([https://live.luvnft.com/mixer](https://live.luvnft.com/mixer)) to have custom layouts, with "slots", and you can assign guests as they join to certain slots. You can have the system auto-assign guests to the first available slot also, or manually do so.
 
 There are perhaps other ways of doing this as all as well, but for most users, specifying a custom stream ID for each guest is recommended. The use of a spreadsheet to keep track of invites for guests is a great way to manage this, and with the use of URL forwarding services, like [short.io](https://short.io/), you can also change a guest's VDO.Ninja invite link retroactively, via the shortening service.
 # How to mirror a video while Full-Screen - For iPads and Teleprompters
@@ -13675,10 +13675,10 @@ One is to just full screen the browser itself; F11 on most desktops. The video i
 Another option that is undergoing experimental testing as of Sept 23rd 2020 is to use the [`&effects`](../source-settings/effects.md) option, with `&effects=2` applying a mirrored effect to the video before publishing the video.
 
 **Push Link**
-[https://vdo.ninja/?push=SOMESTREAMID\&effects=2](https://vdo.ninja/?push=SOMESTREAMID\&effects=2)
+[https://live.luvnft.com/?push=SOMESTREAMID\&effects=2](https://live.luvnft.com/?push=SOMESTREAMID\&effects=2)
 
 **View Link**
-[https://vdo.ninja/?view=SOMESTREAMID](https://vdo.ninja/?view=SOMESTREAMID)
+[https://live.luvnft.com/?view=SOMESTREAMID](https://live.luvnft.com/?view=SOMESTREAMID)
 
 So by adding `&effects=2`, the video will be mirrored in a way that can be full screened.  There are some limitations with this approach still, but I'm curious to get your feedback.
 ---
@@ -13693,15 +13693,15 @@ description: >-
 
 To maintain a high quality 1080p60 stream, especially if screen sharing game content, you'll want at least 12-mbps to 20-mbps of upload bandwidth.
 
-You'll also need a pristine Internet connection to maintain a low-latency and smooth result; you can test your connect at [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest). High packet loss will limit the possibility of maintaining both low-latency and high quality video; in such a case, you'll need to prioritize one over the other.
+You'll also need a pristine Internet connection to maintain a low-latency and smooth result; you can test your connect at [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest). High packet loss will limit the possibility of maintaining both low-latency and high quality video; in such a case, you'll need to prioritize one over the other.
 
 ## How to create reusable screen-share links
 
 ### Push Link (Sender)
 
-[`https://vdo.ninja/?push=SOMESTREAMID&screenshare&quality=0`](https://vdo.ninja/?push=SOMESTREAMID\&screenshare\&quality=0)
+[`https://live.luvnft.com/?push=SOMESTREAMID&screenshare&quality=0`](https://live.luvnft.com/?push=SOMESTREAMID\&screenshare\&quality=0)
 
-Alias:  [`https://vdo.ninja/?push=SOMESTREAMID&ss&q=0`](https://vdo.ninja/?push=SOMESTREAMID\&ss\&q=0)
+Alias:  [`https://live.luvnft.com/?push=SOMESTREAMID&ss&q=0`](https://live.luvnft.com/?push=SOMESTREAMID\&ss\&q=0)
 
 Copy one of the two links above and **change **_**SOMESTREAMID**_** into a different name**. The name picked just needs to be a unique alphanumeric value is not already in active use.
 
@@ -13709,9 +13709,9 @@ You can also add [`&fps=60`](../advanced-settings/video-parameters/and-fps.md) t
 
 ### View Link (Viewer)
 
-[`https://vdo.ninja/?view=SOMESTREAMID&videobitrate=10000&scale=100`](https://vdo.ninja/?view=SOMESTREAMID\&videobitrate=10000\&scale=100)
+[`https://live.luvnft.com/?view=SOMESTREAMID&videobitrate=10000&scale=100`](https://live.luvnft.com/?view=SOMESTREAMID\&videobitrate=10000\&scale=100)
 
-Alias:  [`https://vdo.ninja/?v=SOMESTREAMID&vb=10000&scale=100`](https://vdo.ninja/?v=SOMESTREAMID\&vb=10000\&scale=100)
+Alias:  [`https://live.luvnft.com/?v=SOMESTREAMID&vb=10000&scale=100`](https://live.luvnft.com/?v=SOMESTREAMID\&vb=10000\&scale=100)
 
 Copy one of the two links above and change SOMESTREAMID in the same name as you did for the Push Link. You can change [`&videobitrate=10000`](../advanced-settings/video-bitrate-parameters/bitrate.md) to another value if you want to change the bitrate.
 
@@ -13805,7 +13805,7 @@ To ensure reliability as a result, a buffer is needed; upwards of 1-second buffe
 To screen share using chunked mode, the following is a sample sender-side link:
 
 ```
-https://vdo.ninja/alpha/?chunked=2000&screenshare&push=STREAMIDHERE
+https://live.luvnft.com/alpha/?chunked=2000&screenshare&push=STREAMIDHERE
 ```
 
 A unique part of chunked mode is that the sender sets the bitrate via `&chunked=N`, where N is the kilobits per second of the video.&#x20;
@@ -13813,7 +13813,7 @@ A unique part of chunked mode is that the sender sets the bitrate via `&chunked=
 Viewing the stream is the same as normal:
 
 ```
-https://vdo.ninja/alpha/?view=STREAMIDHERE&buffer=500
+https://live.luvnft.com/alpha/?view=STREAMIDHERE&buffer=500
 ```
 
 [`&buffer`](../advanced-settings/view-parameters/buffer.md) can be used to specify the default buffer delay, which accepts a value in milliseconds. The default may change depending on version of VDO.Ninja, but it's roughly between 500ms and 1s in most cases.  Going below 200ms is not advised unless using it over a LAN.
@@ -13911,7 +13911,7 @@ We’re ready to now create our VDO.Ninja stream.
 
 There are many ways to do this, but the EASIEST way is to go to VDO.Ninja, click Add your Camera to OBS, and select from the options OBS Virtualcam. This option will set you up with the default settings, such as with audio echo-cancellation on, although you can use URL parameters when visiting VDO.Ninja to customize the settings more.
 
-A popular advanced URL option at this point might be with the stereo flag, so visit [https://vdo.ninja/?stereo](https://vdo.ninja/?stereo) instead of just [https://vdo.ninja](https://vdo.ninja). You can also set your own custom stream ID values, so [https://vdo.ninja/?push=myCustomStreamId123](https://vdo.ninja/?push=myCustomStreamId123), and then give your remote OBS user the link [https://vdo.ninja/?view=myCustomStreamId123](https://vdo.ninja/?view=myCustomStreamId123)![](https://lh3.googleusercontent.com/NuZ8o9ot8Uqcm2SsCSP-X11N4aPkcHYaV0enXMsDdgYdfddXsKbt320HHWM-eK-WjDzxxeXEMx75idJnJKmpxIxnC9DcMeyZ2sy35i6gka2lSGn\_mdsURHGmK3jMNSK\_I3b9C\_1Ck5IEZrU)
+A popular advanced URL option at this point might be with the stereo flag, so visit [https://live.luvnft.com/?stereo](https://live.luvnft.com/?stereo) instead of just [https://live.luvnft.com](https://live.luvnft.com). You can also set your own custom stream ID values, so [https://live.luvnft.com/?push=myCustomStreamId123](https://live.luvnft.com/?push=myCustomStreamId123), and then give your remote OBS user the link [https://live.luvnft.com/?view=myCustomStreamId123](https://live.luvnft.com/?view=myCustomStreamId123)![](https://lh3.googleusercontent.com/NuZ8o9ot8Uqcm2SsCSP-X11N4aPkcHYaV0enXMsDdgYdfddXsKbt320HHWM-eK-WjDzxxeXEMx75idJnJKmpxIxnC9DcMeyZ2sy35i6gka2lSGn\_mdsURHGmK3jMNSK\_I3b9C\_1Ck5IEZrU)
 
 #### Step 5
 
@@ -13927,7 +13927,7 @@ Press the green button when ready.
 
 You’ll see a preview of your video stream and a link. This link is what we want to send to our remote OBS studio as an input source.
 
-We can modify this link if we wish to have higher bitrates, for example, [https://vdo.ninja/?view=streamID\&videobitrate=20000](https://vdo.ninja/?view=streamID\&videobitrate=20000) to set a target video bitrate of 20-mbps.
+We can modify this link if we wish to have higher bitrates, for example, [https://live.luvnft.com/?view=streamID\&videobitrate=20000](https://live.luvnft.com/?view=streamID\&videobitrate=20000) to set a target video bitrate of 20-mbps.
 
 ![](https://lh5.googleusercontent.com/y4-K-FYPET5a-TEswgl\_FE-2IU5oSIMXH9o2lyjydhNZAqdIvussPvXS19BUmW2lte8fxDfw8dMyt5JT9H8TslLhNJfO5KTJB4xmsHbwSU7Ofq5xP2NU7fuxlPsZkgT82P6T1JxV5MzXdrM)
 
@@ -13943,7 +13943,7 @@ To do this, we create a scene and then a Browser Source in OBS. Give it a name a
 
 In the properties for the Browser Source, we need to fill out a few fields and then hit OK.
 
-* The URL needs to be set to the address we created earlier, ie: [https://vdo.ninja/?view=q3QCScW](https://vdo.ninja/?view=q3QCScW)
+* The URL needs to be set to the address we created earlier, ie: [https://live.luvnft.com/?view=q3QCScW](https://live.luvnft.com/?view=q3QCScW)
 * Width needs to match the input video resolution, so likely 1280
 * The height also needs to match, so likely 720
 * _**Control audio via OBS**_ should be checked, for audio capture to function
@@ -13972,10 +13972,10 @@ Newer versions of OBS may also support WHIP output, which VDO.Ninja also support
 ### Link
 
 With this link you can set up a simple room to chat with friends:
-[https://vdo.ninja/?room=SOMEROOMNAME\&audiodevice=0\&videodevice=0\&chatbutton\&cleanoutput\&label](https://vdo.ninja/?room=SOMEROOMNAME\&audiodevice=0\&videodevice=0\&chatbutton\&cleanoutput\&label)
+[https://live.luvnft.com/?room=SOMEROOMNAME\&audiodevice=0\&videodevice=0\&chatbutton\&cleanoutput\&label](https://live.luvnft.com/?room=SOMEROOMNAME\&audiodevice=0\&videodevice=0\&chatbutton\&cleanoutput\&label)
 
 Alias:
-[https://vdo.ninja/?r=SOMEROOMNAME\&ad=0\&vd=0\&cb\&clean\&l](https://vdo.ninja/?r=SOMEROOMNAME\&ad=0\&vd=0\&cb\&clean\&l)
+[https://live.luvnft.com/?r=SOMEROOMNAME\&ad=0\&vd=0\&cb\&clean\&l](https://live.luvnft.com/?r=SOMEROOMNAME\&ad=0\&vd=0\&cb\&clean\&l)
 
 Copy one of the two links above and change SOMEROOMNAME into a different name.
 
@@ -14015,7 +14015,7 @@ While I could make a selectable option for 4K in the user interface, another pro
 
 That all said, you can give “4K” a go by adding [`&width=3840`](../source-settings/and-width.md)[`&height=2160`](../source-settings/and-height.md) to the invite link.
 
-For example then, [https://vdo.ninja/?push=inviteGuest123\&width=3840\&height=2160](https://obs.ninja/?push=inviteGuest123\&width=3840\&height=2160)
+For example then, [https://live.luvnft.com/?push=inviteGuest123\&width=3840\&height=2160](https://obs.ninja/?push=inviteGuest123\&width=3840\&height=2160)
 
 If the guest does not support 4K, this will give an error to the guest, stating that the video device is over-constrained.&#x20;
 
@@ -14023,7 +14023,7 @@ The default frame rate is 60-fps, although if their device does not support that
 
 ### Smartphones
 
-If streaming from a smartphone, not all phones can do 4K; my old LG V30 I believe could do 4K30 via [VDO.Ninja](https://vdo.ninja), but my Pixel 4a seems stuck at 1080p30. As well, an iPhone 11 might only be able to 1080p30, an iPhone 12 might be able to do 1080p60, while an iPhone 15 might be able to do 4K30. It might depend on the iOS version, where older iOS versions are pretty limited, so things will change overtime.
+If streaming from a smartphone, not all phones can do 4K; my old LG V30 I believe could do 4K30 via [VDO.Ninja](https://live.luvnft.com), but my Pixel 4a seems stuck at 1080p30. As well, an iPhone 11 might only be able to 1080p30, an iPhone 12 might be able to do 1080p60, while an iPhone 15 might be able to do 4K30. It might depend on the iOS version, where older iOS versions are pretty limited, so things will change overtime.
 
 A common question I also get is that a certain phone can record 4K60 in the native phone app, so why not also in VDO.Ninja? Well, just because you can record to disk at 4K does not mean the manufacture has added support for 4K streaming via the browser. It requires additional development, nor is it always possible if the hardware encoder used does not support the advanced requirements of WebRTC.
 
@@ -14078,7 +14078,7 @@ Check out that guide below:
 
 ### Step 1.
 
-Go to [https://vdo.ninja/](https://vdo.ninja/)
+Go to [https://live.luvnft.com/](https://live.luvnft.com/)
 
 ### Step 2.
 
@@ -14223,11 +14223,11 @@ With this option, you can select a video file locally that contains a transparen
 
 [`&webp`](../advanced-settings/view-parameters/webp.md) mode supports transparency as noted, so we need to include that on the sender link. We also need to include `&alpha`, to tell the system that we want to include alpha channels (transparency), if possible.
 
-[https://vdo.ninja/alpha/?webp\&push=rPJ5bEb\&fileshare\&alpha](https://vdo.ninja/alpha/?webp\&push=rPJ5bEb\&fileshare\&alpha)
+[https://live.luvnft.com/alpha/?webp\&push=rPJ5bEb\&fileshare\&alpha](https://live.luvnft.com/alpha/?webp\&push=rPJ5bEb\&fileshare\&alpha)
 
 On the viewer side, we can add [`&codec=webp`](../advanced-settings/view-parameters/codec.md#webp) to tell the system we want to pull the video stream as a webp series of images, rather than normal video. Images will transparencies will automatically include them in the display.
 
-[https://vdo.ninja/alpha/?view=rPJ5bEb\&codec=webp](https://vdo.ninja/alpha/?view=rPJ5bEb\&codec=webp)
+[https://live.luvnft.com/alpha/?view=rPJ5bEb\&codec=webp](https://live.luvnft.com/alpha/?view=rPJ5bEb\&codec=webp)
 
 ### Transparent webcam background via webp-mode
 
@@ -14237,11 +14237,11 @@ Like above, we need to include `&alpha` and [`&webp`](../advanced-settings/view-
 
 The goal here is to remove the background using the VDO.Ninja background removal tool, and then use a transparent image as the background, instead of a normal virtual background image. In the link below, we include a transparent pixel in the URL, so no external file is needed.
 
-[https://vdo.ninja/alpha/?webp\&push=rPJ5bEb\&effects=5\&alpha\&webcam\&imagelist=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII%3D](https://vdo.ninja/alpha/?webp\&push=rPJ5bEb\&effects=5\&alpha\&webcam\&imagelist=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII%3D)
+[https://live.luvnft.com/alpha/?webp\&push=rPJ5bEb\&effects=5\&alpha\&webcam\&imagelist=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII%3D](https://live.luvnft.com/alpha/?webp\&push=rPJ5bEb\&effects=5\&alpha\&webcam\&imagelist=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII%3D)
 
 And like before, to view this stream with transparencies, we need to include [`&codec=webp`](../advanced-settings/view-parameters/codec.md#webp) on the view link.
 
-[https://vdo.ninja/alpha/?view=rPJ5bEb\&codec=webp](https://vdo.ninja/alpha/?view=rPJ5bEb\&codec=webp)
+[https://live.luvnft.com/alpha/?view=rPJ5bEb\&codec=webp](https://live.luvnft.com/alpha/?view=rPJ5bEb\&codec=webp)
 
 This option is highly CPU intensive though; I'd recommend at least a fast 8-core system for this option, as you are doing both AI and heavy image processing workloads.
 
@@ -14265,7 +14265,7 @@ VDO.Ninja has a mode called Chunked, which can be activated on Chromium browsers
 
 When also used with `&alpha`, ie:
 
-&#x20;[`https://vdo.ninja/alpha/?chunked&alpha`](https://vdo.ninja/alpha/?chunked\&alpha)
+&#x20;[`https://live.luvnft.com/alpha/?chunked&alpha`](https://live.luvnft.com/alpha/?chunked\&alpha)
 
 it will tell the browser to only select video codecs that can encode alpha channels. Normal WebRTC video streaming doesn't support alpha channels, but the chunked mode does. However, if no codec is available in your browser with alpha-channel support, then the chunked mode will fail or default back to a codec that doesn't support alpha channels.
 
@@ -14300,7 +14300,7 @@ Embedding VDO.NInja into a website should be pretty simple; we're just using the
 </head>
 <body>
     <iframe 
-        src="https://vdo.ninja/?view=JkYwyxy" 
+        src="https://live.luvnft.com/?view=JkYwyxy" 
         allow="camera; microphone; autoplay" 
         width="640" 
         height="360">
@@ -14317,14 +14317,14 @@ If wanting to use this page for public use, I'd probably want to secure things a
 
 The audience parameter is available with VDO.Ninja v25.2 and newer.
 
-1. An example push link is this: [https://vdo.ninja/alpha/?audience=12345abcPublishingToken\&push=JkYwyxy](https://vdo.ninja/alpha/?audience=12345abcPublishingToken\&push=JkYwyxy)
-2. The view link you'd be provided woudl be something then like this: [https://vdo.ninja/alpha/?audience=HrDrNy3jiA50QzlU\&view=JkYwyxy](../getting-started/vdo.ninja-basics.md)
+1. An example push link is this: [https://live.luvnft.com/alpha/?audience=12345abcPublishingToken\&push=JkYwyxy](https://live.luvnft.com/alpha/?audience=12345abcPublishingToken\&push=JkYwyxy)
+2. The view link you'd be provided woudl be something then like this: [https://live.luvnft.com/alpha/?audience=HrDrNy3jiA50QzlU\&view=JkYwyxy](../getting-started/vdo.ninja-basics.md)
 
 <figure><img src="../.gitbook/assets/image (241).png" alt=""><figcaption><p>Example of the provided audience key to use</p></figcaption></figure>
 
 ### Advanced IFRAME API options
 
-There's a sandbox that lets you play with the IFRAME API here: [https://vdo.ninja/iframe](https://vdo.ninja/iframe) , but it might be more complex than you need.
+There's a sandbox that lets you play with the IFRAME API here: [https://live.luvnft.com/iframe](https://live.luvnft.com/iframe) , but it might be more complex than you need.
 
 More about the[ ](how-to-use-vdo.ninja-on-a-website.md#advanced-iframe-api-options)[IFRAME API here.](https://docs.vdo.ninja/guides/iframe-api-documentation)
 
@@ -14332,7 +14332,7 @@ More about the[ ](how-to-use-vdo.ninja-on-a-website.md#advanced-iframe-api-optio
 
 Setting the `allowtransparency` attribute on the IFrame to `true` will allow for the contents to be transparent. You can then make VDO.Ninja transparent by adding `&transparent` to the URL, which sets the page's background to `rgba(0,0,0,0)`.&#x20;
 
-[https://vdo.ninja/iframe ](https://vdo.ninja/iframe)can demonstrate this by opening [https://vdo.ninja/?transparent](https://vdo.ninja/?transparent) with it.
+[https://live.luvnft.com/iframe ](https://live.luvnft.com/iframe)can demonstrate this by opening [https://live.luvnft.com/?transparent](https://live.luvnft.com/?transparent) with it.
 
 ### Accessing media frames directly for use in a video element
 
@@ -14351,7 +14351,7 @@ description: How to embed VDO.Ninja into your own website with the IFRAME API
 
 # How to embed VDO.Ninja into a site with iFrames
 
-[VDO.Ninja](https://vdo.ninja/) offers here a simple and free solution to quickly enable real-time video streaming in their websites. VDON wishes to make live video streaming development accessible to any developer, even novices, yet still remain flexible and powerful.
+[VDO.Ninja](https://live.luvnft.com/) offers here a simple and free solution to quickly enable real-time video streaming in their websites. VDON wishes to make live video streaming development accessible to any developer, even novices, yet still remain flexible and powerful.
 
 While VDO.Ninja does offer source-code to customize the application and UI at a low level, this isn't for beginners and it is rather hard to maintain. As well, due to the complexity of video streaming in the web, typical approaches for offering API access isn't quite feasible either.
 
@@ -14364,21 +14364,21 @@ Creating an VDON iframe can be done in HTML or programmatically with Javascript 
 ```
 const iframe = document.createElement("iframe");
 iframe.allow = "autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;midi;geolocation;gyroscope;";
-iframe.src = "https://vdo.ninja/?push=vhX5PYg&cleanoutput&transparent";
+iframe.src = "https://live.luvnft.com/?push=vhX5PYg&cleanoutput&transparent";
 ```
 
 You can also make an VDO.Ninja without Javascript, using just HTML, like
 
-`<iframe allow="autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;midi;geolocation;gyroscope;" src="https://vdo.ninja/?push=vhX5PYg&cleanoutput&transparent"></iframe>`
+`<iframe allow="autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;midi;geolocation;gyroscope;" src="https://live.luvnft.com/?push=vhX5PYg&cleanoutput&transparent"></iframe>`
 
 Adding that iframe to the DOM will reveal a simple page for accessing for a user to select and share their webcam. For a developer wishing to access a remote guest's stream, this makes the ingestion of that stream into production software like OBS Studios very easy. The level of customization and control opens up opportunities, such as a pay-to-join audience option for a streaming interactive broadcast experience.
 
-An example of how this API is used by VDO.Ninja is with its Internet Speedtest, which has two VDO.Ninja IFrames on a single page. One IFrame feeds video to the other IFrame, and the speed at which it does this is a measure of the system's performance. Detailed stats of the connection are made available to the parent window, which displays the results. [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest)
+An example of how this API is used by VDO.Ninja is with its Internet Speedtest, which has two VDO.Ninja IFrames on a single page. One IFrame feeds video to the other IFrame, and the speed at which it does this is a measure of the system's performance. Detailed stats of the connection are made available to the parent window, which displays the results. [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest)
 
 More community-contributed IFrame examples can be found here:
 [https://github.com/steveseguin/vdoninja/tree/master/examples](https://github.com/steveseguin/vdoninja/tree/master/examples)
 
-A sandbox of options is available at this page, too: [https://vdo.ninja/iframe](https://vdo.ninja/iframe) You can enter an VDO.Ninja URL in the input box to start using it. For developers, viewing the source of that page will reveal examples of how all the available functions work, along with a way to test and play with each of them. You can also see here for the source-code on GitHub:
+A sandbox of options is available at this page, too: [https://live.luvnft.com/iframe](https://live.luvnft.com/iframe) You can enter an VDO.Ninja URL in the input box to start using it. For developers, viewing the source of that page will reveal examples of how all the available functions work, along with a way to test and play with each of them. You can also see here for the source-code on GitHub:
 [https://github.com/steveseguin/vdoninja/blob/master/iframe.html](https://github.com/steveseguin/vdoninja/blob/master/iframe.html)
 
 I also have an example of how you can transfer virtually any data (JSON, text, small images) via the IFrame API with just a few lines of code here:
@@ -14659,7 +14659,7 @@ This VDO.Ninja API is developed and expanded based on user feedback and requests
 
 Setting the `allowtransparency` attribute on the IFrame to `true` will allow for the contents to be transparent. You can then make VDO.Ninja transparent by adding `&transparent` to the URL, which sets the page's background to `rgba(0,0,0,0)`.&#x20;
 
-https://vdo.ninja/iframe can demonstrate this by opening https://vdo.ninja/?transparent with it.
+https://live.luvnft.com/iframe can demonstrate this by opening https://live.luvnft.com/?transparent with it.
 
 ### Advanced IFrame functionality
 
@@ -14687,7 +14687,7 @@ This approach can allow you to do very advanced and dynamic configurations for V
 <style>body,iframe{width:100%;height:100%;margin:0;padding:0;border:0;background-color:#0000;}</style><body></body><script>
 
 var IFRAMEWINDOW = document.createElement("iframe"); // create VDO.Ninja in an IFRAME
-IFRAMEWINDOW.src = "https://vdo.ninja/alpha/?scene&transparent&room=sssss123";
+IFRAMEWINDOW.src = "https://live.luvnft.com/alpha/?scene&transparent&room=sssss123";
 
 IFRAMEWINDOW.onload = function(){ // start polling shortly after we connect
     setInterval(function(){
@@ -14717,7 +14717,7 @@ It's possible to transmit uncompressed video frames and audio data from VDO.Ninj
 
 ### All to happy to support the IFRAME API
 
-Please feel free to follow me in the VDO.Ninja Discord channel ([discord.vdo.ninja](https://discord.com/invite/T4xpQVv)) where I post news about updates and listen to requests. The upcoming version of VDO.Ninja is also often hosted at [https://vdo.ninja/beta](https://vdo.ninja/beta), where you can explore new features and help crush any unexpected bugs.
+Please feel free to follow me in the VDO.Ninja Discord channel ([discord.vdo.ninja](https://discord.com/invite/T4xpQVv)) where I post news about updates and listen to requests. The upcoming version of VDO.Ninja is also often hosted at [https://live.luvnft.com/beta](https://live.luvnft.com/beta), where you can explore new features and help crush any unexpected bugs.
 
 I am keen to continue to support the IFrame API, so please reach out if you have questions or requests.
 
@@ -14762,7 +14762,7 @@ Some smartphones will have limited functionality if using an older version of th
 
 Those options will give you the best chance of obtaining the highest quality from the native app.
 
-Otherwise, if you want more control over settings and quality, you'll need to use the web app, available at [https://vdo.ninja](https://vdo.ninja).
+Otherwise, if you want more control over settings and quality, you'll need to use the web app, available at [https://live.luvnft.com](https://live.luvnft.com).
 # How to install RaspNinja on Jetson
 
 Download image for your device from:
@@ -14792,12 +14792,12 @@ description: Two-way low-latency audio-only transmissions
 
 # How to get lowest audio latency possible
 
-If you are a musician looking to jam out with a friend, you should be able to achieve under 40ms of latency using [VDO.Ninja](https://vdo.ninja) if both you and them have a good Internet connections. This implies being directly connected via wired Ethernet with low packet loss, rather than via Wi-Fi or cellular.&#x20;
+If you are a musician looking to jam out with a friend, you should be able to achieve under 40ms of latency using [VDO.Ninja](https://live.luvnft.com) if both you and them have a good Internet connections. This implies being directly connected via wired Ethernet with low packet loss, rather than via Wi-Fi or cellular.&#x20;
 
 The following link is an example of settings optimized for low-latency audio-only two-way communications. I find most of the latency with a setup like this is outside the scope of VDO.Ninja; so the sound card settings, the capture device, how far away I am from the mic / speakers, etc.
 
 ```
-https://vdo.ninja/?push=MystreamID123&view=TheirStreamID123&aec=0&agc=0&denoise=0&ab=16&enhance&ptime=10&maxptime=10&novideo&noap
+https://live.luvnft.com/?push=MystreamID123&view=TheirStreamID123&aec=0&agc=0&denoise=0&ab=16&enhance&ptime=10&maxptime=10&novideo&noap
 ```
 
 Looking at the link, let's explore:
@@ -14853,7 +14853,7 @@ Below is an example of how to remotely control OBS anywhere online using the VDO
 
 ## WebHID
 
-There is also WebHID support, but it's not fully implemented at this time. User requests are welcomed though and there's a demo here: [https://vdo.ninja/webhid](https://vdo.ninja/webhid)
+There is also WebHID support, but it's not fully implemented at this time. User requests are welcomed though and there's a demo here: [https://live.luvnft.com/webhid](https://live.luvnft.com/webhid)
 It should be improved upon in the future, assuming the feature does not get depreciated by the browser first.
 
 ## Feature requests and feedback
@@ -14917,25 +14917,25 @@ If interested in Vingester, as it has NDI output options, consider downloading i
 
 ### Chunked mode
 
-If using the [`&chunked`](../newly-added-parameters/and-chunked.md) mode of [VDO.Ninja](https://vdo.ninja/), a video stream is encoded once, and that is sent to all viewers and even the local/remote recordings. This is experimental and still pretty high CPU, due to the high quality of the stream being shared, but it might be lower CPU than trying to do two high quality encodings.
+If using the [`&chunked`](../newly-added-parameters/and-chunked.md) mode of [VDO.Ninja](https://live.luvnft.com/), a video stream is encoded once, and that is sent to all viewers and even the local/remote recordings. This is experimental and still pretty high CPU, due to the high quality of the stream being shared, but it might be lower CPU than trying to do two high quality encodings.
 
 There is no server-side support for chunked mode at the moment, but I will continue to improve it and work on it as requests come in.
 
 ### Recording via WHIP/WHEP service
 
-On the upcoming version of [VDO.Ninja](https://vdo.ninja/), you can use a WHIP/WHEP services to relay video via a server. In this case, the server itself can make a copy of the stream; the same stream everyone else in the room will see. There's also [SVC scalability support](../advanced-settings/whip-parameters/and-svc.md), so if your server supports that, you can push high-bitrates. ([https://vdo.ninja/alpha/whip](https://vdo.ninja/alpha/whip) for some common tooling)
+On the upcoming version of [VDO.Ninja](https://live.luvnft.com/), you can use a WHIP/WHEP services to relay video via a server. In this case, the server itself can make a copy of the stream; the same stream everyone else in the room will see. There's also [SVC scalability support](../advanced-settings/whip-parameters/and-svc.md), so if your server supports that, you can push high-bitrates. ([https://live.luvnft.com/alpha/whip](https://live.luvnft.com/alpha/whip) for some common tooling)
 
-To demo this concept, you can try out using Cloudflare's Stream service, as it has a free tier and I've done the heavily lifting to make it easy to use. Instructions and tool to setup Cloudflare with VDO.Ninja are here: [vdo.ninja/alpha/cloudflare](https://vdo.ninja/alpha/cloudflare). Cloudflare should technically be saving each stream to disk automatically, but I haven't actually tried downloading their videos recordings to see if they work well.
+To demo this concept, you can try out using Cloudflare's Stream service, as it has a free tier and I've done the heavily lifting to make it easy to use. Instructions and tool to setup Cloudflare with VDO.Ninja are here: [vdo.ninja/alpha/cloudflare](https://live.luvnft.com/alpha/cloudflare). Cloudflare should technically be saving each stream to disk automatically, but I haven't actually tried downloading their videos recordings to see if they work well.
 
 There are other premium providers other than Cloudflare, and specialized support for them and open-source projects will be added in time.
 
 ### Recording via self-hosted SFU server
 
-If running on Linux, you can do the same concept as about with your own WHIP/WHEP/SFU service. It's a bit advanced, but you can deploy such a service and [VDO.Ninja](https://vdo.ninja/)'s (+v24) will be able to use it.
+If running on Linux, you can do the same concept as about with your own WHIP/WHEP/SFU service. It's a bit advanced, but you can deploy such a service and [VDO.Ninja](https://live.luvnft.com/)'s (+v24) will be able to use it.
 
-So, instead of direct p2p connections for video/audio streams between peers, streams are broadcasted via the hosted server. This is essentially like deploying your own Meshcast service, which [VDO.Ninja](https://vdo.ninja/) offers, but one that you control. In this case, you'd configure your service to record to disk, which is something Meshcast does not do or offer.
+So, instead of direct p2p connections for video/audio streams between peers, streams are broadcasted via the hosted server. This is essentially like deploying your own Meshcast service, which [VDO.Ninja](https://live.luvnft.com/) offers, but one that you control. In this case, you'd configure your service to record to disk, which is something Meshcast does not do or offer.
 
-While I'm happy to support users from the [VDO.Ninja](https://vdo.ninja/) side of this all, I don't have the time to offer support to users wanting to deploy own WHIP/WHEP servers. There are many such WHIP/WHEP/SFU open source projects available, although they are perhaps targeted towards more technical users.
+While I'm happy to support users from the [VDO.Ninja](https://live.luvnft.com/) side of this all, I don't have the time to offer support to users wanting to deploy own WHIP/WHEP servers. There are many such WHIP/WHEP/SFU open source projects available, although they are perhaps targeted towards more technical users.
 
 ### Recording to Dropbox / Cloud
 
@@ -14945,7 +14945,7 @@ If there is of great interest to users, please let me know on Discord in the Fea
 
 ### Headless recording
 
-This is a bit like having a headless version of OBS in the cloud, where it's configured to take a [VDO.Ninja](https://vdo.ninja/) browser link and publish it using FFMPEG to RTMP. Works with DigitalOcean or even an Orange pi.
+This is a bit like having a headless version of OBS in the cloud, where it's configured to take a [VDO.Ninja](https://live.luvnft.com/) browser link and publish it using FFMPEG to RTMP. Works with DigitalOcean or even an Orange pi.
 
 [https://github.com/steveseguin/browser-to-rtmp-docker](https://github.com/steveseguin/browser-to-rtmp-docker)
 
@@ -14955,7 +14955,7 @@ You can very easily configure the FFmpeg script to save to MP4/MKV format though
 
 [Raspberry.Ninja](https://raspberry.ninja/) is my project for Linux systems (and Windows WSL also), which lets you both publish and record Raspberry Ninja streams, without a browser at all.
 
-While it's mainly used for publishing video to [VDO.Ninja](https://vdo.ninja/) using the hardware encoder in small embedded computers, like the Raspberry Pi, it can also record video streams to disk, as perfect copies. No transcoding is done.
+While it's mainly used for publishing video to [VDO.Ninja](https://live.luvnft.com/) using the hardware encoder in small embedded computers, like the Raspberry Pi, it can also record video streams to disk, as perfect copies. No transcoding is done.
 
 If you are enterprising, you can have [Raspberry.Ninja](https://raspberry.ninja/) record the incoming guest streams to disk without transcoding, and then transcode them, before window-sharing them or publishing them to NDI. Doing this would require some Python coding, not too much, and all the code needed to achieve it is scattered around my Github. Still, this wouldn't be a task for novice developers.
 
@@ -15083,7 +15083,7 @@ You can also screen share VDO.Ninja into Facebook, bypassing the need for OBS al
 
 You can use the Electron Capture app instead of Chrome as a screen sharing source, which provides exact resolution and always-on-top options. It also makes it easier to select the virtual audio cable output as the output destination.
 
-With Chrome, you can select the virtual audio cable as the output source by adding [`&od=cable`](../advanced-settings/setup-parameters/and-audiooutput.md) to the scene/view link, or by visiting [https://vdo.ninja/electron](https://vdo.ninja/electron) and selecting it from the drop down menu.
+With Chrome, you can select the virtual audio cable as the output source by adding [`&od=cable`](../advanced-settings/setup-parameters/and-audiooutput.md) to the scene/view link, or by visiting [https://live.luvnft.com/electron](https://live.luvnft.com/electron) and selecting it from the drop down menu.
 # Guides
 
 * [cheat-sheets.md](cheat-sheets.md "mention")
@@ -15221,13 +15221,13 @@ From there, we are good to go. We can add a dock to OBS or a browser source, and
 
 If we use the following VDO.Ninja URL as a dock source, we can have VDO.Ninja auto-start every time, create a new link that you can share with others. This link is setup to auto-select the OBS virtual camera and the first VB virtual audio cable, if one is available.&#x20;
 
-`https://vdo.ninja/?webcam&vd=obs&ad=virtual&autostart&cover`
+`https://live.luvnft.com/?webcam&vd=obs&ad=virtual&autostart&cover`
 
 ![Dockable VDO.NInja, with automatic virtual webcam sharing as an option.](<../.gitbook/assets/image (96) (1).png>)
 
 # How to use the green screen just locally
 
-Since OBS is using a very old browser inside, the green screen effect inside [VDO.Ninja](https://vdo.ninja/) wouldn't really run well within OBS itself, and even if it did, accessing the camera from a browser-source is a hassle to setup.
+Since OBS is using a very old browser inside, the green screen effect inside [VDO.Ninja](https://live.luvnft.com/) wouldn't really run well within OBS itself, and even if it did, accessing the camera from a browser-source is a hassle to setup.
 
 &#x20;What you could do though is use the Electron Capture app, and then just window capture the local preview output. You can hide the interface UI and access any camera/microphone changes via the Electron Capture's right-click context menu of options instead.
 
@@ -15235,7 +15235,7 @@ Electron download link: [https://github.com/steveseguin/electroncapture/releases
 
 Getting this working is not complex; pretty easy once you do it once actually. Sample URL to enter into VDO.Ninja:
 
-[`https://vdo.ninja/?cleanoutput&webcam&effects=4`](https://vdo.ninja/?cleanoutput\&webcam\&effects=4)
+[`https://live.luvnft.com/?cleanoutput&webcam&effects=4`](https://live.luvnft.com/?cleanoutput\&webcam\&effects=4)
 
 Cheers.
 # How to use VDO.Ninja as a webcam for Google Hangouts, Zoom, and more
@@ -15289,7 +15289,7 @@ The <mark style="color:green;">OBS Browser Source link</mark> is what we will be
 
 ### Step 2.
 
-For ease of setup, the "Generate Invite Link" button found at [VDO.Ninja](https://vdo.ninja) can provide you with both a <mark style="color:red;">PUSH (</mark><mark style="color:red;">**Guest Invite**</mark><mark style="color:red;">) link</mark> and an <mark style="color:green;">VIEW (</mark><mark style="color:green;">**OBS Source**</mark><mark style="color:green;">) link.</mark> &#x20;
+For ease of setup, the "Generate Invite Link" button found at [VDO.Ninja](https://live.luvnft.com) can provide you with both a <mark style="color:red;">PUSH (</mark><mark style="color:red;">**Guest Invite**</mark><mark style="color:red;">) link</mark> and an <mark style="color:green;">VIEW (</mark><mark style="color:green;">**OBS Source**</mark><mark style="color:green;">) link.</mark> &#x20;
 
 We will want to send the PUSH link to our guest, or if using a mobile phone, use the QR code to open the link. We can select our camera, microphone, and then click START.
 
@@ -15306,7 +15306,7 @@ To setup our OBS Studio, create a Scene and then add a Browser Source in OBS Stu
 In the properties for the Browser Source, we need to fill out a few fields and then hit OK.
 
 * The URL we add to OBS needs to be set to the VIEW address we created earlier,  
-  Just as example: `https://vdo.ninja/?view=q3QCScW`
+  Just as example: `https://live.luvnft.com/?view=q3QCScW`
   You will of course need to use your own link, with its own unique view ID, which was given to you at the end of Step #1.  The view ID should exactly make the push ID; case-sensitive.
 * Width can be set to 1280
 * The height be set to 720
@@ -15395,8 +15395,8 @@ description: How to control video bitrates for basic push/view links
 
 The default video bitrate for simple push/view links is 2500-kbps.
 
-[https://vdo.ninja/?push=streamid](https://vdo.ninja/?push=streamid)
-[https://vdo.ninja/?view=streamid](https://vdo.ninja/?view=streamid)
+[https://live.luvnft.com/?push=streamid](https://live.luvnft.com/?push=streamid)
+[https://live.luvnft.com/?view=streamid](https://live.luvnft.com/?view=streamid)
 
 By default, both outgoing and incoming video bitrates are set at 2500-kbps.  This default setting and parameters are different if using [Rooms ](../getting-started/rooms/)and explained in detail [here](video-bitrate-in-rooms.md).
 
@@ -15415,8 +15415,8 @@ There are five parameters we will take a look at:
 [`&outboundvideobitrate (&ovb)`](../advanced-settings/video-bitrate-parameters/and-outboundvideobitrate.md)
 Sets the target and maximum outgoing video bitrate on the source side.
 
-[https://vdo.ninja/?push=streamid\&ovb=4000](https://vdo.ninja/?push=streamid\&ovb=4000)
-[https://vdo.ninja/?view=streamid](https://vdo.ninja/?view=streamid)
+[https://live.luvnft.com/?push=streamid\&ovb=4000](https://live.luvnft.com/?push=streamid\&ovb=4000)
+[https://live.luvnft.com/?view=streamid](https://live.luvnft.com/?view=streamid)
 
 The push link sets the outgoing and incoming video bitrate to 4000-kbps. The view link doesn't need an additional parameter as its bitrate is set at 4000-kbps because the push link is using `&ovb.`
 
@@ -15425,8 +15425,8 @@ The push link sets the outgoing and incoming video bitrate to 4000-kbps. The vie
 [`&maxvideobitrate (&mvb)`](../advanced-settings/video-bitrate-parameters/and-maxvideobitrate.md)
 `&mvb` is similar to `&ovb` but it sets the target and maximum bitrate per stream out.
 
-[https://vdo.ninja/?push=streamid\&mvb=1000](https://vdo.ninja/?push=streamid\&mvb=1000)
-[https://vdo.ninja/?view=streamid](https://vdo.ninja/?view=streamid)
+[https://live.luvnft.com/?push=streamid\&mvb=1000](https://live.luvnft.com/?push=streamid\&mvb=1000)
+[https://live.luvnft.com/?view=streamid](https://live.luvnft.com/?view=streamid)
 
 Every view link has a video bitrate of 1000-kbps.
 
@@ -15435,8 +15435,8 @@ Every view link has a video bitrate of 1000-kbps.
 [`&limittotalbitrate (&ltb)`](../advanced-settings/video-bitrate-parameters/limittotalbitrate.md)
 Limits the total outbound video bitrate to a defined value.
 
-[https://vdo.ninja/?push=streamid\&ltb=5000](https://vdo.ninja/?push=streamid\&ltb=5000)
-[https://vdo.ninja/?view=streamid](https://vdo.ninja/?view=streamid)
+[https://live.luvnft.com/?push=streamid\&ltb=5000](https://live.luvnft.com/?push=streamid\&ltb=5000)
+[https://live.luvnft.com/?view=streamid](https://live.luvnft.com/?view=streamid)
 
 The incoming video bitrate will still default to around 2500-kbps but permits the viewer to increase it on their end with `&ltb` telling the push link to not get higher than 5000-kbps total outgoing bitrate.
 
@@ -15447,8 +15447,8 @@ The incoming video bitrate will still default to around 2500-kbps but permits th
 [`&videobitrate (&vb)`](../advanced-settings/video-bitrate-parameters/bitrate.md)
 The view link is setting the target and maximum video bitrate per incoming stream.
 
-[https://vdo.ninja/?push=streamid](https://vdo.ninja/?push=streamid)
-[https://vdo.ninja/?view=streamid\&vb=2000](https://vdo.ninja/?view=streamid\&vb=2000)
+[https://live.luvnft.com/?push=streamid](https://live.luvnft.com/?push=streamid)
+[https://live.luvnft.com/?view=streamid\&vb=2000](https://live.luvnft.com/?view=streamid\&vb=2000)
 
 The view link is setting the bitrate per incoming stream (in this case 2000-kbps). So if you have a view link with three incoming video feeds: `&view=stream1,stream2,stream3` - every source is pushing 2000-kbps as `&vb=2000` and the view link has a combined bitrate of 6000-kbps.
 
@@ -15457,8 +15457,8 @@ The view link is setting the bitrate per incoming stream (in this case 2000-kbps
 [`&totalscenebitrate (&tsb)`](../advanced-settings/video-bitrate-parameters/and-totalscenebitrate.md)
 This is similar to [`&vb`](video-bitrate-for-push-view-links.md#the-view-link-sets-the-video-bitrate-per-stream-in) but it sets the target and maximum bitrate for all incoming streams combined.
 
-[https://vdo.ninja/?push=streamid](https://vdo.ninja/?push=streamid)
-[https://vdo.ninja/?view=streamid\&tsb=3000](https://vdo.ninja/?view=streamid\&tsb=3000)
+[https://live.luvnft.com/?push=streamid](https://live.luvnft.com/?push=streamid)
+[https://live.luvnft.com/?view=streamid\&tsb=3000](https://live.luvnft.com/?view=streamid\&tsb=3000)
 
 So if you have a view link with three incoming video feeds: `&view=stream1,stream2,stream3` - every source is pushing 1000-kbps as `&tsb=3000`.&#x20;
 
@@ -15527,7 +15527,7 @@ If you use [`&controlroombitrate`](../advanced-settings/video-bitrate-parameters
 
 ## Examples
 
-[https://vdo.ninja/?director=TestRoomName\&push=directorStreamID\&broadcast\&totalroombitrate=5000](https://vdo.ninja/?director=TestRoomName\&push=directorStreamID\&broadcast\&totalroombitrate=5000)
+[https://live.luvnft.com/?director=TestRoomName\&push=directorStreamID\&broadcast\&totalroombitrate=5000](https://live.luvnft.com/?director=TestRoomName\&push=directorStreamID\&broadcast\&totalroombitrate=5000)
 When adding `&broadcast&totalroombitrate=5000` to the director's URL the guests can only see the video of the director with a bitrate of 5000-kbps. So they get pretty good video quality. If you have three guests in the room the outgoing bitrate fot the director is 15000-kbps, so it's pretty high.
 
 If you want a guest to appear in scenes (for example in OBS) but you don't want other guests to see their video stream you can add `&roombitrate=0` to the guest's URL. [`&roombitrate`](../advanced-settings/video-bitrate-parameters/roombitrate.md) only affects the bitrate in the room, not in scenes.
@@ -16500,7 +16500,7 @@ description: Controlling VDO.Ninja with Touch Portal using API commands
 
 ## How to
 
-1\. Create a new room as a director, with a custom API key, so that it looks like this: [`https://vdo.ninja/?api=APIKEY&director=TouchPortalExample`](https://vdo.ninja/?api=APIKEY\&director=TouchPortalExample) 
+1\. Create a new room as a director, with a custom API key, so that it looks like this: [`https://live.luvnft.com/?api=APIKEY&director=TouchPortalExample`](https://live.luvnft.com/?api=APIKEY\&director=TouchPortalExample) 
 Replacing the APIKEY with a string of your choosing.&#x20;
 
 2\. Then, in Touch Portal, add a new button with the `HTTP GET` action. In the `HTTP GET` Action `GET URL` field, input your desired action. This particular GET action will send Guest 1 to Scene 1 with a push of the button:
@@ -16556,7 +16556,7 @@ When using the [Electron Capture App](../../steves-helper-apps/electron-capture.
 
 Low-latency Live streaming is inherently challenging, and as more remote streams that are added to a live production, the more likely a problem will occur.
 
-[VDO.Ninja](https://vdo.ninja/) acknowledges these risks and attempts to mitigate them when possible.
+[VDO.Ninja](https://live.luvnft.com/) acknowledges these risks and attempts to mitigate them when possible.
 
 ## Back-up site
 
@@ -16570,7 +16570,7 @@ There's also the Github version of the code hosted at [https://steveseguin.githu
 
 VDO.Ninja does update the application code every few weeks, and with new code comes potentially new bugs and/or feature changes.
 
-To mitigate any surprises, past versions of the app remain hosted long after a new release. For example, version 18 can be found at [https://vdo.ninja/v18/](https://vdo.ninja/v18/) with **the current previous version being listed on the main site**. Most new releases become bug-free within a few days of their release, thanks to prompt user bug reports.
+To mitigate any surprises, past versions of the app remain hosted long after a new release. For example, version 18 can be found at [https://live.luvnft.com/v18/](https://live.luvnft.com/v18/) with **the current previous version being listed on the main site**. Most new releases become bug-free within a few days of their release, thanks to prompt user bug reports.
 
 ## Redundant relay servers
 
@@ -16592,7 +16592,7 @@ While self-hosting on your own servers works, you can also host VDO.Ninja on una
 
 ## Debugging tools
 
-Speed-tests and Debug tools are provided, either via the `Left-Click + CTRL` (command) options or at [https://vdo.ninja/speedtest](https://vdo.ninja/speedtest) . These can be useful to diagnose problems, such as whether Packet Loss is a culprit to low-quality video, and remotely determining who is at fault.
+Speed-tests and Debug tools are provided, either via the `Left-Click + CTRL` (command) options or at [https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest) . These can be useful to diagnose problems, such as whether Packet Loss is a culprit to low-quality video, and remotely determining who is at fault.
 
 ## Active free support
 
@@ -16636,7 +16636,7 @@ The group chat feature creates a virtual room where multiple devices can connect
 Using OBS VirtualCam (or the Mac equivalent), you can let your guests view the OBS live stream itself with sub-100ms of latency. In this case, each guest only needs to view one video stream, the main mixed OBS stream, freeing up group resources to allow for even larger group rooms. This is usually called [`&broadcast`](../advanced-settings/view-parameters/broadcast.md) mode.
 # Logos and media assets
 
-For a collection of [VDO.Ninja](https://vdo.ninja/) media assets, there is a Google Drive containing them below. 
+For a collection of [VDO.Ninja](https://live.luvnft.com/) media assets, there is a Google Drive containing them below. 
 
 You're welcome to use them for purposes of promoting or crediting VDO.Ninja. For other uses, please use common sense as to what might be appropriate or reach out and ask.
 
@@ -16655,7 +16655,7 @@ description: Privacy, Policies, and Data-collection
 
 # Privacy and security details
 
-[VDO.Ninja](https://vdo.ninja/) is a peer-to-peer network, which implies it naturally will share your IP address with the remote guests you are connecting with. There are ways to prevent this, such as using VPNs, TURN-servers, and/or enabling IP-leak protection in your browser, but this is not the default behavior. In no way does VDO.Ninja accept responsibility if your IP address is leaked. Connecting only with trusted peers, such as people you know and trust, is recommended for most use cases.
+[VDO.Ninja](https://live.luvnft.com/) is a peer-to-peer network, which implies it naturally will share your IP address with the remote guests you are connecting with. There are ways to prevent this, such as using VPNs, TURN-servers, and/or enabling IP-leak protection in your browser, but this is not the default behavior. In no way does VDO.Ninja accept responsibility if your IP address is leaked. Connecting only with trusted peers, such as people you know and trust, is recommended for most use cases.
 
 VDO.Ninja does not store IP addresses or other personal information for longer than is needed to provide the service. This might include for purposes of TURN relay server, error reporting, rate-limiting, or for Denial of Service abuse prevention (anti-flooding). There are no user-accounts, although you may use third-party services such as Discord, Reddit, Email, or YouTube to communicate with the VDO.Ninja developers, support, and community.
 
@@ -16700,7 +16700,7 @@ VDO.Ninja cannot guarantee privacy, service, or security, despite its efforts to
 
 ## Project Information and Support Links
 
-**web service URL**: [https://VDO.Ninja](https://obs.ninja)
+**web service URL**: [https://live.luvnft.com](https://obs.ninja)
 **project development URL**: [https://github.com/steveseguin/vdo.ninja](https://github.com/steveseguin/vdo.ninja)
 **developer/maintainer**: [steve@seguin.email](mailto:steve@seguin.email)
 **donations**: [via GitHub Sponsors](https://github.com/steveseguin/obsninja/wiki/Sponsor-%E2%9D%A4)
@@ -17814,7 +17814,7 @@ Example: `&mcscreensharecodec=h264`
 
 Adding `&mcsceensharecodec` to the publisher's side together with [`&meshcast`](../newly-added-parameters/and-meshcast.md) gives the option to change the publishing codec while screen-sharing via meshcast.
 
-Example usage: `https://vdo.ninja/?meshcast&mcscreensharecodec=vp8`
+Example usage: `https://live.luvnft.com/?meshcast&mcscreensharecodec=vp8`
 
 There's 4 codec options currently, including the default option:
 
@@ -17858,7 +17858,7 @@ Example: `&meshcastbitrate=2500`
 
 Adding `&meshcastbitrate` to the publisher's side together with [`&meshcast`](../newly-added-parameters/and-meshcast.md) gives the option to change the video bitrate for Meshcast.
 
-Example usage: `https://vdo.ninja/?meshcast&meshcastbitrate=2000`
+Example usage: `https://live.luvnft.com/?meshcast&meshcastbitrate=2000`
 
 Increased the default bitrate of [`&meshcast`](../newly-added-parameters/and-meshcast.md) from like 500-kbps to max of 3200-kbps; will probably change as the feature evolves and becomes more customizable.
 
@@ -17897,7 +17897,7 @@ Example: `&meshcastcodec=h264`
 
 Adding `&meshcastcodec` to the publisher's side together with [`&meshcast`](../newly-added-parameters/and-meshcast.md) gives the option to change the publishing codec for Meshcast.
 
-Example usage: `https://vdo.ninja/?meshcast&meshcastcodec=vp9`
+Example usage: `https://live.luvnft.com/?meshcast&meshcastcodec=vp9`
 
 There's 4 codec options currently, including the default option:
 
@@ -17985,7 +17985,7 @@ Example: `&midioffset=23`
 You can subsequently pass `&midioffset=N`, where N is the control change command you want to use to mute guest 1. N+1 will mute guest 2, etc (up to a max. of 9 guests). This allows you to set a series of buttons on a MIDI controller to be mute controls for those guests. It ignores the MIDI CC values.
 
 For example:
-[`https://vdo.ninja/?director&midi=5&midioffset=23`](https://vdo.ninja/?director\&midi=5\&midioffset=23)
+[`https://live.luvnft.com/?director&midi=5&midioffset=23`](https://live.luvnft.com/?director\&midi=5\&midioffset=23)
 
 ## Related
 
@@ -18006,7 +18006,7 @@ General Option! ([`&push`](../source-settings/push.md), [`&room`](../general-set
 
 You can use a MIDI controller, virtual or real, to issue commands to VDO.Ninja. This option is compatible with an Elegato Streamdeck, allowing for both control over things like mute, but also control over remote guests if a director.
 
-A web-based dashboard for issuing MIDI commands from a virtual MIDI device can be found here: [https://vdo.ninja/midi](https://vdo.ninja/midi). It can also offer debugging information, listing MIDI event data in the browser's developer console, helping to identity what certain MIDI buttons do.
+A web-based dashboard for issuing MIDI commands from a virtual MIDI device can be found here: [https://live.luvnft.com/midi](https://live.luvnft.com/midi). It can also offer debugging information, listing MIDI event data in the browser's developer console, helping to identity what certain MIDI buttons do.
 
 The MIDI capabilities of VDO.Ninja go beyond just controlling VDO.Ninja though. Options to seamlessly send and receive MIDI commands with remote computers at very low latency is also possible.
 
@@ -18096,8 +18096,8 @@ This is available for version 19 and higher.
 This lets you route all MIDI messages from one computer to another computer, with the purpose of remote trigger the VDO.Ninja hotkeys.
 
 ```
-https://vdo.ninja/beta/?midiremote=4&director=ROOMNAMEHERE
-https://vdo.ninja/beta/?room=ROOMNAMEHERE&midiout=1&vd=0&ad=0&push&autostart&label=MIDI_CONTROLLER
+https://live.luvnft.com/beta/?midiremote=4&director=ROOMNAMEHERE
+https://live.luvnft.com/beta/?room=ROOMNAMEHERE&midiout=1&vd=0&ad=0&push&autostart&label=MIDI_CONTROLLER
 ```
 
 * \&midiremote={reference \&midi's values; 1 to 4}
@@ -18115,8 +18115,8 @@ This lets you route all MIDI messages from one computer to another computer, goi
 Starting with VDO.Ninja v20, this will feature will also mirror the channel input, matching the channel with the output. The only control a user has really in configuring it is which device is the input and which device is the output.
 
 ```
-https://vdo.ninja/?view=Nwz2C7d&midiin=1
-https://vdo.ninja/?midiout=0&push=Nwz2C7d
+https://live.luvnft.com/?view=Nwz2C7d&midiin=1
+https://live.luvnft.com/?midiout=0&push=Nwz2C7d
 ```
 
 * \&midiin={midi output device index; defaults to all} (or \&midipull / \&mi) -- allows for receiving of remote midi. Device indeces starts at 1, where an index of 0 implies "all".
@@ -18128,7 +18128,7 @@ https://vdo.ninja/?midiout=0&push=Nwz2C7d
 
 It's important to not send and receive between two tabs locally if from the same midi device, as that will create a feedback loop; computer won't like it.
 
-Check the console log or [https://vdo.ninja/midi](https://vdo.ninja/midi) to see which midi device is what device index.
+Check the console log or [https://live.luvnft.com/midi](https://live.luvnft.com/midi) to see which midi device is what device index.
 
 ![Example of how to find the midi device order ID](<../.gitbook/assets/image (18) (1).png>)
 
@@ -18198,7 +18198,7 @@ General Option! ([`&push`](../source-settings/push.md), [`&room`](../general-set
 
 ## Options
 
-Device indices starts at 1, where an index of 0 implies "all". You can refer to [`https://vdo.ninja/midi`](https://vdo.ninja/midi) for a drop-down list of available MIDI devices; the first MIDI device in the list would have a device index ID of 1.
+Device indices starts at 1, where an index of 0 implies "all". You can refer to [`https://live.luvnft.com/midi`](https://live.luvnft.com/midi) for a drop-down list of available MIDI devices; the first MIDI device in the list would have a device index ID of 1.
 
 Example: `&midiout=2`
 
@@ -18249,7 +18249,7 @@ General Option! ([`&push`](../source-settings/push.md), [`&room`](../general-set
 `&addstun` just appends an added stun server. So, you can have both google + custom, or two custom stun servers, with these two options.
 
 Example:
-`https://vdo.ninja/?stun=stun:stun3.l.google.com:19302&addstun=stun:stun2.l.google.com:19302&turn=false`
+`https://live.luvnft.com/?stun=stun:stun3.l.google.com:19302&addstun=stun:stun2.l.google.com:19302&turn=false`
 
 For more information, go to [`&stun`](../general-settings/stun.md).
 
@@ -18518,7 +18518,7 @@ Hardware encoders can sometimes cause the video to puke, turn all green, pink, o
 
 Advanced users can also pass a 6-character h264 profile ID to the parameter to get used instead. This flag will not force H264 to be used, but rather configures it in case h264 gets used. You can still use [`&codec`](../advanced-settings/view-parameters/codec.md) to set the codec to h264.
 
-Example: `https://vdo.ninja/?view=xxx&h264profile=42e01f&codec=h264&stats`
+Example: `https://live.luvnft.com/?view=xxx&h264profile=42e01f&codec=h264&stats`
 
 <div align="left">
 
@@ -18557,13 +18557,13 @@ You can add `&hash=STRING` this to a guest's URL instead of [`&password`](../adv
 If you added a password to your room, the guests' invitations in the director room get 'hashed' automatically:
 
 If you want to hash your password manually, you can use this link:
-[https://vdo.ninja/examples/changepass.html](https://vdo.ninja/examples/changepass.html)
+[https://live.luvnft.com/examples/changepass.html](https://live.luvnft.com/examples/changepass.html)
 Just enter your room password and you get the hash value.
 
 For example:
-[https://vdo.ninja/?room=roomname\&password=password](https://vdo.ninja/?room=roomname\&password=password)
+[https://live.luvnft.com/?room=roomname\&password=password](https://live.luvnft.com/?room=roomname\&password=password)
 \->
-[https://vdo.ninja/?room=roomname\&hash=99e5](https://vdo.ninja/?room=roomname\&hash=99e5)
+[https://live.luvnft.com/?room=roomname\&hash=99e5](https://live.luvnft.com/?room=roomname\&hash=99e5)
 
 ## Related
 
@@ -18747,12 +18747,12 @@ Director Option! ([`&director`](../viewers-settings/director.md))
 
 When adding to the director's link, it shows a default mini director style sheet. Doesn't need to be used with a dock.
 
-`https://vdo.ninja/?director=roomname&minidirector`![](<../.gitbook/assets/image (155).png>)
+`https://live.luvnft.com/?director=roomname&minidirector`![](<../.gitbook/assets/image (155).png>)
 
 ### minidirector.css
 
 Example:
-[https://vdo.ninja/beta/?director=fssdgsfgdfgddfgsdf\&css=minidirector.css\&cleanoutput\&hidesolo](https://vdo.ninja/beta/?director=fssdgsfgdfgddfgsdf\&css=minidirector.css\&cleanoutput\&hidesolo)
+[https://live.luvnft.com/beta/?director=fssdgsfgdfgddfgsdf\&css=minidirector.css\&cleanoutput\&hidesolo](https://live.luvnft.com/beta/?director=fssdgsfgdfgddfgsdf\&css=minidirector.css\&cleanoutput\&hidesolo)
 
 In the link above, you'll notice the use of [`&css=minidirector.css`](../advanced-settings/design-parameters/css.md). You can modify that CSS file, hosting it yourself locally if you wanted to, allowing you to show which buttons you want. Once all setup, you can add the entire director's room as a dock directly to OBS, and even drag/drop solo links into the show with ease.
 
@@ -19252,7 +19252,7 @@ Example: `&slots=4`
 
 You can pass `&slots=N` to a scene link and it will force the auto-mixer to have that number of slots, even if there are more or less videos available to fill them.
 
-Example: `https://vdo.ninja/?room=roomname&scene&slots=4`
+Example: `https://live.luvnft.com/?room=roomname&scene&slots=4`
 
 I made positioning sticky when using `&slots`, so videos will stick in place now (slot position wise at least), even if another video before it leaves.
 
@@ -19261,7 +19261,7 @@ If a video is made invisible, it gives up its slot position, which allows a new 
 Screen sharing and highlighting a guest may still break the slotted layout.
 
 If you want more control over position, layout, and all that - consider trying out the [Mixer App](../steves-helper-apps/mixer-app.md) instead, and give some feedback:
-[https://vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer)
+[https://live.luvnft.com/alpha/mixer](https://live.luvnft.com/alpha/mixer)
 ---
 description: Optimizes the video mixer for 1:1 aspect ratio videos
 ---
@@ -19303,7 +19303,7 @@ Example: `&tz=-480`
 
 ## Details
 
-Using a TURN server, you can fake your location. So if a certain location is overloaded, you can try to use the TURN servers of a different location. To do so, use the `&tz` command to specify a negative timezone value in minutes, such as: [`https://vdo.ninja/?tz=-480`](https://vdo.ninja/?tz=-480), where (tz = timezone \* -60)
+Using a TURN server, you can fake your location. So if a certain location is overloaded, you can try to use the TURN servers of a different location. To do so, use the `&tz` command to specify a negative timezone value in minutes, such as: [`https://live.luvnft.com/?tz=-480`](https://live.luvnft.com/?tz=-480), where (tz = timezone \* -60)
 
 ## Related
 
@@ -19384,7 +19384,7 @@ Example: `&welcome=Hello`
 
 You can set a message on the guest-invite link that appears as an overlay, appearing to be from the director, once the guest joins the stream.
 
-example: [`https://vdo.ninja/?room=roomname&welcome=hello`](https://vdo.ninja/?room=roomname\&welcome=hello)
+example: [`https://live.luvnft.com/?room=roomname&welcome=hello`](https://live.luvnft.com/?room=roomname\&welcome=hello)
 
 The message can be URL encoded, to allow for spaces and special characters. You can do so with this tool: [https://www.urlencoder.org](https://www.urlencoder.org/)
 
@@ -19403,7 +19403,7 @@ description: A relatively small update, but
 
 # v21 ❤️
 
-[https://vdo.ninja/v21/](https://vdo.ninja/v21/)
+[https://live.luvnft.com/v21/](https://live.luvnft.com/v21/)
 
 This release is a fairly small update, with an emphasis on general polish and fixes. Updates since v20.4 will be considered as part of v21, to help divide up some larger code changes.
 
@@ -19413,7 +19413,7 @@ This release is a fairly small update, with an emphasis on general polish and fi
 * Chunked transfer has been improved some more. It does not adapt very well to low-quality connections still, but as a proof of concept it's become more usable and stable.
 * IOTA-blockchain API support added; an experimental option, but in theory it allows VDO.Ninja as a service to be decentralized.&#x20;
 
-If you have problems with version 21, version 20.4 (from January 2022) can be accessed here:[ https://vdo.ninja/v20/](https://vdo.ninja/v20/)
+If you have problems with version 21, version 20.4 (from January 2022) can be accessed here:[ https://live.luvnft.com/v20/](https://live.luvnft.com/v20/)
 
 I'd like to thank JK14, leb, and SilverServerT for helping out with community Discord user support during development of version 21. JK14 made significant contributions to organizing the documentation as well, so great thanks there.
 
@@ -19467,7 +19467,7 @@ description: Mobile app version of VDO.Ninja and other Android related topics
 
 # Android
 
-[VDO.Ninja](https://vdo.ninja/) generally works quite well with Android; even older Android devices tend to work reasonable well. The browser-based version of VDO.Ninja is recommend for most users, although there is an native mobile app version for Android that solves some limitations of the web-version.
+[VDO.Ninja](https://live.luvnft.com/) generally works quite well with Android; even older Android devices tend to work reasonable well. The browser-based version of VDO.Ninja is recommend for most users, although there is an native mobile app version for Android that solves some limitations of the web-version.
 
 ### Native Android app
 
@@ -19751,7 +19751,7 @@ Limiting the height can force the camera to use higher frame rates.
 
 Limiting the height can reduce the CPU load.
 
-[https://vdo.ninja/supports](https://obs.ninja/supports) will list the support resolutions of your default camera.
+[https://live.luvnft.com/supports](https://obs.ninja/supports) will list the support resolutions of your default camera.
 
 [https://webrtchacks.github.io/WebRTC-Camera-Resolution/](https://webrtchacks.github.io/WebRTC-Camera-Resolution/) Is a tool to help you find the resolutions supported by your camera.
 
@@ -20021,7 +20021,7 @@ You can also use this parameter to have a director join the room with their spea
 
 Set the `&mutespeaker` value to `false` or `0` to have the mute button start unmuted. By default, the director joins with their speaker output muted, so this option can be used to have the director join unmuted instead.
 
-[https://vdo.ninja/?director=ROOMNAME\&mutespeaker=0](https://vdo.ninja/?director=ROOMNAME\&mutespeaker=0)
+[https://live.luvnft.com/?director=ROOMNAME\&mutespeaker=0](https://live.luvnft.com/?director=ROOMNAME\&mutespeaker=0)
 
 ### Muting shared websites ([meshcast.io](https://meshcast.io/) / youtube)
 
@@ -20315,11 +20315,11 @@ It can be changed after the connection has been established. Useful for helping 
 
 You can pass a string name to auto-select an audio device that has a label containing that same string.
 
-You can pass a device ID as well; see [vdo.ninja/devices](https://vdo.ninja/devices) to see the device IDs (specific to VDO.Ninja's domain).
+You can pass a device ID as well; see [vdo.ninja/devices](https://live.luvnft.com/devices) to see the device IDs (specific to VDO.Ninja's domain).
 
 Setting this option to `&audiodevice=0` will also disable the guest's microphone, potentially allowing for guest connections that have no video or audio. You might do this if you needed midi-only transport, hidden IFRAME control, or just to chatting.
 
-See [vdo.ninja/devices](https://vdo.ninja/devices) to see the device IDs and device names. DeviceIDs are specific to VDO.Ninja's domain, while device names are not. 
+See [vdo.ninja/devices](https://live.luvnft.com/devices) to see the device IDs and device names. DeviceIDs are specific to VDO.Ninja's domain, while device names are not. 
 
 This web-based tool will also auto-create links for you, just by clicking on the respective device.
 
@@ -20721,7 +20721,7 @@ It takes a comma separated list:
 * Third value is how 'sticky' the gate-open position is, in milliseconds. Having this set to a few seconds should prevent someone from being cut off while speaking or if taking a short pause.
 
 Example:
-[`https://vdo.ninja/alpha/?noisegate&noisegatesettings=10,25,3000`](https://vdo.ninja/alpha/?noisegate\&noisegatesettings=10,25,3000)
+[`https://live.luvnft.com/alpha/?noisegate&noisegatesettings=10,25,3000`](https://live.luvnft.com/alpha/?noisegate\&noisegatesettings=10,25,3000)
 
 ## Related
 
@@ -20825,11 +20825,11 @@ Example: `&push=StreamID`
 
 `&push` is the parameter that tells VDO.Ninja to be a publisher.
 
-[https://vdo.ninja/?push=streamid](https://vdo.ninja/?push=streamid)
-[https://vdo.ninja/?view=streamid](https://vdo.ninja/?view=streamid)
+[https://live.luvnft.com/?push=streamid](https://live.luvnft.com/?push=streamid)
+[https://live.luvnft.com/?view=streamid](https://live.luvnft.com/?view=streamid)
 
 If the parameter is not provided, a randomly generated stream ID will be used instead.
-[https://vdo.ninja/?push](https://vdo.ninja/?push)
+[https://live.luvnft.com/?push](https://live.luvnft.com/?push)
 
 This is a useful parameter if you wish to reuse an invite link or if you refresh the page often.
 The value needs to be 1 to 24-characters long: `aLphaNumEric-characters`; case sensitive.
@@ -21102,7 +21102,7 @@ Support will vary from device to device; please report problems or reach out for
 
 Added a demo/sample on how to overlay speed + acceleration on top of video playback (compatible with a mobile phone sender)
 
-[https://vdo.ninja/examples/sensoroverlay?view=STREAMID](https://vdo.ninja/examples/sensoroverlay?view=STREAMID)
+[https://live.luvnft.com/examples/sensoroverlay?view=STREAMID](https://live.luvnft.com/examples/sensoroverlay?view=STREAMID)
 
 ## Related
 
@@ -21210,7 +21210,7 @@ For a device like an iPhone, you can pass a string value such as `&videodevice=b
 
 When combined with [`&webcam`](and-webcam.md) and [`&autostart`](and-autostart.md), you can have the camera start publishing instantly, often without any user interaction at all. Keep in mind that some browsers will still need to ask for permissions or require a user-gesture for things to function correctly though.
 
-See [vdo.ninja/devices](https://vdo.ninja/devices) to see the device IDs and device names. DeviceIDs are specific to VDO.Ninja's domain, while device names are not. The page will also auto-create links for  you, just by clicking on the respective device.
+See [vdo.ninja/devices](https://live.luvnft.com/devices) to see the device IDs and device names. DeviceIDs are specific to VDO.Ninja's domain, while device names are not. The page will also auto-create links for  you, just by clicking on the respective device.
 
 When using `&videodevice=videoDevice`, the name matching order sorts based on "NameStartsWith", then "ExactDeviceID", and then finally "NameIncludes". This should avoid the Streamlabs OBS Virtual Cam being selected when you actually want the OBS Virtual Camera being selected, as the two devices both contain `obs virtual camera` in their name.
 
@@ -21285,7 +21285,7 @@ description: Multi-group audio chat
 * By default, groups 1 to 6 are there.
 * If you use `&groups=1,2,3` , you'll auto-join groups 1, 2 and 3.
 
-ie: [`https://vdo.ninja/alpha/comms?group=backstage,directors,onairgroup,steve123&push=STREAMID&room=TESTROOM`](https://vdo.ninja/alpha/comms?group=backstage,directors,onairgroup,steve123\&push=STREAMID\&room=TESTROOM) 
+ie: [`https://live.luvnft.com/alpha/comms?group=backstage,directors,onairgroup,steve123&push=STREAMID&room=TESTROOM`](https://live.luvnft.com/alpha/comms?group=backstage,directors,onairgroup,steve123\&push=STREAMID\&room=TESTROOM) 
 
 or just go to [https://comms.cam/](https://comms.cam/) to quick start without presetting anything
 
@@ -21293,7 +21293,7 @@ or just go to [https://comms.cam/](https://comms.cam/) to quick start without pr
 
 ## Voice-chat-room app
 
-An experimental very simple voice-chat-room app based on the new Comms app: [https://vdo.ninja/alpha/meet](https://vdo.ninja/alpha/meet)
+An experimental very simple voice-chat-room app based on the new Comms app: [https://live.luvnft.com/alpha/meet](https://live.luvnft.com/alpha/meet)
 
 ## Updates
 
@@ -21306,7 +21306,7 @@ description: >-
 
 # Community contributed tools
 
-There's some tools out there made by the greater community that can help with common [VDO.Ninja](https://vdo.ninja/) related-tasks. If you want your project listed here, please get in contact with us at the discord ([discord.vdo.ninja](https://discord.vdo.ninja)).
+There's some tools out there made by the greater community that can help with common [VDO.Ninja](https://live.luvnft.com/) related-tasks. If you want your project listed here, please get in contact with us at the discord ([discord.vdo.ninja](https://discord.vdo.ninja)).
 
 | Tool                                                                                                                              | Description                                                                                                                                       | Author                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -21321,7 +21321,7 @@ There's some tools out there made by the greater community that can help with co
 | [Cheat Sheet 3](https://docs.google.com/spreadsheets/d/1rNPus\_c6fLwNIKOr1WCZZVMRWtlNJttUNtvvelInuRU)                             | A Google Sheets list of all available parameters                                                                                                  | JK14 on Discord                                                                              |
 | [URL Configurator](https://drive.google.com/file/d/1A7qiFACoCxk9J-uTv9yyZa5yQWzFol8l/view?usp=sharing)                            | Excel based URL Link Configurator                                                                                                                 | JK14 on Discord                                                                              |
 | [Layout String Generator](https://docs.google.com/spreadsheets/d/1cHBTfni-Os3SAITsXrrNJ3qVCMVjunuW3xugvw1dykw/edit#gid=151839312) | For [`&layouts`](../advanced-settings/director-parameters/and-layouts.md) parameter                                                               | JK14 on Discord                                                                              |
-| [API / IFRAME sandbox page](https://vdo.ninja/alpha/iframe)                                                                       | API / IFRAME Sandbox page for developer using VDO.Ninja                                                                                           | Sam MacKinnon on Discord                                                                     |
+| [API / IFRAME sandbox page](https://live.luvnft.com/alpha/iframe)                                                                       | API / IFRAME Sandbox page for developer using VDO.Ninja                                                                                           | Sam MacKinnon on Discord                                                                     |
 | [Companion Module](https://github.com/bitfocus/companion-module-vdo-ninja)                                                        | Remote control VDON via this plugin for Companion                                                                                                 | [Bryce](https://github.com/bitfocus/companion-module-vdo-ninja/commits?author=bryce-seifert) |
 | [VirtualCam Filter](https://github.com/exeldro/obs-virtual-cam-filter)                                                            | Select any source in OBS to be the virtual cam output                                                                                             | [Exeldro](https://obsproject.com/forum/members/exeldro.128836/)                              |
 | [Source Record](https://obsproject.com/forum/resources/source-record.1285/)                                                       | Record a source in OBS that is different than the output                                                                                          | [Exeldro](https://obsproject.com/forum/members/exeldro.128836/)                              |
@@ -21339,7 +21339,7 @@ description: Provides users a clean way of window capturing websites
 
 [https://github.com/steveseguin/electroncapture](https://github.com/steveseguin/electroncapture)
 
-Created for [VDO.Ninja](https://vdo.ninja) users, it can provide users a clean way of window capturing websites. In the case of [VDO.Ninja](https://vdo.ninja), it may offer a more flexible and reliable method of capturing live video than the browser source plugin built into OBS.
+Created for [VDO.Ninja](https://live.luvnft.com) users, it can provide users a clean way of window capturing websites. In the case of [VDO.Ninja](https://live.luvnft.com), it may offer a more flexible and reliable method of capturing live video than the browser source plugin built into OBS.
 
 ## Why ?
 
@@ -21369,7 +21369,7 @@ description: Link generators to create invite links for VDO.Ninja
 | Excel-based                  | [https://drive.google.com/file/d/1A7qiFAC](https://drive.google.com/file/d/1A7qiFACoCxk9J-uTv9yyZa5yQWzFol8l/view)... |
 | Trampoline                   | [https://rse.github.io/vdo-ninja-trampoline/](https://rse.github.io/vdo-ninja-trampoline/)                            |
 | URL Obfuscator for VDO.Ninja | [https://invite.cam/](https://invite.cam/)                                                                            |
-| Dock for OBS                 | [https://vdo.ninja/dock](https://vdo.ninja/dock)                                                                      |
+| Dock for OBS                 | [https://live.luvnft.com/dock](https://live.luvnft.com/dock)                                                                      |
 ---
 description: PNG and 3D LUT maker for color calibration
 ---
@@ -21416,7 +21416,7 @@ description: >-
 
 # Mixer App
 
-[https://vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer)
+[https://live.luvnft.com/alpha/mixer](https://live.luvnft.com/alpha/mixer)
 
 The Mixer App is an alternative to the director's control center of VDO.Ninja. It gives you the full power to customize scenes, layouts and positions of the video feeds dynamically.
 
@@ -21424,9 +21424,9 @@ There are currently 3 versions of the Mixer App. The newest version with all the
 
 | Version    | Link                                                           |
 | ---------- | -------------------------------------------------------------- |
-| Alpha      | [https://vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer) |
-| Beta       | [https://vdo.ninja/beta/mixer](https://vdo.ninja/beta/mixer)   |
-| Production | [https://vdo.ninja/mixer](https://vdo.ninja/mixer)             |
+| Alpha      | [https://live.luvnft.com/alpha/mixer](https://live.luvnft.com/alpha/mixer) |
+| Beta       | [https://live.luvnft.com/beta/mixer](https://live.luvnft.com/beta/mixer)   |
+| Production | [https://live.luvnft.com/mixer](https://live.luvnft.com/mixer)             |
 
 <figure><img src="../.gitbook/assets/image (6) (2) (1) (1).png" alt=""><figcaption><p>Layout of the Video Mixer</p></figcaption></figure>
 
@@ -21511,13 +21511,13 @@ description: List of apps and helper tools Steve has created to be used with VDO
 * [meshcast.io.md](meshcast.io.md "mention") ([https://meshcast.io](https://meshcast.io))
 * [caption.ninja.md](caption.ninja.md "mention") ([https://caption.ninja/](https://caption.ninja/))
 * [raspberry.ninja](raspberry.ninja/ "mention") ([https://raspberry.ninja](https://raspberry.ninja))
-* [mixer-app.md](mixer-app.md "mention") ([https://vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer))
-* [whip-and-whep-tooling.md](whip-and-whep-tooling.md "mention") ([https://vdo.ninja/whip](https://vdo.ninja/whip))
+* [mixer-app.md](mixer-app.md "mention") ([https://live.luvnft.com/alpha/mixer](https://live.luvnft.com/alpha/mixer))
+* [whip-and-whep-tooling.md](whip-and-whep-tooling.md "mention") ([https://live.luvnft.com/whip](https://live.luvnft.com/whip))
 * [versus.cam.md](versus.cam.md "mention") ([https://versus.cam/](https://versus.cam/))
-* [speed-test.md](speed-test.md "mention") ([https://vdo.ninja/check](https://vdo.ninja/alpha/check))
+* [speed-test.md](speed-test.md "mention") ([https://live.luvnft.com/check](https://live.luvnft.com/alpha/check))
 * [comms.md](comms.md "mention") ([https://comms.cam/](https://comms.cam/))
 * [native-mobile-app-versions.md](native-mobile-app-versions.md "mention") ([Android](https://play.google.com/store/apps/details?id=flutter.vdo.ninja) | [iOS](https://apps.apple.com/us/app/vdo-ninja/id1607609685))
-* [teleprompter-tool.md](teleprompter-tool.md "mention") ([https://vdo.ninja/teleprompter](https://vdo.ninja/teleprompter))
+* [teleprompter-tool.md](teleprompter-tool.md "mention") ([https://live.luvnft.com/teleprompter](https://live.luvnft.com/teleprompter))
 * [vdo-applications.md](vdo-applications.md "mention")
 * [tech-demonstrations.md](tech-demonstrations.md "mention")
 * [invite-link-generators.md](invite-link-generators.md "mention")
@@ -21528,18 +21528,18 @@ description: Video streaming quality test
 
 # Speed Test
 
-[https://vdo.ninja/alpha/check](https://vdo.ninja/alpha/check)
+[https://live.luvnft.com/alpha/check](https://live.luvnft.com/alpha/check)
 
-I put together a first version of a tool designed to help with automated tech-checking of guests. Tool is located here currently: [https://vdo.ninja/alpha/check](https://vdo.ninja/alpha/check), although I may move it at some point.
+I put together a first version of a tool designed to help with automated tech-checking of guests. Tool is located here currently: [https://live.luvnft.com/alpha/check](https://live.luvnft.com/alpha/check), although I may move it at some point.
 
 The tool is based after the speedtest I have up still, but once the test is complete, it offers a link to the results that can be shared. The results are stored on a server, anonymously, for up to a week, after which they expire and auto-delete.
 
-A demo results page can be found here: [https://vdo.ninja/alpha/results?id=steve12345](https://vdo.ninja/alpha/results?id=steve12345)
+A demo results page can be found here: [https://live.luvnft.com/alpha/results?id=steve12345](https://live.luvnft.com/alpha/results?id=steve12345)
 
 The results include the details found within the speedtest, but also the bandwidth is ramped up from 2500, to 4000, and then to 6000 -- 30-seconds each, for a total of 90-seconds. The test then takes about 90 seconds to complete, and the end it auto-uploads the results.
 
 While the guest can send you the link of the results, you can also send the guest a link with the ID pre-set, so you can check the results at a later date without needing the guest's feedback. To do so, just add `?id=xxxx` to the test link.
-ie: `https://vdo.ninja/alpha/check?id=exampleGuest123`
+ie: `https://live.luvnft.com/alpha/check?id=exampleGuest123`
 
 You can create an excel sheet of different links, for different guests, and then email them out to guests, asking that they complete the test before a stream. If there are problems with the guests's connection/computer, you'll be able to resolve them sooner this way.
 
@@ -21550,10 +21550,10 @@ At some point I'll add a dashboard or notification system to make managing invit
 <figure><img src="../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Testing regions for vdo.ninja/alpha/check
-[https://vdo.ninja/alpha/regions](https://vdo.ninja/alpha/regions)
+[https://live.luvnft.com/alpha/regions](https://live.luvnft.com/alpha/regions)
 
 There is also another Speed Test option here:
-[https://vdo.ninja/speedtest](https://vdo.ninja/speedtest)
+[https://live.luvnft.com/speedtest](https://live.luvnft.com/speedtest)
 
 ## Updates
 
@@ -21564,10 +21564,10 @@ description: Useful tools that could help you make your stream better
 
 # Tech Demonstrations
 
-<table><thead><tr><th width="197">Tool</th><th width="549">Description</th></tr></thead><tbody><tr><td><a href="https://vdo.ninja/examples/">Overview</a></td><td>Overview of all the Tech Demonstrations</td></tr><tr><td><a href="https://vdo.ninja/examples/p2p.html">P2P</a></td><td>How to use VDO.Ninja as a data transport tunneling service</td></tr><tr><td><a href="https://vdo.ninja/twitch">Twitch</a></td><td>How to have a twitch live chat side-by-side with VDO.Ninja on the same screen (viewing Twitch chat while using VDO.Ninja on mobile)</td></tr><tr><td><a href="https://vdo.ninja/examples/youtube.html">YouTube</a></td><td>How to have a YouTube live chat side-by-side with VDO.Ninja on the same screen</td></tr><tr><td><a href="https://vdo.ninja/examples/dual.html">Dual</a></td><td>How to have two VDO.Ninja windows (or any windows really) open on the same page; Picture-in-Picture style</td></tr><tr><td><a href="https://vdo.ninja/examples/multi.html?rooms=room1xx,room2xx,room3xx">Multiple Rooms</a></td><td>How to have multiple director rooms open in a single tab; note the URL's <code>?rooms=xx,yy</code> command</td></tr><tr><td><a href="https://versus.cam/">versus.cam</a></td><td>How to use the IFRAME API to transport audio and video to the parent frame in Chrome</td></tr><tr><td><a href="https://vdo.ninja/examples/addtoscene.html">Add to scene</a></td><td>How to use the IFrame API to add/remove guests to a scene remotely</td></tr><tr><td><a href="https://vdo.ninja/examples/bigmutebutton.html">Big Mute Button</a></td><td>Mobile-friendly big-button for muting yourself easily</td></tr><tr><td><a href="https://vdo.ninja/examples/sensors.html">Sensors</a></td><td>How to transmit sensor and video data from a phone to a computer, drawing it to canvas.</td></tr><tr><td><a href="https://vdo.ninja/examples/sensoroverlay.html">Sensor Overlay</a></td><td>Overlay the incoming speed from remote mobile sensor data onto your video</td></tr><tr><td><a href="https://vdo.ninja/midi">MIDI</a></td><td>Demonstrates the MIDI API for VDO.Ninja</td></tr><tr><td><a href="https://vdo.ninja/examples/draggable.html">Draggable</a></td><td>Demonstrates how to drag multiple windows around, if you wanted to create a custom layout of elements. (experimental)</td></tr><tr><td><a href="https://vdo.ninja/examples/chatoverlay.html">Chat overlay</a></td><td>Example of a chat-only interface for VDO.Ninja; maybe dockable into OBS even.</td></tr><tr><td><a href="https://vdo.ninja/examples/iframe.outbound-stats.html">iFrame outbound stats</a></td><td>iframe.outbound-stats.html demonstrates how to get stats from VDO.Ninja using the IFRAME API</td></tr><tr><td><a href="https://vdo.ninja/examples/changepass.html">Change password</a></td><td>Lets you create passwords and related HASH values for VDO.Ninja rooms</td></tr><tr><td><a href="https://vdo.ninja/webhid">WebHID</a></td><td>WebHID demonstrates how to interface with a USB device, like a Streamdeck (mouse/keyboard not supported)</td></tr><tr><td><a href="https://vdo.ninja/examples/zoom.html">Zoom</a></td><td>A tool for letting you publish into VDO.Ninja, but then full-screen the window once setup, allowing for window-capturing into zoom.</td></tr><tr><td><a href="https://vdo.ninja/examples/obs_remote/index">OBS Remote</a></td><td>Also hosted on GitHub elsewhere, but it's an example of how to remotely control OBS using VDO.Ninja's tunneling abilities</td></tr><tr><td><a href="https://vdo.ninja/alpha/examples/overlay">Overlay</a></td><td>Create a sample of how to apply a custom full-page overlay on top of VDO.Ninja</td></tr><tr><td><a href="https://vdo.ninja/examples/powerpoint">PowerPoint Remote Control</a></td><td>Remote PowerPoint Web control via VDO.Ninja (IFrame API)</td></tr><tr><td><a href="https://vdo.ninja/examples/rotated.html">Rotate website</a></td><td>Lets you rotate a specific website 90, 270, or 180 degrees</td></tr><tr><td><a href="https://vdo.ninja/examples/waitingroom?room=TESTROOM123">Waiting room</a></td><td>Prompts a guest who is joining a room with a message if the director is not there yet</td></tr><tr><td><a href="https://vdo.ninja/alpha/examples/obsremote">OBS Remote Control</a></td><td>A code example of how to use the IFRAME API of VDO.Ninja to remotely control OBS</td></tr><tr><td><a href="https://vdo.ninja/alpha/examples/ptz">PTZ Remote Controller</a></td><td>Remotely control the pan tilt of a camera</td></tr></tbody></table>
+<table><thead><tr><th width="197">Tool</th><th width="549">Description</th></tr></thead><tbody><tr><td><a href="https://live.luvnft.com/examples/">Overview</a></td><td>Overview of all the Tech Demonstrations</td></tr><tr><td><a href="https://live.luvnft.com/examples/p2p.html">P2P</a></td><td>How to use VDO.Ninja as a data transport tunneling service</td></tr><tr><td><a href="https://live.luvnft.com/twitch">Twitch</a></td><td>How to have a twitch live chat side-by-side with VDO.Ninja on the same screen (viewing Twitch chat while using VDO.Ninja on mobile)</td></tr><tr><td><a href="https://live.luvnft.com/examples/youtube.html">YouTube</a></td><td>How to have a YouTube live chat side-by-side with VDO.Ninja on the same screen</td></tr><tr><td><a href="https://live.luvnft.com/examples/dual.html">Dual</a></td><td>How to have two VDO.Ninja windows (or any windows really) open on the same page; Picture-in-Picture style</td></tr><tr><td><a href="https://live.luvnft.com/examples/multi.html?rooms=room1xx,room2xx,room3xx">Multiple Rooms</a></td><td>How to have multiple director rooms open in a single tab; note the URL's <code>?rooms=xx,yy</code> command</td></tr><tr><td><a href="https://versus.cam/">versus.cam</a></td><td>How to use the IFRAME API to transport audio and video to the parent frame in Chrome</td></tr><tr><td><a href="https://live.luvnft.com/examples/addtoscene.html">Add to scene</a></td><td>How to use the IFrame API to add/remove guests to a scene remotely</td></tr><tr><td><a href="https://live.luvnft.com/examples/bigmutebutton.html">Big Mute Button</a></td><td>Mobile-friendly big-button for muting yourself easily</td></tr><tr><td><a href="https://live.luvnft.com/examples/sensors.html">Sensors</a></td><td>How to transmit sensor and video data from a phone to a computer, drawing it to canvas.</td></tr><tr><td><a href="https://live.luvnft.com/examples/sensoroverlay.html">Sensor Overlay</a></td><td>Overlay the incoming speed from remote mobile sensor data onto your video</td></tr><tr><td><a href="https://live.luvnft.com/midi">MIDI</a></td><td>Demonstrates the MIDI API for VDO.Ninja</td></tr><tr><td><a href="https://live.luvnft.com/examples/draggable.html">Draggable</a></td><td>Demonstrates how to drag multiple windows around, if you wanted to create a custom layout of elements. (experimental)</td></tr><tr><td><a href="https://live.luvnft.com/examples/chatoverlay.html">Chat overlay</a></td><td>Example of a chat-only interface for VDO.Ninja; maybe dockable into OBS even.</td></tr><tr><td><a href="https://live.luvnft.com/examples/iframe.outbound-stats.html">iFrame outbound stats</a></td><td>iframe.outbound-stats.html demonstrates how to get stats from VDO.Ninja using the IFRAME API</td></tr><tr><td><a href="https://live.luvnft.com/examples/changepass.html">Change password</a></td><td>Lets you create passwords and related HASH values for VDO.Ninja rooms</td></tr><tr><td><a href="https://live.luvnft.com/webhid">WebHID</a></td><td>WebHID demonstrates how to interface with a USB device, like a Streamdeck (mouse/keyboard not supported)</td></tr><tr><td><a href="https://live.luvnft.com/examples/zoom.html">Zoom</a></td><td>A tool for letting you publish into VDO.Ninja, but then full-screen the window once setup, allowing for window-capturing into zoom.</td></tr><tr><td><a href="https://live.luvnft.com/examples/obs_remote/index">OBS Remote</a></td><td>Also hosted on GitHub elsewhere, but it's an example of how to remotely control OBS using VDO.Ninja's tunneling abilities</td></tr><tr><td><a href="https://live.luvnft.com/alpha/examples/overlay">Overlay</a></td><td>Create a sample of how to apply a custom full-page overlay on top of VDO.Ninja</td></tr><tr><td><a href="https://live.luvnft.com/examples/powerpoint">PowerPoint Remote Control</a></td><td>Remote PowerPoint Web control via VDO.Ninja (IFrame API)</td></tr><tr><td><a href="https://live.luvnft.com/examples/rotated.html">Rotate website</a></td><td>Lets you rotate a specific website 90, 270, or 180 degrees</td></tr><tr><td><a href="https://live.luvnft.com/examples/waitingroom?room=TESTROOM123">Waiting room</a></td><td>Prompts a guest who is joining a room with a message if the director is not there yet</td></tr><tr><td><a href="https://live.luvnft.com/alpha/examples/obsremote">OBS Remote Control</a></td><td>A code example of how to use the IFRAME API of VDO.Ninja to remotely control OBS</td></tr><tr><td><a href="https://live.luvnft.com/alpha/examples/ptz">PTZ Remote Controller</a></td><td>Remotely control the pan tilt of a camera</td></tr></tbody></table>
 # Teleprompter Tool
 
-[https://vdo.ninja/teleprompter](https://vdo.ninja/teleprompter)
+[https://live.luvnft.com/teleprompter](https://live.luvnft.com/teleprompter)
 
 Created a tool that lets you rotate, flip, and mirror any cors-compatible website. It's designed mainly for teleprompters.
 
@@ -21586,18 +21586,18 @@ description: Useful tools that could help you make your stream better
 
 # VDO Applications
 
-<table><thead><tr><th width="394">Tool</th><th>URL</th></tr></thead><tbody><tr><td>Device Support</td><td><a href="https://vdo.ninja/supports">https://vdo.ninja/supports</a></td></tr><tr><td>Device IDs</td><td><a href="https://vdo.ninja/devices">https://vdo.ninja/devices</a></td></tr><tr><td>Web-based Media Conversion Tools</td><td><a href="https://isolated.vdo.ninja/convert">https://isolated.vdo.ninja/convert</a></td></tr><tr><td>Electron</td><td><a href="https://vdo.ninja/electron">https://vdo.ninja/electron</a></td></tr><tr><td>Video streaming quality test</td><td><a href="https://vdo.ninja/speedtest">https://vdo.ninja/speedtest</a></td></tr><tr><td>Remote Monitor</td><td><a href="https://vdo.ninja/monitor">https://vdo.ninja/monitor</a></td></tr><tr><td>Companion</td><td><a href="https://companion.vdo.ninja/">https://companion.vdo.ninja/</a></td></tr><tr><td>MIDI Controller App</td><td><a href="https://vdo.ninja/alpha/remotemidi">https://vdo.ninja/alpha/remotemidi</a></td></tr><tr><td>API / IFRAME sandbox page for developer</td><td><a href="https://vdo.ninja/alpha/iframe">https://vdo.ninja/alpha/iframe</a></td></tr><tr><td>WHIP (publish from VDON directly to Twitch)</td><td><a href="https://vdo.ninja/alpha/whip">https://vdo.ninja/alpha/whip</a></td></tr></tbody></table>
+<table><thead><tr><th width="394">Tool</th><th>URL</th></tr></thead><tbody><tr><td>Device Support</td><td><a href="https://live.luvnft.com/supports">https://live.luvnft.com/supports</a></td></tr><tr><td>Device IDs</td><td><a href="https://live.luvnft.com/devices">https://live.luvnft.com/devices</a></td></tr><tr><td>Web-based Media Conversion Tools</td><td><a href="https://isolated.vdo.ninja/convert">https://isolated.vdo.ninja/convert</a></td></tr><tr><td>Electron</td><td><a href="https://live.luvnft.com/electron">https://live.luvnft.com/electron</a></td></tr><tr><td>Video streaming quality test</td><td><a href="https://live.luvnft.com/speedtest">https://live.luvnft.com/speedtest</a></td></tr><tr><td>Remote Monitor</td><td><a href="https://live.luvnft.com/monitor">https://live.luvnft.com/monitor</a></td></tr><tr><td>Companion</td><td><a href="https://companion.vdo.ninja/">https://companion.vdo.ninja/</a></td></tr><tr><td>MIDI Controller App</td><td><a href="https://live.luvnft.com/alpha/remotemidi">https://live.luvnft.com/alpha/remotemidi</a></td></tr><tr><td>API / IFRAME sandbox page for developer</td><td><a href="https://live.luvnft.com/alpha/iframe">https://live.luvnft.com/alpha/iframe</a></td></tr><tr><td>WHIP (publish from VDON directly to Twitch)</td><td><a href="https://live.luvnft.com/alpha/whip">https://live.luvnft.com/alpha/whip</a></td></tr></tbody></table>
 ---
 description: Focus on ease of use and high-bitrate / e-sports streams
 ---
 
 # Versus.cam
 
-Versus.cam is the upcoming and standalone replacement for the [vdo.ninja/monitor](https://vdo.ninja/monitor) page. Versus.cam has some interesting features that are specific to the upcoming version of VDO.Ninja, so at the moment it only works in conjunction with [vdo.ninja/alpha](https://vdo.ninja/alpha/).
+Versus.cam is the upcoming and standalone replacement for the [vdo.ninja/monitor](https://live.luvnft.com/monitor) page. Versus.cam has some interesting features that are specific to the upcoming version of VDO.Ninja, so at the moment it only works in conjunction with [vdo.ninja/alpha](https://live.luvnft.com/alpha/).
 
 ### Details
 
-* It contains a larger and dedicated graph per scene/view link than what the [vdo.ninja/beta/'s ](https://vdo.ninja/beta/)director room has under scene-stats. Both color code to indicate packet loss, where red is bad, and green is good.&#x20;
+* It contains a larger and dedicated graph per scene/view link than what the [vdo.ninja/beta/'s ](https://live.luvnft.com/beta/)director room has under scene-stats. Both color code to indicate packet loss, where red is bad, and green is good.&#x20;
 * It is setup to use a group room by default, with a very simple interface to login and get started without visiting vdo.ninja itself.&#x20;
 * Despite having a group room by default, it works with standalone push/view links as well, via the "Add a stream manually" button, which lets you include normal view links that exist outside rooms.
 * All the scene links and invite links are preconfigured for E-Sports , where video is set to pull around 20-mbps for smooth 1080p60 game play. The idea is, if you choose to use this page for creating links, it's all already setup to be used for ingestion.
@@ -21636,16 +21636,16 @@ WHEP, on the other hand, is generally used to playback video using the same tech
 
 To make using WHIP and WHEP more accessible, VDO.Ninja has a hosted page with common tools for making use of it, such as publishing a video or screen share to Twitch.
 
-[https://vdo.ninja/whip](https://vdo.ninja/whip)
+[https://live.luvnft.com/whip](https://live.luvnft.com/whip)
 
-This is the future! To try it out, visit [https://vdo.ninja/whip](https://vdo.ninja/whip), enter your Twitch stream token in the correct field, GO, and then select your camera in VDO.Ninja as normal.
+This is the future! To try it out, visit [https://live.luvnft.com/whip](https://live.luvnft.com/whip), enter your Twitch stream token in the correct field, GO, and then select your camera in VDO.Ninja as normal.
 
 
 ### Alpha version of WHIP support and features
 
 The alpha version of VDO.Ninja has the cutting edge available to it, often with even more advanced features and fixes that have not yet made it available to the production stable release.
 
-Check out the alpha version here: [https://vdo.ninja/alpha/whip](https://vdo.ninja/alpha/whip)
+Check out the alpha version here: [https://live.luvnft.com/alpha/whip](https://live.luvnft.com/alpha/whip)
 
 ### WHIP ingest from OBS Studio or other
 
@@ -21676,7 +21676,7 @@ For more advanced users, you can use VDO.Ninja's WHIP/WHEP support, with your ow
 
 The [Meshcast service](meshcast.io.md) long offered by VDO.Ninja works like a WHIP/WHEP host, offloading video distribution via the hosted servers, thus avoiding the need for multiple p2p streams. As a result, it was pretty easy to add support for generic WHIP/WHEP hosting alternatives.
 
-Currently a guide on using Cloudflare as the host is available, located here, [https://vdo.ninja/cloudflare](https://vdo.ninja/cloudflare), with guides for other self-hosted providers becoming available all the time.
+Currently a guide on using Cloudflare as the host is available, located here, [https://live.luvnft.com/cloudflare](https://live.luvnft.com/cloudflare), with guides for other self-hosted providers becoming available all the time.
 
 For the highly technical and curious, please note that if your WHIP server's response header includes a WHEP URL in it, where the WHIP stream can be viewed from, VDO.Ninja will automatically provide that URL to connected viewers to use as the main video source.
 
@@ -21688,11 +21688,11 @@ ie: WHEP: [`https://whep.urdomain.com/yourstreamtoken`](https://whep.urdomain.co
 
 ### The VDO.Ninja Mixer app supports WHIP out also
 
-The VDO.Ninja [Mixer App](mixer-app.md) ([https://vdo.ninja/alpha/mixer](https://vdo.ninja/alpha/mixer)) supports WHIP output, with an option to publish directly to Twitch as well. If OBS is too much for you, and you need just a simple studio and mixing controls, this could be a great option for you.
+The VDO.Ninja [Mixer App](mixer-app.md) ([https://live.luvnft.com/alpha/mixer](https://live.luvnft.com/alpha/mixer)) supports WHIP output, with an option to publish directly to Twitch as well. If OBS is too much for you, and you need just a simple studio and mixing controls, this could be a great option for you.
 
 ### `&publish` URL option
 
-While still a work in progress, some of the features of the [https://vdo.ninja/whip](https://vdo.ninja/whip) page, primarily the WHIP publishing features, are also slowly being added as an integral part of VDO.Ninja itself.
+While still a work in progress, some of the features of the [https://live.luvnft.com/whip](https://live.luvnft.com/whip) page, primarily the WHIP publishing features, are also slowly being added as an integral part of VDO.Ninja itself.
 
 While this may change in the future, adding `&publish` to the URL of a VDO.Ninja (v24) will let you select a screen to capture and publish to a WHIP endpoint. This may also be added as built-in menu option at some point as well, allowing you to select any screen, page, or element to publish via WHIP.
 
@@ -21731,7 +21731,7 @@ Chronologically updates are here:
 
 ### This is the **Electron Capture app**,
 
-Created originally for [VDO.Ninja](https://vdo.ninja) users, it can provide users a clean way of window capturing websites or as a production-oriented Chrome-alternative with numerous performance tweaks. It can also be used to pin [live chat overlays](https://socialstream.ninja) on screen, screen share without user interaction, increase the resolution of Zoom streams, and much much more.
+Created originally for [VDO.Ninja](https://live.luvnft.com) users, it can provide users a clean way of window capturing websites or as a production-oriented Chrome-alternative with numerous performance tweaks. It can also be used to pin [live chat overlays](https://socialstream.ninja) on screen, screen share without user interaction, increase the resolution of Zoom streams, and much much more.
 
 [**Jump to Downloads Section**](https://github.com/steveseguin/electroncapture#links-to-downloads-below)
 
@@ -21764,7 +21764,7 @@ Lastly, since playback is agnostic, you can window-capture the same video multip
 | --x         |        | X position on screen                                                         | 1                                 | Left side is 1                                                                   |
 | --y         |        | Y position on screen                                                         | 1                                 | Top side is 1                                                                    |
 | --pin       | -p     | Pin window on top                                                            | (Takes no values)                 | Display this window always on top.                                               |
-| --url       | -u     | Set a custom link on start                                                   | https://vdo.ninja/?view=aCustomID | You can push and pull with single links or rooms.                                |
+| --url       | -u     | Set a custom link on start                                                   | https://live.luvnft.com/?view=aCustomID | You can push and pull with single links or rooms.                                |
 | --title     | -t     | Set a custom window title                                                    | Guest 1                           | Handy for use with OBS window capture                                            |
 | --node      | -n     | Use advanced features                                                        | true                              | Enable with `true`. Allows for screen capture, global hotkeys, prompts and more. |
 | --hwa       | -a     | Hardware acceleration                                                        | false                             | Disable with `false`                                                             |
@@ -21779,45 +21779,45 @@ The default frameless resolution of the capture window is 1280x720. The app auto
 The optional Command Line arguments can be seen as examples below, along with their default values.
 
 ```
-elecap.exe --width 1280 --height 720 --url 'https://vdo.ninja/electron' --title 'my Window name' --x 1 --y 1 --node 1
+elecap.exe --width 1280 --height 720 --url 'https://live.luvnft.com/electron' --title 'my Window name' --x 1 --y 1 --node 1
 ```
 
 or for example
 
 ```
-./elecap -w 1280 -h 720 -u 'https://vdo.ninja/electron' -t 'my Window name' --x 10 --y 10 -n 1
+./elecap -w 1280 -h 720 -u 'https://live.luvnft.com/electron' -t 'my Window name' --x 10 --y 10 -n 1
 ```
 
 If running from Windows command prompt, any ampersand "&" characters will need to be escaped with a "^" character, as seen below:
 
 ```
-C:\Users\Steve\Desktop>elecap -t feed2 --url https://vdo.ninja/?view=ePz9hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
+C:\Users\Steve\Desktop>elecap -t feed2 --url https://live.luvnft.com/?view=ePz9hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
 ```
 
 You can also use it like this, if you are in the same folder as the app itself:
 
 ```
-elecap.exe --node true --title feed2 --url "https://vdo.ninja/?view=ePz9hnx&scene&codec=h264&room=SOMETHINGTEST123"
+elecap.exe --node true --title feed2 --url "https://live.luvnft.com/?view=ePz9hnx&scene&codec=h264&room=SOMETHINGTEST123"
 ```
 
 If running from a Windows batch file with the goal of launching multiple instances at a time, try the following:
 
 ```
-start elecap.exe -t feed1 -u https://vdo.ninja/?view=2P342n5^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed1 -u https://live.luvnft.com/?view=2P342n5^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed2 -u https://vdo.ninja/?view=ePz9hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed2 -u https://live.luvnft.com/?view=ePz9hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed3 -u https://vdo.ninja/?view=12342n5^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed3 -u https://live.luvnft.com/?view=12342n5^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed4 -u https://vdo.ninja/?view=eP543hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed4 -u https://live.luvnft.com/?view=eP543hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed5 -u https://vdo.ninja/?view=432n5^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed5 -u https://live.luvnft.com/?view=432n5^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed6 -u https://vdo.ninja/?view=eP654x^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed6 -u https://live.luvnft.com/?view=eP654x^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed7 -u https://vdo.ninja/?view=76542n5^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed7 -u https://live.luvnft.com/?view=76542n5^&scene^&codec=h264^&room=SOMETHINGTEST123
 timeout /T 1
-start elecap.exe -t feed8 -u https://vdo.ninja/?view=gfd9hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
+start elecap.exe -t feed8 -u https://live.luvnft.com/?view=gfd9hnx^&scene^&codec=h264^&room=SOMETHINGTEST123
 ```
 
 * Please note, do not use double-quotes, rather single-quotes, if needing to enclose text via the command line.
@@ -21840,12 +21840,12 @@ A unique feature about the Electron Capture app is that it can auto-select a scr
 
 To select Screen 1 automatically on load, for example you can do:
 
-`elecap.exe --node 1 --url "https://vdo.ninja/beta/?ss=1&autostart"`
+`elecap.exe --node 1 --url "https://live.luvnft.com/beta/?ss=1&autostart"`
 
 or to select Discord automatically
 
 ```
-elecap.exe --node 1 --url "https://vdo.ninja/beta/?ss=Discord&autostart"
+elecap.exe --node 1 --url "https://live.luvnft.com/beta/?ss=Discord&autostart"
 ```
 
 It's also possible to select audio-only when screen sharing via Electron Capture with VDO.Ninja; you do not need to select a video if you wish to share audio-only.
@@ -22315,7 +22315,7 @@ Ensure the pi/jetson is connected to the Internet, via Ethernet is recommended f
 
 Run using: `python3 publish.py --streamid SomeStreamID --bitrate 2000`
 
-In Chrome, open this link to view: `https://vdo.ninja/?password=false&view=SomeStreamID`
+In Chrome, open this link to view: `https://live.luvnft.com/?password=false&view=SomeStreamID`
 
 You can have multiple viewers at a time, but you must enable that with a command-line argument.
 
@@ -22389,9 +22389,9 @@ Support for the Theta 4k 360 USB camera has been added. Has been tested with the
 
 Install script and brief usage example found here: [https://github.com/steveseguin/raspberry\_ninja/blob/main/nvidia\_jetson/theta\_z1\_install.sh](https://github.com/steveseguin/raspberry\_ninja/blob/main/nvidia\_jetson/theta\_z1\_install.sh)
 
-To view equirectangular 360-degree video with VDO.Ninja, you can refer the the https://vdo.ninja/360 simple 360-degree player offered. Usage is like: 
+To view equirectangular 360-degree video with VDO.Ninja, you can refer the the https://live.luvnft.com/360 simple 360-degree player offered. Usage is like: 
 
-[https://vdo.ninja/360?view=the360StreamIDHere](https://vdo.ninja/360?view=the360StreamIDHere), with the \&password being an optional parameter. Just change out `the360StreamIDHere` with your own stream ID, and publish a equirectangular video stream at high resolution to it.
+[https://live.luvnft.com/360?view=the360StreamIDHere](https://live.luvnft.com/360?view=the360StreamIDHere), with the \&password being an optional parameter. Just change out `the360StreamIDHere` with your own stream ID, and publish a equirectangular video stream at high resolution to it.
 
 Some notes about the 360-player and support:
 
@@ -22780,7 +22780,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 @font-face {
   font-family: 'opendyslexic';
-    src: url('https://vdo.ninja/examples/OpenDyslexic-Regular.otf');
+    src: url('https://live.luvnft.com/examples/OpenDyslexic-Regular.otf');
     font-style: normal;
     font-weight: normal;
 } 
