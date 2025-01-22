@@ -8,7 +8,7 @@
 #### ⚠ Notice! We've rebranded from OBS.Ninja to VDO.Ninja - all else is staying the same ✨
 
 
-## What is VDO.Ninja? 🚀
+## What is LIVE.LUVNFT.COM? 🚀
 
 VDO.Ninja brings peer-to-peer technology to OBS and other studio software, enabling remote camera integration with:
 
